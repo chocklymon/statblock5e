@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Test Page</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+  <script>
+    var monsts;
+    $(document).ready(function() {
+    $.getJSON('5e-SRD-Monsters.json', function(data) {
+      monsts = data;
+      $.each(monsts, function(key, val){
+        var name = val.name;
+        $("#monsters").append('<option value="' + name + '" />');
+        })
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <input list="monsters" name="monster">
+  <datalist id="monsters"> </datalist>
+  </input>
+</body>
+</html>
