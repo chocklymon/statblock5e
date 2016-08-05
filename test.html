@@ -3,24 +3,151 @@
 
 <head>
   <title>Test Page</title>
+
+  <meta charset="UTF-8">
+  <link rel="import" href="src/top-stats.html">
+  <link rel="import" href="src/creature-heading.html">
+  <link rel="import" href="src/abilities-block.html">
+  <link rel="import" href="src/property-block.html">
+  <link rel="import" href="src/property-line.html">
+  <link rel="import" href="src/stat-block.html">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
   <script>
     var monsts;
+    var statExists = false;
     $(document).ready(function() {
     $.getJSON('5e-SRD-Monsters.json', function(data) {
       monsts = data;
       $.each(monsts, function(key, val){
         var name = val.name;
         $("#monsters").append('<option value="' + name + '" />');
-        })
+      });
       });
     });
+
+    function getMonster(input) {
+      var monster = monsts.filter( function(key, idx){
+        return (key.name == input);
+      });
+      if (monster == undefined || monster.length == 0) return;
+      monster = monster[0];
+      $("#statblock").html(document.createElement("stat-block"));
+      $("stat-block").append(document.createElement("creature-heading"));
+      var creatureName = document.createElement("h1");
+      var creatureType = document.createElement("h2");
+      $(creatureName).text(monster.name);
+      $(creatureType).text(monster.size + " " + monster.type + (monster.subtype === "" ? "" : " (" + monster.subtype + ")")
+        + ", " + monster.alignment);
+      $("creature-heading").append(creatureName, creatureType);
+
+      $("stat-block").append(document.createElement("top-stats"));
+
+      var ac = document.createElement("property-line");
+      var armorClass = $("<h4></h4>").text("Armor Class");
+      var acValue = $("<p></p>").text(" "+ monster.armor_class);
+      $(ac).append(armorClass, acValue);
+      $("top-stats").append(ac);
+
+      var hp = document.createElement("property-line");
+      var hitpoints = $("<h4></h4>").text("Hit Points");
+      var hpVal = $("<p></p>").text(" " + monster.hit_points + " (" + monster.hit_dice + formattedModifier(monster.constitution, monster.hit_dice) + ")");
+      $(hp).append(hitpoints, hpVal);
+      $("top-stats").append(hp);
+
+      var speed = document.createElement("property-line");
+      var speedHead = $("<h4></h4>").text("Speed");
+      var speedVal = $("<p></p>").text(" " + monster.speed);
+      $(speed).append(speedHead, speedVal);
+      $("top-stats").append(speed);
+
+      var abilities = document.createElement("abilities-block");
+      $(abilities).attr({
+        "data-str" : monster.strength,
+        "data-dex" : monster.dexterity,
+        "data-con" : monster.constitution,
+        "data-int" : monster.intelligence,
+        "data-wis" : monster.wisdom,
+        "data-cha" : monster.charisma
+      });
+      $("top-stats").append(abilities);
+
+      if (monster.damage_vulnerabilities != "")
+      {
+        var vuln = document.createElement("property-line");
+        var vulns = $("<h4></h4>").text("Damage Vulnerabilities");
+        var vulnTypes = $("<p></p>").text(" " + monster.damage_vulnerabilities);
+        $(vuln).append(vulns, vulnTypes);
+        $("top-stats").append(vuln);
+      }
+      if (monster.damage_resistances != "")
+      {
+        var res = document.createElement("property-line");
+        var resists = $("<h4></h4>").text("Damage Resistances");
+        var resTypes = $("<p></p>").text(" " + monster.damage_resistances);
+        $(res).append(resists, resTypes);
+        $("top-stats").append(res);
+      }
+      if (monster.damage_immunities != "")
+      {
+        var imm = document.createElement("property-line");
+        var immune = $("<h4></h4>").text("Damage Immunities");
+        var immuneTypes = $("<p></p>").text(" " + monster.damage_immunities);
+        $(imm).append(immune, immuneTypes);
+        $("top-stats").append(imm);
+      }
+      if (monster.condition_immunities != "")
+      {
+        var cond = document.createElement("property-line");
+        var conds = $("<h4></h4>").text("Condition Immunities");
+        var condTypes = $("<p></p>").text(" " + monster.condition_immunities);
+        $(cond).append(conds, condTypes);
+        $("top-stats").append(cond);
+      }
+
+      var sense = document.createElement("property-line");
+      var senses = $("<h4></h4>").text("Senses");
+      var senseTypes = $("<p></p>").text(" " + monster.senses);
+      $(sense).append(senses, senseTypes);
+      $("top-stats").append(sense);
+
+      var lang = document.createElement("property-line");
+      var langs = $("<h4></h4>").text("Languages");
+      var languages = $("<p></p>").text(" " + (monster.languages == '' ? '—' : monster.languages));
+      $(lang).append(langs, languages);
+      $("top-stats").append(lang);
+
+      var cr = document.createElement("property-line");
+      var chal = $("<h4></h4>").text("Challenge");
+      var rating = $("<p></p>").text(" " + monster.challenge_rating);
+      $(cr).append(chal, rating);
+      $("top-stats").append(cr);
+    };
+
+
+    function abilityModifier(abilityScore) {
+      var score = parseInt(abilityScore, 10);
+      return Math.floor((score - 10) / 2);
+    }
+
+    function formattedModifier(abilityScore, hitDice) {
+      var mod = abilityModifier(abilityScore);
+      var numDice = hitDice.split(/d/)[0];
+      if (mod >= 0) {
+        return ' + ' + numDice * mod;
+      }
+      // This is an en dash, NOT a "normal" dash. The minus sign needs to be more
+      // visible.
+      return ' – ' +  numDice * Math.abs(mod);
+    }
   </script>
 </head>
 
 <body>
-  <input list="monsters" name="monster">
+  <input list="monsters" name="monster" onchange="getMonster(this.value)" autofocus placeholder="Monster Name">
   <datalist id="monsters"> </datalist>
-  </input>
+
+  <div id="statblock">
+  </div>
 </body>
 </html>
