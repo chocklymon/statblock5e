@@ -12,12 +12,44 @@
   <link rel="import" href="src/property-line.html">
   <link rel="import" href="src/stat-block.html">
 
+  <style>
+    body {
+      margin: 0;
+    }
+
+    stat-block {
+      /* A bit of margin for presentation purposes, to show off the drop
+      shadow. */
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  </style>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
   </script>
+
   <script>
     var monsts;
     var line = "property-line";
     var block = "property-block";
+    var skills = [
+      "acrobatics",
+      "animal handling",
+      "arcana",
+      "athletics",
+      "deception",
+      "history",
+      "insight",
+      "intimidation",
+      "medicine",
+      "nature",
+      "perception",
+      "performance",
+      "persuasion",
+      "religion",
+      "sleight_of_hand"
+    ];
+
     $(document).ready(function() {
       $.getJSON('5e-SRD-Monsters.json', function(data) {
         monsts = data;
@@ -46,8 +78,8 @@
 
       $("stat-block").append(document.createElement("top-stats"));
 
-      addProp("top-stats", "Armor Class", monster.armor_class);
-      addProp("top-stats", "Hit Points", monster.hit_points + " (" + monster.hit_dice + formattedModifier(monster.constitution, monster.hit_dice) + ")");
+      addProp("top-stats", line, "Armor Class", monster.armor_class);
+      addProp("top-stats", line, "Hit Points", monster.hit_points + " (" + monster.hit_dice + formattedModifier(monster.constitution, monster.hit_dice) + ")");
       addProp("top-stats", line, "Speed", monster.speed);
 
       var abilities = document.createElement("abilities-block");
@@ -73,14 +105,31 @@
       addProp("top-stats", line, "Languages", (monster.languages === '' ? '—' : monster.languages));
       addProp("top-stats", line, "Challenge", monster.challenge_rating);
 
+      for (var sp in monster.special_abilities) {
+        addProp($("stat-block"), block, monster.special_abilities[sp].name, monster.special_abilities[sp].desc);
+      }
 
+      $("stat-block").append($("<h3></h3>").text("Actions"));
+
+      for (var actions in monster.actions) {
+        if (monster.actions[actions].name == "Lair Actions")
+          continue;
+        addProp($("stat-block"), block, monster.actions[actions].name, monster.actions[actions].desc);
+      }
+
+      if (monster.legendary_actions !== undefined) {
+        $("stat-block").append($("<h3></h3>").text("Legendary Actions"));
+        for (var legend in monster.legendary_actions) {
+          addProp($("stat-block"), block, monster.legendary_actions[legend].name, monster.legendary_actions[legend].desc);
+        }
+      }
     }
 
     function addProp(parent, type, heading, para) {
       var propBlock = document.createElement(type);
-      var title = $("<h4></h4>").text(heading);
-      var content = $("<p></p>").text(" " + para);
-      $(propblock).append(title, content);
+      var title = $("<h4></h4>").html(heading);
+      var content = $("<p></p>").html(" " + para);
+      $(propBlock).append(title, content);
       $(parent).append(propBlock);
     }
 
@@ -105,7 +154,6 @@
 <body>
   <input list="monsters" name="monster" onchange="getMonster(this.value)" autofocus placeholder="Monster Name">
   <datalist id="monsters"> </datalist>
-
   <div id="statblock">
   </div>
 </body>
