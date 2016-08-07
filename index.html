@@ -25,7 +25,7 @@
     }
 
     * {
-    box-sizing: border-box;
+      box-sizing: border-box;
     }
   </style>
 
@@ -124,11 +124,10 @@
 
       for (var sk in skills) {
         if (monster[skills[sk]] !== undefined) {
-          if (skillBlock === undefined){
+          if (skillBlock === undefined) {
             skillBlock = addProp("top-stats", line, "Skills", " ");
             $(skillBlock).find("p").append(skills[sk].capitalize() + " +" + monster[skills[sk]]);
-          }
-          else {
+          } else {
             $(skillBlock).find("p").append(", " + skills[sk].capitalize() + " +" + monster[skills[sk]]);
           }
         }
@@ -139,8 +138,7 @@
           if (saveBlock === undefined) {
             saveBlock = addProp("top-stats", line, "Saving Throws", " ");
             $(saveBlock).find("p").append(butes[sv] + " +" + monster[saves[sv]]);
-          }
-          else {
+          } else {
             $(saveBlock).find("p").append(", " + butes[sv] + " +" + monster[saves[sv]]);
           }
         }
@@ -167,7 +165,8 @@
       for (var actions in monster.actions) {
         if (monster.actions[actions].name == "Lair Actions")
           continue;
-        addProp($("stat-block"), block, monster.actions[actions].name, monster.actions[actions].desc);
+        var tmp = addProp($("stat-block"), block, monster.actions[actions].name, monster.actions[actions].desc);
+        $(tmp).children('p').addClass("actions");
       }
 
       if (monster.legendary_actions !== undefined) {
@@ -175,9 +174,14 @@
         for (var legend in monster.legendary_actions) {
           var tmp = addProp($("stat-block"), block, monster.legendary_actions[legend].name, monster.legendary_actions[legend].desc);
           $(tmp).children('h4').addClass("legendary");
+          $(tmp).children('p').addClass("actions");
         }
         $(".legendary").css("font-style", "normal");
       }
+
+      $(".actions").html(function(idx, oldString) {
+        return oldString.replace(/([^:]+Attack:)/ig, "<i>$1</i>");
+      });
     }
 
     function addProp(parent, type, heading, para) {
@@ -205,7 +209,6 @@
       // visible.
       return ' – ' + numDice * Math.abs(mod);
     }
-
   </script>
 </head>
 
