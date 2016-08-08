@@ -51,7 +51,9 @@
       "performance",
       "persuasion",
       "religion",
-      "sleight_of_hand"
+      "sleight_of_hand",
+      "stealth",
+      "survival"
     ];
 
     var saves = [
@@ -123,7 +125,7 @@
       var saveBlock;
 
       for (var sk in skills) {
-        if (monster[skills[sk]] !== undefined) {
+        if (monster[skills[sk]] !== undefined && monster[skills[sk]] !== "") {
           if (skillBlock === undefined) {
             skillBlock = addProp("top-stats", line, "Skills", " ");
             $(skillBlock).find("p").append(skills[sk].capitalize() + " +" + monster[skills[sk]]);
@@ -134,7 +136,7 @@
       }
 
       for (var sv in saves) {
-        if (monster[saves[sv]] !== undefined) {
+        if (monster[saves[sv]] !== undefined && monster[saves[sv]] !== "") {
           if (saveBlock === undefined) {
             saveBlock = addProp("top-stats", line, "Saving Throws", " ");
             $(saveBlock).find("p").append(butes[sv] + " +" + monster[saves[sv]]);
@@ -167,6 +169,15 @@
           continue;
         var tmp = addProp($("stat-block"), block, monster.actions[actions].name, monster.actions[actions].desc);
         $(tmp).children('p').addClass("actions");
+      }
+
+      if (monster.reactions !== undefined)
+      {
+        $("stat-block").append($("<h3></h3>").text("Reactions"));
+        for (var reactions in monster.reactions) {
+          var tmp = addProp($("stat-block"), block, monster.reactions[actions].name, monster.reactions[actions].desc);
+          $(tmp).children('p').addClass("reactions");
+        }
       }
 
       if (monster.legendary_actions !== undefined) {
