@@ -627,9 +627,76 @@
       },
       {
         "name": "Unnatural Aura",
-        "desc"
+        "desc": "All animals, whether wild or domesticated, can sense the unnatural presence of fellforged at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so, and they remain panicked as long as they are within that range.",
+        "attack_bonus": 0
       }
     ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The fellforged makes two necrotic slam attacks.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Necrotic Slam",
+        "desc": "Melee Weapon Attack. +5 to hit, reach 5 ft, one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the total damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Violent Escapement",
+        "desc": "With little regard for the clockwork bodies they inhabit, fellforged wraiths can stress and strain their mechanisms in such a violent manner that flywheels become unbalanced, gears shatter, and springs snap. As a bonus action, this violent burst of gears and pulleys deal 7 (2d6) piercing damage to all foes within 5 feet who fail a DC 14 Dexterity saving throw. Each use of this ability imposes a cumulative reduction in movement of 5 feet upon the fellforged. If its speed is reduced to 0 feet, the fellforged become paralyzed.",
+        "attack_bonus": 0
+      }
+    ]
+  },
+  {
+    "name": "Fext",
+    "size": "Medium",
+    "type": "unead",
+    "subtype": "",
+    "alignment": "any alignment",
+    "armor_class": "",
+    "hit_points": "",
+    "hit_dice": "",
+    "speed": "",
+    "strength": "",
+    "dexterity": "",
+    "constitution": "",
+    "intelligence": "",
+    "wisdom": "",
+    "charisma": "",
+    "strength_save": "",
+    "constitution_save": "",
+    "dexterity_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "",
+    "languages": "",
+    "challenge_rating": "",
+    "special_abilities": "",
     "actions": "",
     "legendary_actions": ""
   },
