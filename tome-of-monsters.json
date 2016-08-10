@@ -652,25 +652,25 @@
   {
     "name": "Fext",
     "size": "Medium",
-    "type": "unead",
+    "type": "undead",
     "subtype": "",
     "alignment": "any alignment",
-    "armor_class": "",
-    "hit_points": "",
-    "hit_dice": "",
-    "speed": "",
-    "strength": "",
-    "dexterity": "",
-    "constitution": "",
-    "intelligence": "",
-    "wisdom": "",
-    "charisma": "",
+    "armor_class": "17",
+    "hit_points": "60",
+    "hit_dice": "11d8 + 11",
+    "speed": "30 t.",
+    "strength": "14",
+    "dexterity": "16",
+    "constitution": "12",
+    "intelligence": "14",
+    "wisdom": "12",
+    "charisma": "18",
     "strength_save": "",
     "constitution_save": "",
-    "dexterity_save": "",
+    "dexterity_save": "6",
     "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
+    "wisdom_save": "4",
+    "charisma_save": "7",
     "acrobatics": "",
     "animal_handling": "",
     "arcana": "",
@@ -682,7 +682,7 @@
     "investigation": "",
     "medicine": "",
     "nature": "",
-    "perception": "",
+    "perception": "4",
     "performance": "",
     "persuasion": "",
     "religion": "",
@@ -690,15 +690,552 @@
     "stealth": "",
     "survival": "",
     "damange_vulnerabilities": "",
-    "damange_resistances": "",
+    "damange_resistances": "bludgeoning, piercing, and slashing damage with nonmagical weapons",
     "damage_immunities": "",
-    "condition_immunities": "",
-    "senses": "",
-    "languages": "",
-    "challenge_rating": "",
-    "special_abilities": "",
-    "actions": "",
-    "legendary_actions": ""
+    "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+    "senses": "darkvision 60 ft, passive Perception 14",
+    "languages": "the languages spoken by its patron",
+    "challenge_rating": 6,
+    "special_abilities": [
+      {
+        "name": "Innate Spellcasting",
+        "desc": "The fext's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components.<br /><br /> At will: hex <br /> 1/day each: hold monster, true seeing",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "The fext has advantage on saving throws against spells and other magical effects.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Magic Weapon",
+        "desc": "The fext's weapon attacks are magical",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Patron Blessing",
+        "desc": "The fext is infused with a portion of their patrons power. They have an Armor Class equal to 10 + their Charisma modifier + their Dexterity modifier.",
+        "attack_bonus": 0
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The fext makes two melee or ranged attacks",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Eldritch Blade",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 9 (2d6+2) slashing damage plus 16 (3d10) force damage.",
+        "attack_bonus": 5,
+        "damage_dice": "2d6 + 3d10",
+        "damage_bonus": 2
+      },
+      {
+        "name": "Eldritch Fury",
+        "desc": "Ranged Weapon Attack: +6 to hit, range 60/200 ft, one creature. Hit: 25 (4d10 + 3) force damage.",
+        "attack_bonus": 6,
+        "damage_dice": "4d10",
+        "damage_bonus": 3
+      }
+    ]
+  },
+  {
+    "name": "Bear King",
+    "size": "Medium",
+    "type": "fey",
+    "subtype": "shapechanger",
+    "alignment": "lawful neutral",
+    "armor_class": "18",
+    "hit_points": "133",
+    "hit_dice": "14d8",
+    "speed": "40 ft.",
+    "strength": "21",
+    "dexterity": "10",
+    "constitution": "20",
+    "intelligence": "12",
+    "wisdom": "17",
+    "charisma": "16",
+    "strength_save": "9",
+    "constitution_save": "",
+    "dexterity_save": "4",
+    "intelligence_save": "",
+    "wisdom_save": "7",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "9",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "7",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "7",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "cold",
+    "damage_immunities": "poison; bludgeoning, slashing, and piercing from nonmagical weapons that aren't made of cold iron",
+    "condition_immunities": "poisoned",
+    "senses": "darkvision 60 ft. passive Perception +7",
+    "languages": "Common, Elvish, Giant, Sylvan",
+    "challenge_rating": 12,
+    "special_abilities": [
+      {
+        "name": "Alternate Form",
+        "desc": "As a bonus action, the Bear King canassume the form of a shaggy grizzly bear, or a hybrid of his humanoid and bear forms. In alternate form the Bear King's size increases to Large, and he can make bite and claw attacks. He remains in this form until he returns to human form as a bonus action or he falls unconscious or dies.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Keen Smell",
+        "desc": "The Bear King has advantage on Perception (Wisdom) checks that rely on smell.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Legendary Resistance (3/day)",
+        "desc": "If the Bear King fails a saving throw, he can choose to succeed instead.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Regeneration (Alternate Form only)",
+        "desc": "The Bear King regains 10 hit points at the start of his turn if he has at least 1 hit point.",
+        "attack_bonus": 0
+      },
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The bear king makes two ranged attacks or two melee attacks. In hybrid or grizzly bear form he can also make one additional bite attack.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Bite (Grizzly or Hybrid Form Only)",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 10 (1d10 + 5) piercing damage. A target creature other than a construct or undead must make a successful DC 17 Constitution saving throw at the start of each of its turns or lose 10 (3d6) hit points from blood loss. Each time the Bear King hits the wounded creature with this attack, the hit point loss increases by 10 (3d6). A creature can take an action to staunch the bleeding on itself or an adjacent ally with a successful DC 12 Wisdom (Medicine) check. The bleeding also stops if the creature recieves any magical healing.",
+        "attack_bonus": 9,
+        "damage_dice": "1d10",
+        "damage_bonus": 5
+      },
+      {
+        "name": "Claws (Grizzly or Hybrid Form Only)",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) slashing damage.",
+        "attack_bonus": 9,
+        "damage_dice": "2d6",
+        "damage_bonus": 5
+      },
+      {
+        "name": "Maul (Human or Hybrid Form Only)",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) bludgeoning damage. A creature hit by two maul attacks in the same turn must succeed on a DC 17 Strength saving throw or fall prone.",
+        "attack_bonus": 9,
+        "damage_dice": "2d6",
+        "damage_bonus": 5
+      },
+      {
+        "name": "Javelin (Human Form Only)",
+        "desc": "Ranged Weapon Attack: +9 to hit, range 30/60 ft, one target. Hit: 8 (1d6 + 5) piercing damage.",
+        "attack_bonus": 9,
+        "damage_dice": "1d6",
+        "damage_bonus": 5
+      }
+    ],
+    "legendary_actions": [
+      {
+        "name": "Melee Attack",
+        "desc": "The Bear King makes a claw or maul attack.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Honey Toss",
+        "desc": "The Bear King reaches into the jar he carries at his side and hurls a glob of honey at a target within 30 feet as a ranged weapon attack (+9 to hit). If the attack hits, the creature is restrained (escape DC 17).",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Frightful Roar (2 actions)",
+        "desc": "The Bear King lets out a blood-curdling roar. All creatures within 90 feet who can hear the Bear King must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature that makes its save, or who the effect ends for, is immune to the Frightful Roar for 24 hours. The bear king's allies are unaffected.",
+        "attack_bonus": 0
+      }
+    ]
+  },
+  {
+    "name": "Lord of the Hunt",
+    "size": "Medium",
+    "type": "fey",
+    "subtype": "",
+    "alignment": "lawful neutral",
+    "armor_class": "18",
+    "hit_points": "229",
+    "hit_dice": "27d8",
+    "speed": "40 ft.",
+    "strength": "21",
+    "dexterity": "18",
+    "constitution": "19",
+    "intelligence": "14",
+    "wisdom": "18",
+    "charisma": "15",
+    "strength_save": "11",
+    "constitution_save": "10",
+    "dexterity_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "8",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "11",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "10",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "10",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
+    "damage_immunities": "cold, poison",
+    "condition_immunities": "exhaustion, charmed, frightened, poisoned",
+    "senses": "blindsight 10ft, darkvision 60 ft, passive Perception 20",
+    "languages": "Common, Draconic, Elvish, Sylvan",
+    "challenge_rating": 18,
+    "special_abilities": [
+      {
+        "name": "Expert Rider",
+        "desc": "While the Lord of the Hunt is mounted, any attack directed at his steed targets the rider instead. The steed uses the Lord of the Hunt's saving throws. If the mount succeeds on a saving throw against a damaging effect, it takes no damage.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Innate Spellcasting",
+        "desc": "The lord of the hunt's innate spellcasting ability score is Charisma (save DC 16). The Lord of the Hunt can innately cast the following spells, requiring no material components.<br /><br />At will:druidcraft, hunter's mark, phantom steed<br />3/day each: commune with nature, conjure volley.<br />1/day: conjure fey (conjured creatures vanish if the Lord of the Hunt's concentration is broken)",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Legendary Resistance (3/day)",
+        "desc": "If the Lord of the Hunt fails a saving throw, he can choose to succeed instead.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "The Lord of the Hunt's weapon attacks are magical.",
+        "attack_bonus": 0
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The Lord of the Hunt makes three melee attacks or three ranged attacks.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Huntsman's Spear",
+        "desc": "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 60/120 ft, one target. Hit: 12 (2d6 + 5) piercing damage or 14 (2d8 + 5) piercing damage if used in two hands, plus 7 (2d6) poison damage. If the target is acreature, it must succeed on a DC 19 Strength saving throw or be knocked prone. As a bonus action, the Lord of the Hunt can cause his spear to magically appear in his hand, even if it is destroyed.",
+        "attack_bonus": 11,
+        "damage_dice": "(2d6 or 2d8) + 2d6",
+        "damage_bonus": 5
+      },
+      {
+        "name": "Howling Longbow",
+        "desc": "Ranged Weapon Attack: +10 to hit, range 150/600 ft, one target. Hit: 13 (2d8 + 4) piercing damage damage plus 7 (2d6) poison damage.",
+        "attack_bonus": 10,
+        "damage_dice": "2d8 + 2d6",
+        "damage_bonus": 4
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Parry",
+        "desc": "The Lord of the Hunt adds 3 to his AC against one attack that would hit him. To do so, he must see the attackerand must be weilding a melee weapon.",
+        "attack_bonus": 0
+      }
+    ],
+    "legendary_actions": [
+      {
+        "name": "Strike",
+        "desc": "The Lord of the Hunt makes a huntsman's spear attack or a howling longbow.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Tenacious Strike",
+        "desc": "The Lord of the Hunt moves half his speed, or half the speed of any steed he rides.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Call the Hunt (2 actions)",
+        "desc": "The Lord of the Hunt blows his hunting horn and chooses one creature he can see within 60 feet. If the creature can hear the horn, it must succeed on a DC 16 Charisma saving throw against this magic or be charmed by the Lord of the Hunt for 8 hours. A charmed creature joins the wild hunt, and follows the verbal instructions of the Lord of the Hunt, treating all former allies as enemies. If a charmed creature damages or is damaged by a former ally, it can repeat the saving throw at the end of its turn, ending the effect on itself on a success. Once a creature successfully saves or the effect ends for it, it is immune to Call of the Hunt for the next 24 hours.",
+        "attack": 0
+      }
+    ]
+  },
+  {
+    "name": "Moonlit King",
+    "size": "Medium",
+    "type": "fey",
+    "subtype": "",
+    "alignment": "neutral good",
+    "armor_class": "17",
+    "hit_points": "170",
+    "hit_dice": "20d8",
+    "speed": "50 ft.",
+    "strength": "16",
+    "dexterity": "20",
+    "constitution": "18",
+    "intelligence": "20",
+    "wisdom": "18",
+    "charisma": "20",
+    "strength_save": "",
+    "constitution_save": "10",
+    "dexterity_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "10",
+    "charisma_save": "11",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "11",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "10",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "acid; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron.",
+    "damage_immunities": "cold, fire, poison",
+    "condition_immunities": "charmed, frightened, poisoned",
+    "senses": "blightsight 30 ft, darkvision 120 ft, passive Perception 20",
+    "languages": "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Umbral; telepathy 100 ft.",
+    "challenge_rating": "17",
+    "special_abilities": [
+      {
+        "name": "Control Moonlight",
+        "desc": "As a bonus action, the Moonlit King can cause all areas of moonlight within 100 feet to move up to 10 feet.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Innate Spellcasting",
+        "desc": "The Moonlit King's innate spellcasting ability score is Charisma (save DC19, +11 to hit with spell attacks). The Moonlit King can innately cast the following spells, requiring no material components.<br /><br />At will: continual flame, detect evil and good, invisibility (self only), moonbeam, zone of truth<br />3/day each: blight, dispel evil and good, dispel<br />1/day each: demiplane, heal",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Legendary Resistance (3/day)",
+        "desc": "It the Moonlit King fails a saving throw, he can choose to succeed instead.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "The Moonlit King's weapon attacks are magical, and deal an extra 7 (2d6) radiant damage (included below).",
+        "attack_bonus": 0
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The Moonlit King makes three attacks with either his crystal staff or his moon bolt.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Crystal Staff",
+        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) radiant damage. A target that is struck by the staff two or more times in one turn must make a successful DC 17 Constitution saving throw or be stunned until the end of its next turn.",
+        "attack_bonus": 9,
+        "damage_dice": "1d8 + 2d6",
+        "damage_bonus": 3
+      },
+      {
+        "name": "Moon Bolt",
+        "desc": "Ranged Spell Attack: +11 to hit, range 150/600 ft, one target. Hit: 22 (4d10) radiant damage. If the target is a creature in a form other than its natural form, it takes an additional 22 (4d10) radiant damage and must succeed on a DC 19 Charisma saving throw or revert to its natural form. When the moon bolt hits a target, moonlight glows in a 10-feet radius from that point, creating dim light. The light is stationary and lasts until the end of the Moonlit King's next turn.",
+        "attack_bonus": 0,
+        "damage_dice": "4d10 + 4d10",
+        "damage_bonus": 0
+      },
+      {
+        "name": "Fearful Shadows (Recharge 5-6)",
+        "desc": "The Moonlit King magically animates the shadows of all foes within 60 feet of himself. The animated shadows attack the creatures who cast them. All affected creaetures in the area take 35 (10d6) necrotic damage, or half damage with a successfull DC 19 Dexterity saving throw. A creature that fails the saving throw also loses 1d4 points from its Strength score. A creature reduced to 0 Strength is unconscious until it regains at least 1 point of Strength. Strength lost to fearful shadows returns when the creature finishes a short or long rest.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Summon Devil (1/Day)",
+        "desc": "The Moonlit King magically summons a lunar devil. The summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 10 minutes, until its summoner dies, or until its summoner dismisses it as an action.",
+        "attack_bonus": 0
+      }
+    ],
+    "reaction": [
+      {
+        "name": "Shadow Slip",
+        "desc": "The Moonlit King takes on the quality of his manifest delusions when he is targeted by an attacker he can see. He becomes nearly insubstantial, so that the attack roll is made with disadvantage. If the attack hits, the Moonlit King takes half damage.",
+        "attack_bonus": 0
+      }
+    ],
+    "legendary_actions": [
+      {
+        "name": "Staff",
+        "desc": "The Moonlit King makes a crystal staff attack.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Lightwalking",
+        "desc": "The Moonlight King teleports from one area of moonlight to another within 100 feet.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Aura of Madness (2 actions)",
+        "desc": "While he is standing in an area of moonlight, the Moonlit King can spread his madness to other creatures within 30 feet. A creature other than a fiend that starts its turn in the aura or enters it for the first time on a turn (including when the aura is created) must succeed on a DC 19 Charisma saving throw or be confused (as if affected by the confusion spell) until the start of its next turn. The aura lasts until the start of the Moonlit King's next turn.",
+        "attack_bonus": 0
+      }
+    ]
+  },
+  {
+    "name": "Queen of Night and Magic",
+    "size": "Medium",
+    "type": "fey",
+    "subtype": "",
+    "alignment": "neutral evil",
+    "armor_class": "15 (18 with mage armor)",
+    "hit_points": "180",
+    "hit_dice": "24d8",
+    "speed": "30 ft, fly 60ft",
+    "strength": "12",
+    "dexterity": "20",
+    "constitution": "17",
+    "intelligence": "20",
+    "wisdom": "18",
+    "charisma": "26",
+    "strength_save": "",
+    "constitution_save": "10",
+    "dexterity_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "11",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "12",
+    "athletics": "",
+    "deception": "15",
+    "history": "",
+    "insight": "",
+    "intimidation": "15",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "11",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "12",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "fire, lightning",
+    "damage_immunities": "cold; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
+    "condition_immunities": "charmed, frightened",
+    "senses": "truesight 120ft, passive Perception 21",
+    "languages": "Celestial, Common, Elvish, Sylvan, Umbral; telepathy 120 ft.",
+    "challenge_rating": "21",
+    "special_abilities": [
+      {
+        "name": "Legendary Resistance (3/day)",
+        "desc": "If the Queen of Night and Magic fails a saving throw, she can choose to succeed instead.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Magic Resistance",
+        "desc": "The Queen of Night and Magic has advantage on saving throws against spells.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Shadowborn",
+        "desc": "When in lighting other than bright light, the Queen of Night and Magic has advantage on Dexterity (Stealth) checks made to hide, and she can hide even while being observed.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Spellcasting",
+        "desc": "The Queen of Night and Magic is an 18th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). The Queen knows the following sorcerer spells: <br /><br />Cantrips (at will): blade ward, chill touch, dancing lights, mage hand, prestidigitation, ray of frost<br />1st level (4 slots): mage armor, magic missile, shield<br /> 2nd level (3 slots): darkness, mirror image, shield<br /> 3rd level (3 slots): blink, fear<br /> 4th level (3 slots): confusion, greater invisibility<br /> 5th level (3 slots): cone of cold, teleportation circle <br /> 6th level (1 slot): circle of death <br /> 7th level (1 slot): plane shift, prismatic spray <br /> 8th level (1 slot): dominate monster <br /> 9th level (1 slot): meteor swarm",
+        "attack_bonus": 0
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The Queen of Night and Magic makes three attacks with her rapier or with star strike.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Rapier",
+        "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft, one target. Hit: 9 (1d8 + 5) piercing damage plus 10 (3d6) cold damage.",
+        "attack_bonus": 12,
+        "damage_dice": "1d8 + 3d6",
+        "damage_bonus": "5"
+      },
+      {
+        "name": "Shadow Rift (Recharge 5-6)",
+        "desc": "The Queen of Night and Magic creaets a shadowy rift in a 20-foot sphere. Any creature within the rift takes 72 (16d8) cold damage, or half damage with a successful DC 23 Constitution saving throw. Creatures that fail the saving throw are also restrained by icy wisps of shadow. A restrained creature repeats the saving throw at the end of its turn, ending the restrained condition on a success.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Star Strike",
+        "desc": "Ranged Spell Attack: +15 to hit, range 120 ft, one target. Hit: 9 (2d8) fire damage plus 9 (2d8) radiant damage.",
+        "attack_bonus": 15,
+        "damage_dice": "2d8 + 2d8",
+        "damage_bonus": 0
+      },
+      {
+        "name": "Teleport",
+        "desc": "The Queen of Night and Magic teleports to an unoccupied space up to 60 feet away.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Unravel",
+        "desc": "The Queen of Night and Magic targets a creature, object, or magical effect that she can see. For every spell affecting the target, the Queen makes a Charisma check: the DC equals 10 + the spell's level. On a success, the spell is dispelled.",
+        "attack_bonus": 0
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Sudden Fraying",
+        "desc": "When the Queen of Night and Magic is targeted by a spell or included in a spell's area, she can use her Unravel ability on it. The Queen does not need to see a spice to target it with this reaction, but she must be able to see at least some portion of an area or object affected by the spell.",
+        "attack_bonus": 0
+      }
+    ],
+    "legendary_actions": [
+      {
+        "name": "Cantrip",
+        "desc": "The Queen of Night and Magic makes one star strike attack. Having a foe within 5 feet of the Queen doesn't cause this attack to be made with disadvantage.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Swirling Stars",
+        "desc": "The Queen of Night and Magic makes one star strike attack. Having a foe within 5 feet of the Queen doesn't cause this attack to be made with disadvantage.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Teleport",
+        "desc": "The Queen of Night and Magic uses her Teleport ability.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Spell (2 actions)",
+        "desc": "The Queen of Night and Magic casts a spell.",
+        "attack_bonus": 0
+      }
+    ]
   },
   {
     "license": [
