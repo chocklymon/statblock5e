@@ -1471,6 +1471,124 @@
     ]
   },
   {
+    "name": "Snow Queen",
+    "size": "Medium",
+    "type": "fey",
+    "subtype": "",
+    "alignment": "neutral evil",
+    "armor_class": "17",
+    "hit_points": "123",
+    "hit_dice": "19d8",
+    "speed": "40 ft.",
+    "strength": "16",
+    "dexterity": "18",
+    "constitution": "14",
+    "intelligence": "18",
+    "wisdom": "20",
+    "charisma": "18",
+    "strength_save": "",
+    "dexterity_save": "9",
+    "constitution_save": "7",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "9",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "10",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "9",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't cold iron",
+    "damage_immunities": "cold",
+    "condition_immunities": "charmed, frightened, exhaustion",
+    "senses": "blindsight 10 ft, darkvision 60 ft, passive Perception 20",
+    "languages": "Common, Elvish, Giant, Sylvan",
+    "challenge_rating": "16",
+    "special_abilities": [
+      {
+        "name": "Innate Spellcasting",
+        "desc": "The Snow Queen's innate spellcasting ability score is Charisma (save DC 17, +9 to hit with spell attacks). The Snow Queen can innately cast the following spells, requiring no material components.<br /><br /> At will: fog cloug, magic missile, ray of frost<br /> 3/day each: chill metal (as heat metal, but does cold damage), freezing sphere, <br /> 1/day: cone of cold",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Legendary Resistance (3/day)",
+        "desc": "If the Snow Queen fails a saving trow, she can choose to succeed instead.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "The Snow Queen's weapon attacks are magical and doan extra 7 (2d6) cold damage (included below)",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Winter Step",
+        "desc": "The Snow Queen ignores difficult terrain caused by ice and snow. She can walk on vertical and horizontal surfaces that are covered by ice or snow.",
+        "attack_bonus": 0
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The Snow Queen makes two attacks in any combination of her claws and her ice crown.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Claws",
+        "desc": "Melee Weapon Attack: +9 to hit,reach 5 ft, one target. Hit: 11 (2d6 + 4) slashing damage plus 7 (2d6) cold damage",
+        "attack_bonus": 9,
+        "damage_dice": "2d6 + 2d6",
+        "damage_bonus": 4
+      },
+      {
+        "name": "Ice Crown",
+        "desc": "Ranged Weapon Attack: +9 to hit, range 80/320ft, one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) cold damage. The target's speed is reduced by 10 feet until the end of its next turn.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Cold Snap (Recharge 5-6)",
+        "desc": "The Snow Queen causes the temperature around her to drop dramatically. Every creature within 30 feet of the Snow Queen must make a successful DC 17 Constitution saving throw or gain 1 level of exhaustion. Immunity to cold grants immunity to Cold Snap.",
+        "attack_bonus": 0
+      }
+    ],
+    "reactions": [
+      {
+        "name": "Frozen Shards",
+        "desc": "When the Snow Queen is hit by a melee attack, she canstrike her attacker with shards from her icy crown.The attacker takes 11 (2d10) piercingdamage and 11 (2d10) cold damage, or no damage with asuccessful DC 17 Dexterity saving throw.",
+        "attack_bonus": 0
+      }
+    ],
+    "legendary_actions": [
+      {
+        "name": "Ice Crown",
+        "desc": "The Snow Queen makes an ice crown attack.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Snowblind",
+        "desc": "One target that the Snow Queen can see within 100 feet must succeed on a DC 17 Constitution saving throw or be blinded by swirling snow until the end of its next.",
+        "attack_bonus": 0
+      },
+      {
+        "name": "Snowfall Mantle (2 Actions)",
+        "desc": "The Snow Queen throws her mantle of snow at a point she can see within 60 feet. An area within 30 feet of that point instantly becomes covered in deep snow. Creatures in the area must succeed on a DC 17 Strength saving throw or be restrained. The area becomes difficult terrain, costing 2 feet of movement for every 1 foot moved. The difficult terrain lasts until the end of the Snow Queen's next turn, at which time her mantle returns to her shoulders.",
+        "attack_bonus": 0
+      }
+    ]
+  },
+  {
     "license": [
       "OPEN GAME LICENSE Version 1.0a",
       "The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.",
