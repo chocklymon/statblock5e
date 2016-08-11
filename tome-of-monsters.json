@@ -1589,6 +1589,348 @@
     ]
   },
   {
+    "name": "Feyward",
+    "size": "Huge",
+    "type": "construct",
+    "subtype": "",
+    "alignment": "unaligned",
+    "armor_class": "17 (natural armor)",
+    "hit_points": "94",
+    "hit_dice": "9d12",
+    "speed": "20 ft.",
+    "strength": "26",
+    "dexterity": "10",
+    "constitution": "18",
+    "intelligence": "2",
+    "wisdom": "11",
+    "charisma": "6",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "7",
+    "intelligence_save": "",
+    "wisdom_save": "3",
+    "charisma_save": "1",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "3",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "",
+    "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
+    "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "senses": "darkvision 60 ft, passive Perception 13",
+    "languages": "",
+    "challenge_rating": "8",
+    "special_abilities": [
+      {
+        "name": "Magic Resistance",
+        "desc": "A feyward tree has advantage on saving throws aganist spells and other magical effects.",
+      },
+      {
+        "name": "Contractibility and Conductivity",
+        "desc": "Certain spells and effects function differently against feyward trees: <br /><br />• A magical attack that deals cold damage slows a feyward tree (as the slow spell) for 3 rounds.<br />• A magical attack that deals lightning damage breaks any slow effect on the feyward tree and heals 1 hit point for each 3 damage the attack would otherwise deal. If the amount of healing would cause the tree to exceed its full normal hp, it gains any excess as temporary hp. The tree gets no saving throw against lightning effects.",
+      },
+      {
+        "name": "Immutable Form",
+        "desc": "The feyward tree is immune to any spell or effect that would alter its form.",
+      },
+      {
+        "name": "Magic Weapons",
+        "desc": "The feyward tree's weapon attacks are magical",
+      },
+      {
+        "name": "Warden's Reach",
+        "desc": "Creatures within 15 feet of a feyward tree provoke opportunity attacks even if they take the Disengage action before leaving its reach."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The tree makes two razor-leafed branch attacks, and may use a bonus action to make a razor-eafed branch attack against any creature standing next to it."
+      },
+      {
+        "name": "Razor-Leafed Branch",
+        "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft, one target. Hit: 21 (3d8 + 8) slashing damage.",
+        "attack bonus": 11,
+        "damage_dice": "3d8",
+        "damage_bonus": 8
+      },
+      {
+        "name": "Flaying Leaves (Recharge 5-6)",
+        "desc": "The tree can launch a barrage of razor-sharp cold iron leaves from its branches in a 20-foot-radius burst. All creatures caught within this area must make a successful DC 16 Dexterity saving throw or take 21 (6d6) slashing damage, or half as much damage on a successful one."
+      }
+    ]
+  },
+  {
+    "name": "Firebird",
+    "size": "Small",
+    "type": "celestial",
+    "subtype": "",
+    "alignment": "neutral good",
+    "armor_class": "16 (natural armor)",
+    "hit_points": "99",
+    "hit_dice": "18d6",
+    "speed": "20 ft, fly 100 ft.",
+    "strength": "12",
+    "dexterity": "19",
+    "constitution": "14",
+    "intelligence": "16",
+    "wisdom": "15",
+    "charisma": "21",
+    "strength_save": "",
+    "dexterity_save": "6",
+    "constitution_save": "4",
+    "intelligence_save": "5",
+    "wisdom_save": "4",
+    "charisma_save": "7",
+    "acrobatics": "6",
+    "animal_handling": "",
+    "arcana": "5",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "4",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "4",
+    "nature": "5",
+    "perception": "7",
+    "performance": "",
+    "persuasion": "",
+    "religion": "5",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "lightning; bludgeoning,piercing, and slashing from nonmagical weapons",
+    "damage_immunities": "fire",
+    "condition_immunities": "charmed, frightened, invisible",
+    "senses": "truesight 60 ft, passive Perception 17",
+    "languages": "Celestial, Common, Elvish, Primordial, Sylvan",
+    "challenge_rating": "4",
+    "special_abilities": [
+      {
+        "name": "Innate Spellcasting",
+        "desc": "The firebird's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:<br /><br />At will: guidance, purify food and drink, speak with animals<br /> 3/day: charm person, cure woulds (2d8 + 5), daylight, faerie fire, heat metal, hypnotic pattern, tongues<br /> 1/day: geas, heat, reincarnate"
+      },
+      {
+        "name": "Light of the World",
+        "desc": "The firebird's feathers glow with a warm light, the creature sheds light as dim as a candle or as bright as a lantern. It always sheds light and any feathers plucked from the creature continue to shed light as a torch."
+      },
+      {
+        "name": "Warming Presence",
+        "desc": "The fireird and any creatures within a 5-foot radius are immune to the effects of natural environmental cold. Invited into a home or building, a firebird canexpand this warming presence to its inhabitants no matter how close they are to the creature."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The firebird makes one bite attack and two claw attacks",
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 10 (1d8 + 4) piercing damage.",
+        "attack_bonus": 6,
+        "damage_dice": "1d8",
+        "damage_bonus": 4
+      },
+      {
+        "name": "Claw",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 10 (2d8 + 4) slashing damage.",
+        "attack_bonus": 6,
+        "damage_dice": "2d8",
+        "damage_bonus": 4
+      },
+      {
+        "name": "Blinding Ray (Recharge 5-6)",
+        "desc": "The firebird can fire a burning ray of light from its tail feathers in a line 5 feet wide and up to 50 feet long. Targets in the line must succeed on a DC 15 Dexterity saving throw or take 24 (7d6) fire damage and become blinded for 1d4 rounds. A successful saving throw negates the blindness and reduces the damage by half."
+      }
+    ]
+  },
+  {
+    "name": "Firegeist",
+    "size": "Small",
+    "type": "elemental",
+    "subtype": "",
+    "alignment": "neutral evil",
+    "armor_class": "14",
+    "hit_points": "87",
+    "hit_dice": "25d6",
+    "speed": "40 ft.",
+    "strength": "7",
+    "dexterity": "18",
+    "constitution": "10",
+    "intelligence": "4",
+    "wisdom": "16",
+    "charisma": "6",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "5",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "",
+    "damage_immunities": "fire, poison",
+    "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+    "senses": "darkvision 60 ft, passive Perception 15",
+    "languages": "Primordial",
+    "challenge_rating": "2",
+    "special_abilities": [
+      {
+        "name": "Hide By Firelight",
+        "desc": "In an area lit only by nonmagical flame, a firegeist gainst a +2 bonus on Stealth checks. This becomes +4 when hiding with the fire.",
+      },
+      {
+        "name": "Illumination",
+        "desc": "The firegeist sheds dim light in a 30-foot radius."
+      },
+      {
+        "name": "Magical Light Sensitivity",
+        "desc": "A firegeist detests magical light of any intensity. It suffers the effects of being poisoned when inside the radius of a magical light source."
+      },
+      {
+        "name": "Water Susceptibility",
+        "desc": "For every 5 feet the firegeist moves in water, or every gallon of water splashing on in, it takes 3 cold damage."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The firegeist makes two slam attacks."
+      },
+      {
+        "name": "Slam",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 7 (1d6 + 4) bludgeoning damage.",
+        "attack_bonus": 6,
+        "damage_dice": "1d6",
+        "damage_bonus": 4
+      },
+      {
+        "name": "Combustion Touch (Recharge 5-6)",
+        "desc": "The firegeist may ignite a target when making a slam attack. The target must immediately succeed at a DC 13 Dexterity saving throw or catch fire, taking an additional 5 (1d10) fire damage at the beginnning of its next turn. Until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns."
+      }
+    ]
+  },
+  {
+    "name": "Flutterflesh",
+    "size": "Large",
+    "type": "undead",
+    "subtype": "",
+    "alignment": "chaotic evil",
+    "armor_class": "16 (natural armor)",
+    "hit_points": "187",
+    "hit_dice": "22d10",
+    "speed": "10 ft, Fly 60 ft.",
+    "strength": "11",
+    "dexterity": "18",
+    "constitution": "17",
+    "intelligence": "12",
+    "wisdom": "13",
+    "charisma": "10",
+    "strength_save": "4",
+    "dexterity_save": "8",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "4",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "5",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "8",
+    "survival": "",
+    "damange_vulnerabilities": "radiant",
+    "damange_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "damage_immunities": "necrotic, poison",
+    "condition_immunities": "charmed, paralyzed, exhaustion, poison, stunned, unconscious",
+    "senses": "darkvision 240 ft, passive Perception 15",
+    "languages": "Common, Darakhul",
+    "challenge_rating": "12",
+    "special_abilities": [
+      {
+        "name": "Magic Weapons",
+        "desc": "The flutterflesh's attacks are magical"
+      },
+      {
+        "name": "Turn Resistance",
+        "desc": "The flutterflesh has advantage on saving throws against any effect that turns undead"
+      },
+      {
+        "name": "Regeneration",
+        "desc": "The flutterflesh regains 10 hit points at the start of its turn. If the flutterflesh takes radiant or fire damage, this trait doesn't function at the start of its next turn. The flutterflesh dies only if it starts its turn with 0 hit points and doesn't regenerate."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The flutterflesh makes two bone spur attacks or two tormenting gaze attacks."
+      },
+      {
+        "name": "Bone Spur",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 17 (2d12 + 4) slashing damage plus 11 (2d10) necroticdamage. If both attacks hit a single creature in the same turn, it is grappled (escape DC 10). As a bonus action, the flutterflesh can choose whether this attack does bludgeoning, piercing, or slashing damage.",
+        "attack_bonus": 11,
+        "damage_dice": "2d12 + 2d10",
+        "damage_bonus": 4
+      },
+      {
+        "name": "Tormenting Gaze",
+        "desc": "A target creature within 120 feet and able to see the flutterflesh takes 18 (4d8) psychic damage and is paralyze for 1d4 rounds, or takes half damage and isn't paralyzed with a successful DC 15 Wisdom saving throw. Tormenting gaze can't be used against the same target twice in a single turn."
+      },
+      {
+        "name": "Slash",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 11 (2d6 + 4) slashing damage. On a critical hit, the target takes an additional 27 (5d10) slashing damage and must make a DC 12 Constitution saving throw. On a failure, the flutterflesh lops off and absorbs one of the target's limbs (chosen randomly) and heals hit points equal to the additional slashing damage it inflicted.",
+        "attack_bonus": 8,
+        "damage_dice": "2d6 + 5d10",
+        "damage_bonus": 4
+      }
+    ]
+  },
+  {
     "license": [
       "OPEN GAME LICENSE Version 1.0a",
       "The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.",
