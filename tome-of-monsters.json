@@ -1931,6 +1931,334 @@
     ]
   },
   {
+    "name": "Folk of Leng",
+    "size": "Medium",
+    "type": "humanoid",
+    "subtype": "",
+    "alignment": "neutral evil",
+    "armor_class": "14 (studded leather)",
+    "hit_points": "68",
+    "hit_dice": "8d8",
+    "speed": "30 ft.",
+    "strength": "12",
+    "dexterity": "15",
+    "constitution": "18",
+    "intelligence": "14",
+    "wisdom": "16",
+    "charisma": "22",
+    "strength_save": "",
+    "dexterity_save": "4",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "5",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "4",
+    "athletics": "",
+    "deception": "8",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "5",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "cold",
+    "damage_immunities": "necrotic",
+    "condition_immunities": "frightened",
+    "senses": "passive Perception 15",
+    "languages": "Common, Void Speech",
+    "challenge_rating": "2",
+    "special_abilities": [
+      {
+        "name": "Innate Spellcasting",
+        "desc": "The folk of Leng's innates spellcasting abilty is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:<br /><br /> At will: comprehend languages, minor illusion<br /> 3/day each: disguise self, suggestion <br /> 1/day each: dream, etherealness"
+      },
+      {
+        "name": "Regeneration",
+        "desc": "The folk of Leng regains 5 hit points at the start of its turn. If the folk of Leng takes fire or radiant damage, this trait does not function at the start of its next turn. The folk of Leng dies only if it starts its turn with 0 hit points, and does not regenerate. Even if slain, their bodies reform in a crypt of Leng and go on about their business."
+      },
+      {
+        "name": "Void Stare",
+        "desc": "The folk of Leng can see through doors and around corners as a bonus action. As a result, they are very rarely surprised."
+      },
+      {
+        "name": "Void Sailors",
+        "desc": "The folk of Leng can travel the airless void without harm."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Etheric Harpoon",
+        "desc": "Ranged Weapon Attack: +8 to hit, range 30 ft, one target. Hit: 10 (1d8 + 6) necrotic damage, and the target must make a successful DC 13 Wisdom saving throw or be grappled (escape DC 13). In addition, armor has no effect against the attack roll of an etheric harpoon; only the Dexterity modifier factored into the target's AC is considered.",
+        "attack_bonus": 8,
+        "damage_dice": 6,
+        "damage_bonus": 6
+      },
+      {
+        "name": "Psychic Scimitar",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) psychic damage.",
+        "attack_bonus": 4,
+        "damage_dice": "1d6 + 1d6",
+        "damage_bonus": 2
+      },
+      {
+        "name": "Hooked Spider Net (Recharge 5-6)",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 20/50 ft, one target. Hit: 3 (1d6) piercing damage plus 19 (3d12) poison damage, and the target is restrained. A successful DC 14 Constitution saving throw halves the poison damage.",
+        "attack_bonus": 4,
+        "damage_dice": "1d6 + 3d12",
+        "damage_bonus": 0
+      }
+    ]
+  },
+  {
+    "name": "Forest Maurader",
+    "size": "Large",
+    "type": "giant",
+    "subtype": "",
+    "alignment": "chaotic evil",
+    "armor_class": "15 (natural armor)",
+    "hit_points": "114",
+    "hit_dice": "12d10",
+    "speed": "40 ft.",
+    "strength": "21",
+    "dexterity": "10",
+    "constitution": "18",
+    "intelligence": "6",
+    "wisdom": "10",
+    "charisma": "7",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "6",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 120 ft, passive Perception 10",
+    "languages": "Giant, Orcish, Sylvan",
+    "challenge_rating": "4",
+    "special_abilities": [
+      {
+        "name": "Light Sensitivity",
+        "desc": "While in bright light, the marauder has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The forest marauder makes two boar spear attacks."
+      },
+      {
+        "name": "Bone Spear",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft, one target. Hit: 16 (2d10 + 5) piercing damage, and the forest marauder can choose to push the target 10 feet away if it fails a DC 16 Strength saving throw.",
+        "attack_bonus": 7,
+        "damage_dice": "2d10",
+        "damage_bonus": 5
+      },
+      {
+        "name": "Rock",
+        "desc": "Ranged Weapon Attack: +5 to hit, range 30/120ft, one target, Hit: 19 (3d8 + 5) bludgeoning damage.",
+        "attack_bonus": 5,
+        "damage_dice": "3d8",
+        "damage_bonus": 5
+      }
+    ],
+  },
+  {
+    "name": "Fraughashar",
+    "size": "Small",
+    "type": "fey",
+    "subtype": "",
+    "alignment": "neutral evil",
+    "armor_class": "15 (leather armor, shield)",
+    "hit_points": "18",
+    "hit_dice": "4d6",
+    "speed": "25 ft.",
+    "strength": "8",
+    "dexterity": "14",
+    "constitution": "12",
+    "intelligence": "10",
+    "wisdom": "11",
+    "charisma": "7",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "4",
+    "survival": "",
+    "damange_vulnerabilities": "",
+    "damange_resistances": "",
+    "damage_immunities": "cold",
+    "condition_immunities": "",
+    "senses": "passive Perception 10",
+    "languages": "Sylvan",
+    "challenge_rating": "1/2",
+    "special_abilities": [
+      {
+        "name": "Frost Walker",
+        "desc": "The fraughashar speed is unimpeded by rocky, snowy, or icy terrain. It never needs to make Dexterity checks, to move or avoid falling prone because of icy or snowy ground."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The fraughashar makes one bite attack and one dagger attack.",
+      },
+      {
+        "name": "Bite",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 4 (1d4 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "damage_dice": "1d4",
+        "damage_bonus": 2
+      },
+      {
+        "name": "Dagger",
+        "desc": "Melee or Ranged Attack: +4 to hit, reach 5ft, one target. Hit: 4 (1d4 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "damage_dice": "1d4",
+        "damage_bonus": 2
+      },
+      {
+        "name": "Sling",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft, one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+        "attack_bonus": 4,
+        "damage_dice": "1d4",
+        "damage_bonus": 2
+      }
+    ]
+  },
+  {
+    "name": "Frostveil",
+    "size": "Medium",
+    "type": "plant",
+    "subtype": "",
+    "alignment": "unaligned",
+    "armor_class": "16",
+    "hit_points": "67",
+    "hit_dice": "9d8",
+    "speed": "10 ft, fly (varies; see Windborne ability)",
+    "strength": "20",
+    "dexterity": "20",
+    "constitution": "16",
+    "intelligence": "1",
+    "wisdom": "11",
+    "charisma": "1",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "7",
+    "survival": "",
+    "damange_vulnerabilities": "fire",
+    "damange_resistances": "bludgeoning and piercing from nonmagical weapons",
+    "damage_immunities": "cold",
+    "condition_immunities": "blinded, charmed, deafened, frightened, prone",
+    "senses": "blindsight 100 ft, passive Perception 10",
+    "languages": "",
+    "challenge_rating": "4",
+    "special_abilities": [
+      {
+        "name": "Chilling Acid",
+        "desc": "The frostveil's frozen acidic mist breaks down flesh and organic materials into useable nurtrients. Creatures who strike the frostveil with a non-reach melee weapon on an unarmed strike take 4 (1d8) acid damage."
+      },
+      {
+        "name": "Freeze",
+        "desc": "Aganst snowy ground or when flying in a blizzard, the frostveil has advantage on Stealth checks to hide in plain sight, appearing to be a patch of snow."
+      },
+      {
+        "name": "Windborne",
+        "desc": "Frostveils can catch the slightest breeze, but lack the motive power to fly unaided. Their fly speed is dependent on the local wind: Light (10 feet), Moderate (20 feet), Strong (40 feet), Severe (60 feet), Windstorm (80 feet), Hurricane (100 feet), or Tornado (120 feet). They cannot move directly against the wind but can tack at half speed."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "desc": "The frostveil makes three tendril attacks."
+      },
+      {
+        "name": "Tendril",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 14 (2d8 + 5) bludgeoning damage. If two tendrils hit the same target in a single turn, the target is engulfed.",
+        "attack_bonus": 7,
+        "damage_dice": "2d8",
+        "damage_bonus": 5
+      },
+      {
+        "name": "Engulf",
+        "desc": "When a frostveil wraps itself around a Medium or smaller creature, the target takes 14 (2d8 + 5) bludgeoning damage plus 13 (3d8) acid damage and is grappled (escape DC 15). The target takes another 9 (2d8) bludgeoning damage plus 13 (3d8) acid damage at the end of each of its turns while it's still grappled by the frostveil. A frostveil can't attack while it has a creature egulfed. Damage from attacks against the frostveil is split evenly between the frostveil and the engulfed creature; the only exceptions are slashing and psychic damage, which affect only the frostveil."
+      },
+      {
+        "name": "Spirit Spores (recharge 6)",
+        "desc": "In distress, frostveils release a puff of psychotropic spores in a 10-foot cloud around themselves. Creatures within the cloud of spores must succeed on a DC 13 Constitution saving throw against poison or suffer hallucinations, as per a confusion spell, for 1d3 rounds."
+      }
+    ]
+    "legendary_actions": ""
+  },
+  {
     "license": [
       "OPEN GAME LICENSE Version 1.0a",
       "The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.",
