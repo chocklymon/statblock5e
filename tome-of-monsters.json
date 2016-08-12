@@ -1,2282 +1,2244 @@
-[
-  {
-    "name": "Empty Cloak",
-    "size": "Medium",
-    "type": "construct",
-    "subtype": "",
-    "alignment": "unaligned",
-    "armor_class": "13",
-    "hit_points": "45",
-    "hit_dice": "10d8",
-    "speed": "0ft., fly 40ft.",
-    "strength": "18",
-    "dexterity": "14",
-    "constitution": "10",
-    "intelligence": "10",
-    "wisdom": "10",
-    "charisma": "1",
-    "strength_save": "",
-    "dexterity_save": "4",
-    "constitution_save": "2",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "4",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "bludgeoning",
-    "damage_immunities": "poison",
-    "condition_immunities": "fire",
-    "senses": "darkvision 60ft, passive Perception 10",
-    "languages": "understands Elvish and Umbral but can't speak",
-    "challenge_rating": "1/2",
-    "special_abilities": [
-      {
-        "name": "Diligent Sentinal",
-        "desc": "Empty cloaks are designed to watch for intruders. They gain advantage on Wisdom (Perception) checks.",
-        "attack bonus": 0
-      },
-      {
-        "name": "Shadow Construction",
-        "desc": "Empty cloaks are designed with a delicate shadow construction. They burst into pieces, then dissipate into shadow, on a critical hit.",
-        "attack bonus": 0
-      },
-      {
-        "name": "Wrapping Embrace",
-        "desc": "Empty cloaks can share the same space as one Medium or smaller creature. The empty cloak has advantage on attack rolls against any creature in the same space with it.",
-        "attack bonus" : 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Longsword",
-        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 8 (1d8 + 4) slashing damage",
-        "attack_bonus": 6,
-        "damage_dice": "1d8",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Shadow Slam",
-        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 6 (1d4 + 4) bludgeoning damage",
-        "attack_bonus": 6,
-        "damage_dice": "1d4",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Shadow Snare: Ranged Weapon Attack: +4 to hit, range 20/60 ft, one target. Hit: Large or smaller creatures are restrained. To escape, the restrained creature or adjacent ally must use an action to make a successful DC 14 Strength check. The shadow snare has 15 hit points and AC 12.",
-        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 8 (1d8 + 4) slashing damage",
-        "attack_bonus": 4
-      }
-    ],
-  },
-  {
-    "name": "Eonic Drifer",
-    "size": "Medium",
-    "type": "humanoid",
-    "subtype": "human",
-    "alignment": "chaotic neutral",
-    "armor_class": "13",
-    "hit_points": "65",
-    "hit_dice": "10d8",
-    "speed": "30 ft.",
-    "strength": "9",
-    "dexterity": "14",
-    "constitution": "14",
-    "intelligence": "18",
-    "wisdom": "11",
-    "charisma": "13",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "6",
-    "athletics": "",
-    "deception": "",
-    "history": "6",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "",
-    "damage_immunities": "",
-    "condition_immunities": "",
-    "senses": "passive Perception 10",
-    "languages": "Common, Eonic, Giant, Sylvan",
-    "challenge_rating": "1",
-    "special_abilities": "",
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The eonic drifter can either use Drift Backward or make two attacks with its time warping staff. The eonic drifter's future self (if present) can only use drift forward.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Time Warping Staff",
-        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: +7 (1d10 + 2) bludgeoning damage.",
-        "attack_bonus": 7,
-        "damage_dice": "1d10",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Drift Backward (1/Day)",
-        "desc": "A future self of the eonic drifter materializes in an unoccupied space within 30 feet of the drifter. The future self has the eonic drifter's stats and its full hit points, and it takes its turn immediately after its present self. Killing the original eonic drifter makes its future self disappear. If the present self sees its future self die, the eonic drifter must make a DC 13 Wisdom saving throw. There is n oeffect if the save succeeds. If the saving throw fails, roll 1d6 to determine the effect on the eonic drifter: 1 = frightened, 2 = incapacitated, 3 = paralyzed, 4 = unconscious, 5 or 6 = has disadvantage on attack rolls and ability checks. These effects last 1d4 rounds.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Drift Forward (2/Day)",
-        "desc": "The future self makes a time warping staff attack against a target. If the attack hits, instead of causing bludgeoning damage both the target and the attacker jump forward through time, effectively ceasing to exist in the present time. They reappear in the same location 1d4 rounds later, at the end of the present self's turn. Creatures occupying those locations at the moment are pushed 5 feet in a direction of their own choosing. The target of the drift (but not the future self) must then make a DC 13 Wisdom saving throw, with effects identical to those for the eonic drifter witnessing the death of its future self (see Drift Backward). The future self doesn't reappear after using this ability the second time; only the target of the drift reappears from the second use. This does not trigger a saving throw for the present self.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Erina Scrounger",
-    "size": "Small",
-    "type": "humanoid",
-    "subtype": "erina",
-    "alignment": "neutral",
-    "armor_class": "12",
-    "hit_points": "22",
-    "hit_dice": "4d6",
-    "speed": "20ft, burrow 20 ft.",
-    "strength": "9",
-    "dexterity": "12",
-    "constitution": "14",
-    "intelligence": "13",
-    "wisdom": "10",
-    "charisma": "11",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "poison",
-    "damage_immunities": "",
-    "condition_immunities": "",
-    "senses": "darkvision 60ft, passive Perception 10",
-    "languages": "Common, Erina",
-    "challenge_rating": "1/4",
-    "special_abilities": [
-      {
-        "name": "Keen Smell",
-        "desc": "The erina has advantage on Wisdom (Perception) checks that rely on smell.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Hardy",
-        "desc": "The erina has advantage on saving throws against poison",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Spines",
-        "desc": "An enemy who hits the erina with a melee attack while within 5 feet of it takes 2 (1d4) piercing damage.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Dagger",
-        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 4 (1d4 + 2) slashing damage",
-        "attack_bonus": 3,
-        "damage_dice": "1d4",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Sling",
-        "desc": "Ranged Weapon Attack: +3 to hit, range 30/120ft, one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
-        "attack_bonus": 3,
-        "damage_dice": "1d4",
-        "damage_bonus": 2
-      }
-    ]
-  },
-  {
-    "name": "Erina Defender",
-    "size": "Small",
-    "type": "humanoid",
-    "subtype": "erina",
-    "alignment": "neutral",
-    "armor_class": "15",
-    "hit_points": "44",
-    "hit_dice": "8d6",
-    "speed": "20ft, burrow 20ft.",
-    "strength": "11",
-    "dexterity": "14",
-    "constitution": "14",
-    "intelligence": "13",
-    "wisdom": "12",
-    "charisma": "11",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "4",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "3",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "poison",
-    "damage_immunities": "",
-    "condition_immunities": "",
-    "senses": "darkvision 60ft, passive Perception 13",
-    "languages": "Common, Erina",
-    "challenge_rating": "1",
-    "special_abilities": [
-      {
-        "name": "Keen Smell",
-        "desc": "The erina has advantage on Wisdom (Perception) checks that rely on smell.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Hardy",
-        "desc": "The erina has advantage on saving throws against poison",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Spines",
-        "desc": "An enemy who hits the erina with a melee attack while within 5 feet of it takes 2 (1d4) piercing damage.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The erina defender makes two attacks",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Shortsword",
-        "desc": "Melee Weapon Attack, +4 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 2) piercing damage",
-        "attack_bonus": 4,
-        "damage_dice": "1d6",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Shortbow",
-        "desc": "Ranged Weapon Attack: +4 to hit, range 80/320ft, one target. Hit: 5 (1d6 + 2) piercing damage",
-        "attack_bonus": 4,
-        "damage_dice": "1d6",
-        "damage_bonus": 2
-      },
-    ],
-    "reactions": [
-      {
-      "name": "Protect",
-      "desc": "The erina imposes disadvantage on an attack roll made against an ally within 5 feet of the erina defender",
-      "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Far Darrig",
-    "size": "Small",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "neutral",
-    "armor_class": "14",
-    "hit_points": "104",
-    "hit_dice": "16d6",
-    "speed": "20 ft.",
-    "strength": "15",
-    "dexterity": "16",
-    "constitution": "17",
-    "intelligence": "11",
-    "wisdom": "15",
-    "charisma": "17",
-    "strength_save": "",
-    "dexterity_save": "5",
-    "constitution_save": "7",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "7",
-    "acrobatics": "",
-    "animal_handling": "6",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "6",
-    "nature": "4",
-    "perception": "6",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "6",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "",
-    "damage_immunities": "",
-    "condition_immunities": "",
-    "senses": "darkvision 60ft, passive Perception 16",
-    "languages": "Common, Elvish, Sylvan",
-    "challenge_rating": "3",
-    "special_abilities": [
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The far darrig's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components.<br/><br/>Constant: magic weapon (antler glaive only), speak with animals<br/>At will: calm emotions, charm animal (as charm person but affects beasts only), cure wounds, detect poison and disease, water breathing, water walk<br/>3/day: barkskin, conjure woodland beings, hold animal (as hold person but affects beasts only), jump, longstrider<br/>1/day: commune with nature, freedom of movement, nondetection, tree stride",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The far darrig makes four antler glaive attacks.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Antler Glaive",
-        "desc": "Melee Weapon Attack: +4 to hit, reach 5t, or 10ft, one target, Hit: 7 (1d10 +2) slashing damage and the target must make a successful DC 13 Strength saving throw or either be disarmed or fall prone; the attacking far darrig chooses which effect occurs",
-        "attack_bonus": 2,
-        "damage_dice": "1d10",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Enchanted Glaive Maneuvers",
-        "desc": "A far darrig can magically extend or shrink its antler glaive as a bonus action to give it either a 10-foot or 5-foot reach",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Fate Eather",
-    "size": "Medium",
-    "type": "aberration",
-    "subtype": "",
-    "alignment": "neutral",
-    "armor_class": 16,
-    "hit_points": 182,
-    "hit_dice": "28d8",
-    "speed": "40 ft, climb 40 ft.",
-    "strength": "18",
-    "dexterity": "12",
-    "constitution": "14",
-    "intelligence": "18",
-    "wisdom": "16",
-    "charisma": "9",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "5",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "7",
-    "athletics": "",
-    "deception": "",
-    "history": "7",
-    "insight": "6",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "7",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "",
-    "damage_immunities": "",
-    "condition_immunities": "charmed, sleep",
-    "senses": "truesight 60 ft, passive Perception 13",
-    "languages": "telepathy 100 ft.",
-    "challenge_rating": "6",
-    "special_abilities": [
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The fate eater's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no material components:<br />1/day each: blink, hallucinatory terrain",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Visionary Flesh",
-        "desc": "Eating the flesh of a fate eater requires a DC 15 Constitution saving throw. If successful, the eater gains a divination spell. If failed, the victim vomits blood and fails the next saving throw made in combat.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Bite",
-        "desc": "Melee Weapon Attack: +7 to hit, reach 5ft, one target. Hit: 26 (5d8 + 4) slashing damage plus 11 (2d10) necrotic damage.",
-        "attack_bonus": 7,
-        "damage_dice": "5d8 + 2d10",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Spectral Bite",
-        "desc": "When a fate eater scores a critical hit against a target, it damages not only the creature but also the threads of its fate, changing the character's past or future. The target must roll 1d6 on the chart below for each critical hit that isn't negated by a successful DC 15 Charisma saving throw.<br /><br />1 Seeing the Alternatives - Suffers the effects of the confusion spell for 1d4 rounds<br />2 Untied from the Loom - Character's speed is randomized for four rounds. Roll 3d20 at the start of each of the character's turns to determine his or her speed in feet that turn <br /> 3 Shifting Memories - Permanently loses 2 from a random skill and gains 2 in a random untrained skill <br /> 4 Not So Fast - Loses the use of one class ability, chosen at random <br /> 5 Lost Potential - Loses 1 point from one randomly chosed ability score <br /> 6 Took the Lesser Path - The character's current hit point total becomes his or her hit point maximum</br> Effect 3-6 are permanent until the character makes a successful Charisma saving throw. The saving throw is repeated after every long rest, but the DC increases by 1 after every long rest, as the character becomes more entrenched in this new destiny. Otherwise, these new fates can be undone by nothing short of a wish spell or comparable magic.",
-        "attack_bonus": 0
-      }
-    ],
-  },
-  {
-    "name": "Fear Smith",
-    "size": "Medium",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "chaotic neutral",
-    "armor_class": "17",
-    "hit_points": "123",
-    "hit_dice": "19d8",
-    "speed": "40 ft, climb 15 ft.",
-    "strength": "11",
-    "dexterity": "17",
-    "constitution": "14",
-    "intelligence": "11",
-    "wisdom": "15",
-    "charisma": "18",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "6",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "6",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "7",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
-    "damage_immunities": "charmed, frightened",
-    "condition_immunities": "",
-    "senses": "blindsight 30 ft, passive Perception 12",
-    "languages": "Common, Elvish, Sylvan",
-    "challenge_rating": 10,
-    "special_abilities": [
-      {
-        "name": "Distortion Gaze",
-        "desc": "Those who meet the gaze of the fear smith experience the world seeming to twist at unnatural angles beneath their feet. When a creature that can see the fear smith's eye starts its turn within 30 feet of the fear smith, the creature must make a successful DC 16 Wisdom saving throw or become disoriented. While disoriented, the creature falls prone each time it tries to move or take the Dash or Disengage action. To recover from disorientation, a creature must start its turn outside the fear smith's gaze and make a successful DC 16 Wisdom saving throw.<br /> To use this ability, the fear smith can't be incapacitated and must see the affected creature. A creature that isn't surprised can avert its eyes at the start of its turn to avoid the effect. In that case, no saving throw is necessary but the creature treats the fear smith as invisible until the start of the creature's next turn. If during its turn the creature chooses to look at the fear smith, it must immediately make the saving throw.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Hidden Eye",
-        "desc": "The fear smith has advantage on saving throws against the blinded condition",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The fear smith's innate spellcasting ability is Charisma (spell save DC 16). The fear smith can innately cast the following spells, requiring no verbal or material components:<br />At will: detect thoughts, fear<br />2/day each: charm person, command, confusion",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Resistance",
-        "desc": "The fear smith has advantage on saving throws against spells and other magical effects.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The fear smith makes three claw attacks.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Claw",
-        "desc": "Melee Weapon Attack: +7 to hit, reach 5ft, 1 creature. Hit: 16 (2d12 + 3) slashing damage. If the target is disoriented by Distorion Gaze, this attack does an addition 13 (3d8) psychic damage and heals the fear smith by an equal amount.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Heartstopping Stare",
-        "desc": "The fear smith terrifies a creature within 30 feet with a look. The target must succeed on a DC 16 Wisdom saving throw or be stunned for 1 round and take 13 (3d8) psychic damage and heal the fear smith by an equal amount.",
-        "attack_bonus": 0
-      }
-    ],
-  },
-  {
-    "name": "Fellforged",
-    "size": "Medium",
-    "type": "construct",
-    "subtype": "(undead)",
-    "alignment": "lawful evil",
-    "armor_class": 15,
-    "hit_points": 135,
-    "hit_dice": "18d8",
-    "speed": "30 ft.",
-    "strength": "14",
-    "dexterity": "12",
-    "constitution": "17",
-    "intelligence": "12",
-    "wisdom": "14",
-    "charisma": "15",
-    "strength_save": "8",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "acid, cold, fire, lightning",
-    "damage_immunities": "necrotic, poison",
-    "condition_immunities": "charmed, exhaustion, poisoned",
-    "senses": "darkvision 60 ft, passive Perception 12",
-    "languages": "any languages it knew in life",
-    "challenge_rating": 5,
-    "special_abilities": [
-      {
-        "name": "Expelled Spirit",
-        "desc": "While the body the fellforged inhabits was made to bind spirits, the foul presence of the wraith within is vulnerable to turning attempts. Any successful turn attempt exorcises the wraith from its clockwork frame, but has no other effect. The expelled wraith retains its current hp total.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Sunlight Sensitivity",
-        "desc": "While in sunlight, the fellforged has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Unnatural Aura",
-        "desc": "All animals, whether wild or domesticated, can sense the unnatural presence of fellforged at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so, and they remain panicked as long as they are within that range.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The fellforged makes two necrotic slam attacks.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Necrotic Slam",
-        "desc": "Melee Weapon Attack. +5 to hit, reach 5 ft, one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the total damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Violent Escapement",
-        "desc": "With little regard for the clockwork bodies they inhabit, fellforged wraiths can stress and strain their mechanisms in such a violent manner that flywheels become unbalanced, gears shatter, and springs snap. As a bonus action, this violent burst of gears and pulleys deal 7 (2d6) piercing damage to all foes within 5 feet who fail a DC 14 Dexterity saving throw. Each use of this ability imposes a cumulative reduction in movement of 5 feet upon the fellforged. If its speed is reduced to 0 feet, the fellforged become paralyzed.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Fext",
-    "size": "Medium",
-    "type": "undead",
-    "subtype": "",
-    "alignment": "any alignment",
-    "armor_class": "17",
-    "hit_points": "60",
-    "hit_dice": "11d8 + 11",
-    "speed": "30 t.",
-    "strength": "14",
-    "dexterity": "16",
-    "constitution": "12",
-    "intelligence": "14",
-    "wisdom": "12",
-    "charisma": "18",
-    "strength_save": "",
-    "dexterity_save": "6",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "4",
-    "charisma_save": "7",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "4",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "bludgeoning, piercing, and slashing damage with nonmagical weapons",
-    "damage_immunities": "",
-    "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
-    "senses": "darkvision 60 ft, passive Perception 14",
-    "languages": "the languages spoken by its patron",
-    "challenge_rating": 6,
-    "special_abilities": [
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The fext's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components.<br /><br /> At will: hex <br /> 1/day each: hold monster, true seeing",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Resistance",
-        "desc": "The fext has advantage on saving throws against spells and other magical effects.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Weapon",
-        "desc": "The fext's weapon attacks are magical",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Patron Blessing",
-        "desc": "The fext is infused with a portion of their patrons power. They have an Armor Class equal to 10 + their Charisma modifier + their Dexterity modifier.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The fext makes two melee or ranged attacks",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Eldritch Blade",
-        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 9 (2d6+2) slashing damage plus 16 (3d10) force damage.",
-        "attack_bonus": 5,
-        "damage_dice": "2d6 + 3d10",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Eldritch Fury",
-        "desc": "Ranged Weapon Attack: +6 to hit, range 60/200 ft, one creature. Hit: 25 (4d10 + 3) force damage.",
-        "attack_bonus": 6,
-        "damage_dice": "4d10",
-        "damage_bonus": 3
-      }
-    ]
-  },
-  {
-    "name": "Bear King",
-    "size": "Medium",
-    "type": "fey",
-    "subtype": "shapechanger",
-    "alignment": "lawful neutral",
-    "armor_class": "18",
-    "hit_points": "133",
-    "hit_dice": "14d8",
-    "speed": "40 ft.",
-    "strength": "21",
-    "dexterity": "10",
-    "constitution": "20",
-    "intelligence": "12",
-    "wisdom": "17",
-    "charisma": "16",
-    "strength_save": "9",
-    "dexterity_save": "4",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "7",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "9",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "7",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "7",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "cold",
-    "damage_immunities": "poison; bludgeoning, slashing, and piercing from nonmagical weapons that aren't made of cold iron",
-    "condition_immunities": "poisoned",
-    "senses": "darkvision 60 ft. passive Perception +7",
-    "languages": "Common, Elvish, Giant, Sylvan",
-    "challenge_rating": 12,
-    "special_abilities": [
-      {
-        "name": "Alternate Form",
-        "desc": "As a bonus action, the Bear King canassume the form of a shaggy grizzly bear, or a hybrid of his humanoid and bear forms. In alternate form the Bear King's size increases to Large, and he can make bite and claw attacks. He remains in this form until he returns to human form as a bonus action or he falls unconscious or dies.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Keen Smell",
-        "desc": "The Bear King has advantage on Perception (Wisdom) checks that rely on smell.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Legendary Resistance (3/day)",
-        "desc": "If the Bear King fails a saving throw, he can choose to succeed instead.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Regeneration (Alternate Form only)",
-        "desc": "The Bear King regains 10 hit points at the start of his turn if he has at least 1 hit point.",
-        "attack_bonus": 0
-      },
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The bear king makes two ranged attacks or two melee attacks. In hybrid or grizzly bear form he can also make one additional bite attack.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Bite (Grizzly or Hybrid Form Only)",
-        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 10 (1d10 + 5) piercing damage. A target creature other than a construct or undead must make a successful DC 17 Constitution saving throw at the start of each of its turns or lose 10 (3d6) hit points from blood loss. Each time the Bear King hits the wounded creature with this attack, the hit point loss increases by 10 (3d6). A creature can take an action to staunch the bleeding on itself or an adjacent ally with a successful DC 12 Wisdom (Medicine) check. The bleeding also stops if the creature recieves any magical healing.",
-        "attack_bonus": 9,
-        "damage_dice": "1d10",
-        "damage_bonus": 5
-      },
-      {
-        "name": "Claws (Grizzly or Hybrid Form Only)",
-        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) slashing damage.",
-        "attack_bonus": 9,
-        "damage_dice": "2d6",
-        "damage_bonus": 5
-      },
-      {
-        "name": "Maul (Human or Hybrid Form Only)",
-        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) bludgeoning damage. A creature hit by two maul attacks in the same turn must succeed on a DC 17 Strength saving throw or fall prone.",
-        "attack_bonus": 9,
-        "damage_dice": "2d6",
-        "damage_bonus": 5
-      },
-      {
-        "name": "Javelin (Human Form Only)",
-        "desc": "Ranged Weapon Attack: +9 to hit, range 30/60 ft, one target. Hit: 8 (1d6 + 5) piercing damage.",
-        "attack_bonus": 9,
-        "damage_dice": "1d6",
-        "damage_bonus": 5
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "Melee Attack",
-        "desc": "The Bear King makes a claw or maul attack.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Honey Toss",
-        "desc": "The Bear King reaches into the jar he carries at his side and hurls a glob of honey at a target within 30 feet as a ranged weapon attack (+9 to hit). If the attack hits, the creature is restrained (escape DC 17).",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Frightful Roar (2 actions)",
-        "desc": "The Bear King lets out a blood-curdling roar. All creatures within 90 feet who can hear the Bear King must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature that makes its save, or who the effect ends for, is immune to the Frightful Roar for 24 hours. The bear king's allies are unaffected.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Lord of the Hunt",
-    "size": "Medium",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "lawful neutral",
-    "armor_class": "18",
-    "hit_points": "229",
-    "hit_dice": "27d8",
-    "speed": "40 ft.",
-    "strength": "21",
-    "dexterity": "18",
-    "constitution": "19",
-    "intelligence": "14",
-    "wisdom": "18",
-    "charisma": "15",
-    "strength_save": "11",
-    "dexterity_save": "",
-    "constitution_save": "10",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "8",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "11",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "10",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "10",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
-    "damage_immunities": "cold, poison",
-    "condition_immunities": "exhaustion, charmed, frightened, poisoned",
-    "senses": "blindsight 10ft, darkvision 60 ft, passive Perception 20",
-    "languages": "Common, Draconic, Elvish, Sylvan",
-    "challenge_rating": 18,
-    "special_abilities": [
-      {
-        "name": "Expert Rider",
-        "desc": "While the Lord of the Hunt is mounted, any attack directed at his steed targets the rider instead. The steed uses the Lord of the Hunt's saving throws. If the mount succeeds on a saving throw against a damaging effect, it takes no damage.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The lord of the hunt's innate spellcasting ability score is Charisma (save DC 16). The Lord of the Hunt can innately cast the following spells, requiring no material components.<br /><br />At will:druidcraft, hunter's mark, phantom steed<br />3/day each: commune with nature, conjure volley.<br />1/day: conjure fey (conjured creatures vanish if the Lord of the Hunt's concentration is broken)",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Legendary Resistance (3/day)",
-        "desc": "If the Lord of the Hunt fails a saving throw, he can choose to succeed instead.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Weapons",
-        "desc": "The Lord of the Hunt's weapon attacks are magical.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The Lord of the Hunt makes three melee attacks or three ranged attacks.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Huntsman's Spear",
-        "desc": "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 60/120 ft, one target. Hit: 12 (2d6 + 5) piercing damage or 14 (2d8 + 5) piercing damage if used in two hands, plus 7 (2d6) poison damage. If the target is acreature, it must succeed on a DC 19 Strength saving throw or be knocked prone. As a bonus action, the Lord of the Hunt can cause his spear to magically appear in his hand, even if it is destroyed.",
-        "attack_bonus": 11,
-        "damage_dice": "(2d6 or 2d8) + 2d6",
-        "damage_bonus": 5
-      },
-      {
-        "name": "Howling Longbow",
-        "desc": "Ranged Weapon Attack: +10 to hit, range 150/600 ft, one target. Hit: 13 (2d8 + 4) piercing damage damage plus 7 (2d6) poison damage.",
-        "attack_bonus": 10,
-        "damage_dice": "2d8 + 2d6",
-        "damage_bonus": 4
-      }
-    ],
-    "reactions": [
-      {
-        "name": "Parry",
-        "desc": "The Lord of the Hunt adds 3 to his AC against one attack that would hit him. To do so, he must see the attackerand must be weilding a melee weapon.",
-        "attack_bonus": 0
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "Strike",
-        "desc": "The Lord of the Hunt makes a huntsman's spear attack or a howling longbow.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Tenacious Strike",
-        "desc": "The Lord of the Hunt moves half his speed, or half the speed of any steed he rides.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Call the Hunt (2 actions)",
-        "desc": "The Lord of the Hunt blows his hunting horn and chooses one creature he can see within 60 feet. If the creature can hear the horn, it must succeed on a DC 16 Charisma saving throw against this magic or be charmed by the Lord of the Hunt for 8 hours. A charmed creature joins the wild hunt, and follows the verbal instructions of the Lord of the Hunt, treating all former allies as enemies. If a charmed creature damages or is damaged by a former ally, it can repeat the saving throw at the end of its turn, ending the effect on itself on a success. Once a creature successfully saves or the effect ends for it, it is immune to Call of the Hunt for the next 24 hours.",
-        "attack": 0
-      }
-    ]
-  },
-  {
-    "name": "Moonlit King",
-    "size": "Medium",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "neutral good",
-    "armor_class": "17",
-    "hit_points": "170",
-    "hit_dice": "20d8",
-    "speed": "50 ft.",
-    "strength": "16",
-    "dexterity": "20",
-    "constitution": "18",
-    "intelligence": "20",
-    "wisdom": "18",
-    "charisma": "20",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "10",
-    "intelligence_save": "",
-    "wisdom_save": "10",
-    "charisma_save": "11",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "11",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "10",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "acid; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron.",
-    "damage_immunities": "cold, fire, poison",
-    "condition_immunities": "charmed, frightened, poisoned",
-    "senses": "blightsight 30 ft, darkvision 120 ft, passive Perception 20",
-    "languages": "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Umbral; telepathy 100 ft.",
-    "challenge_rating": "17",
-    "special_abilities": [
-      {
-        "name": "Control Moonlight",
-        "desc": "As a bonus action, the Moonlit King can cause all areas of moonlight within 100 feet to move up to 10 feet.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The Moonlit King's innate spellcasting ability score is Charisma (save DC19, +11 to hit with spell attacks). The Moonlit King can innately cast the following spells, requiring no material components.<br /><br />At will: continual flame, detect evil and good, invisibility (self only), moonbeam, zone of truth<br />3/day each: blight, dispel evil and good, dispel<br />1/day each: demiplane, heal",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Legendary Resistance (3/day)",
-        "desc": "It the Moonlit King fails a saving throw, he can choose to succeed instead.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Weapons",
-        "desc": "The Moonlit King's weapon attacks are magical, and deal an extra 7 (2d6) radiant damage (included below).",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The Moonlit King makes three attacks with either his crystal staff or his moon bolt.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Crystal Staff",
-        "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) radiant damage. A target that is struck by the staff two or more times in one turn must make a successful DC 17 Constitution saving throw or be stunned until the end of its next turn.",
-        "attack_bonus": 9,
-        "damage_dice": "1d8 + 2d6",
-        "damage_bonus": 3
-      },
-      {
-        "name": "Moon Bolt",
-        "desc": "Ranged Spell Attack: +11 to hit, range 150/600 ft, one target. Hit: 22 (4d10) radiant damage. If the target is a creature in a form other than its natural form, it takes an additional 22 (4d10) radiant damage and must succeed on a DC 19 Charisma saving throw or revert to its natural form. When the moon bolt hits a target, moonlight glows in a 10-feet radius from that point, creating dim light. The light is stationary and lasts until the end of the Moonlit King's next turn.",
-        "attack_bonus": 0,
-        "damage_dice": "4d10 + 4d10",
-        "damage_bonus": 0
-      },
-      {
-        "name": "Fearful Shadows (Recharge 5-6)",
-        "desc": "The Moonlit King magically animates the shadows of all foes within 60 feet of himself. The animated shadows attack the creatures who cast them. All affected creaetures in the area take 35 (10d6) necrotic damage, or half damage with a successfull DC 19 Dexterity saving throw. A creature that fails the saving throw also loses 1d4 points from its Strength score. A creature reduced to 0 Strength is unconscious until it regains at least 1 point of Strength. Strength lost to fearful shadows returns when the creature finishes a short or long rest.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Summon Devil (1/Day)",
-        "desc": "The Moonlit King magically summons a lunar devil. The summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 10 minutes, until its summoner dies, or until its summoner dismisses it as an action.",
-        "attack_bonus": 0
-      }
-    ],
-    "reaction": [
-      {
-        "name": "Shadow Slip",
-        "desc": "The Moonlit King takes on the quality of his manifest delusions when he is targeted by an attacker he can see. He becomes nearly insubstantial, so that the attack roll is made with disadvantage. If the attack hits, the Moonlit King takes half damage.",
-        "attack_bonus": 0
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "Staff",
-        "desc": "The Moonlit King makes a crystal staff attack.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Lightwalking",
-        "desc": "The Moonlight King teleports from one area of moonlight to another within 100 feet.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Aura of Madness (2 actions)",
-        "desc": "While he is standing in an area of moonlight, the Moonlit King can spread his madness to other creatures within 30 feet. A creature other than a fiend that starts its turn in the aura or enters it for the first time on a turn (including when the aura is created) must succeed on a DC 19 Charisma saving throw or be confused (as if affected by the confusion spell) until the start of its next turn. The aura lasts until the start of the Moonlit King's next turn.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Queen of Night and Magic",
-    "size": "Medium",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "neutral evil",
-    "armor_class": "15 (18 with mage armor)",
-    "hit_points": "180",
-    "hit_dice": "24d8",
-    "speed": "30 ft, fly 60ft",
-    "strength": "12",
-    "dexterity": "20",
-    "constitution": "17",
-    "intelligence": "20",
-    "wisdom": "18",
-    "charisma": "26",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "10",
-    "intelligence_save": "",
-    "wisdom_save": "11",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "12",
-    "athletics": "",
-    "deception": "15",
-    "history": "",
-    "insight": "",
-    "intimidation": "15",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "11",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "12",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "fire, lightning",
-    "damage_immunities": "cold; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
-    "condition_immunities": "charmed, frightened",
-    "senses": "truesight 120ft, passive Perception 21",
-    "languages": "Celestial, Common, Elvish, Sylvan, Umbral; telepathy 120 ft.",
-    "challenge_rating": "21",
-    "special_abilities": [
-      {
-        "name": "Legendary Resistance (3/day)",
-        "desc": "If the Queen of Night and Magic fails a saving throw, she can choose to succeed instead.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Resistance",
-        "desc": "The Queen of Night and Magic has advantage on saving throws against spells.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Shadowborn",
-        "desc": "When in lighting other than bright light, the Queen of Night and Magic has advantage on Dexterity (Stealth) checks made to hide, and she can hide even while being observed.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Spellcasting",
-        "desc": "The Queen of Night and Magic is an 18th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). The Queen knows the following sorcerer spells: <br /><br />Cantrips (at will): blade ward, chill touch, dancing lights, mage hand, prestidigitation, ray of frost<br />1st level (4 slots): mage armor, magic missile, shield<br /> 2nd level (3 slots): darkness, mirror image, shield<br /> 3rd level (3 slots): blink, fear<br /> 4th level (3 slots): confusion, greater invisibility<br /> 5th level (3 slots): cone of cold, teleportation circle <br /> 6th level (1 slot): circle of death <br /> 7th level (1 slot): plane shift, prismatic spray <br /> 8th level (1 slot): dominate monster <br /> 9th level (1 slot): meteor swarm",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The Queen of Night and Magic makes three attacks with her rapier or with star strike.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Rapier",
-        "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft, one target. Hit: 9 (1d8 + 5) piercing damage plus 10 (3d6) cold damage.",
-        "attack_bonus": 12,
-        "damage_dice": "1d8 + 3d6",
-        "damage_bonus": "5"
-      },
-      {
-        "name": "Shadow Rift (Recharge 5-6)",
-        "desc": "The Queen of Night and Magic creaets a shadowy rift in a 20-foot sphere. Any creature within the rift takes 72 (16d8) cold damage, or half damage with a successful DC 23 Constitution saving throw. Creatures that fail the saving throw are also restrained by icy wisps of shadow. A restrained creature repeats the saving throw at the end of its turn, ending the restrained condition on a success.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Star Strike",
-        "desc": "Ranged Spell Attack: +15 to hit, range 120 ft, one target. Hit: 9 (2d8) fire damage plus 9 (2d8) radiant damage.",
-        "attack_bonus": 15,
-        "damage_dice": "2d8 + 2d8",
-        "damage_bonus": 0
-      },
-      {
-        "name": "Teleport",
-        "desc": "The Queen of Night and Magic teleports to an unoccupied space up to 60 feet away.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Unravel",
-        "desc": "The Queen of Night and Magic targets a creature, object, or magical effect that she can see. For every spell affecting the target, the Queen makes a Charisma check: the DC equals 10 + the spell's level. On a success, the spell is dispelled.",
-        "attack_bonus": 0
-      }
-    ],
-    "reactions": [
-      {
-        "name": "Sudden Fraying",
-        "desc": "When the Queen of Night and Magic is targeted by a spell or included in a spell's area, she can use her Unravel ability on it. The Queen does not need to see a spice to target it with this reaction, but she must be able to see at least some portion of an area or object affected by the spell.",
-        "attack_bonus": 0
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "Cantrip",
-        "desc": "The Queen of Night and Magic makes one star strike attack. Having a foe within 5 feet of the Queen doesn't cause this attack to be made with disadvantage.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Swirling Stars",
-        "desc": "The Queen of Night and Magic makes one star strike attack. Having a foe within 5 feet of the Queen doesn't cause this attack to be made with disadvantage.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Teleport",
-        "desc": "The Queen of Night and Magic uses her Teleport ability.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Spell (2 actions)",
-        "desc": "The Queen of Night and Magic casts a spell.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Queen of Witches",
-    "size": "Large",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "neutral",
-    "armor_class": "18",
-    "hit_points": "123",
-    "hit_dice": "13d10",
-    "speed": "40 ft, fly 50 ft. (hover)",
-    "strength": "22",
-    "dexterity": "10",
-    "constitution": "19",
-    "intelligence": "16",
-    "wisdom": "18",
-    "charisma": "22",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "6",
-    "intelligence_save": "",
-    "wisdom_save": "10",
-    "charisma_save": "12",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "9",
-    "athletics": "",
-    "deception": "12",
-    "history": "9",
-    "insight": "10",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "10",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "fire, cold; bludgeoning, piercing, and slashing damage from weapons that aren't cold iron",
-    "damage_immunities": "radiant",
-    "condition_immunities": "blinded, charmed, frightened",
-    "senses": "truesight 60 ft, passive Perception 19",
-    "languages": "Celestial, Common, Draconic, Elvish, Sylvan, Umbral",
-    "challenge_rating": 17,
-    "special_abilities": [
-      {
-        "name": "Absorb the Weave",
-        "desc": "When Nicnevin counters or dispels a spell, she heals damage equal to twice the spell level.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Innate Spellcasting",
-        "desc": "Nicnevin's spellcasting attribute is Charisma (save DC 19, +12 to hit with spell attacks). She can innateley cast the following spells, requiring no material components. <br /><br /> At will: faerie fire, hex, misty step, silent image, tongues <br /> 1/day each: power word kill, sleep (9th level), true polymorph <br /> 2/day each: bestow curse, feeblemind, mass suggestion, flesh to stone <br /> 3/day each: chain lightning, counterspell, dispel magic, hypnotic pattern, teleportation circle",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Resistance",
-        "desc": "Nicnevin has advantage on saving throws against spells and other magical effects.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Legendary Resistance (3/day)",
-        "desc": "If Nicnevin fails a saving throw she can choose to succeed instead.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Token of Favor",
-        "desc": "As an action, Nicnevin can cut a lock of her copper hair and twist it into a token for a creature she chooses. As long as that creature carries the token, it gains the magic resistance trait (see above). Nicnevin can revoke her favor at any time as a bonus action. When that happens, the creature loses the benefit of the token and, if Nicnevin wishes, the creature also has disadvantage on saving throws against spells and other magical effects for 24 hours.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "Nicnevin makes two attacks, or makes one attack and casts a spell",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Moonsilver Ring",
-        "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft, one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 10 (3d6) radiant damage. The moonsilver ring is a magical weapon.",
-        "attack_bonus": 12,
-        "damage_dice": "2d8 + 3d6",
-        "damage_bonus": 6
-      },
-      {
-        "name": "Blast",
-        "desc": "Ranged Spell Attack: +12 to hit, range 120 ft, one target. Hit: 11 (1d10 + 6) force damage. A creature hit by a blast must succeed on a DC 19 Strength saving throw or be pushed 10 feet directly away from Nicnevin.",
-        "attack_bonus": 12,
-        "damage_dice": "1d10",
-        "damage_bonus": "6"
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "Attack",
-        "desc": "Nicnevin makes one attack.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Spell (2 actions)",
-        "desc": "Nicnevin casts a spell.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Teleport",
-        "desc": "Nicnevin magically teleports to an unoccupied space she car see within 40 feet.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "River King",
-    "size": "Medium",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "chaotic neutral",
-    "armor_class": "18",
-    "hit_points": "152",
-    "hit_dice": "16d8",
-    "speed": "30 ft, swim 40 ft.",
-    "strength": "21",
-    "dexterity": "17",
-    "constitution": "20",
-    "intelligence": "14",
-    "wisdom": "13",
-    "charisma": "17",
-    "strength_save": "",
-    "dexterity_save": "8",
-    "constitution_save": "10",
-    "intelligence_save": "",
-    "wisdom_save": "6",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "8",
-    "investigation": "",
-    "medicine": "",
-    "nature": "7",
-    "perception": "6",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "8",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "fire, cold, thunder; bludgeoning, piercing, and slashing damage from weapons that aren't cold iron",
-    "damage_immunities": "lightning",
-    "condition_immunities": "exhaustion",
-    "senses": "blindsight 10 ft, darkvision 60 ft, passive Perception 16",
-    "languages": "Common, Elemental, Elvish, Giant",
-    "challenge_rating": "16",
-    "special_abilities": [
-      {
-        "name": "Amphibious",
-        "desc": "The River King can breathe air and water",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The River King's innate spellcasting ability score is Charisma (save DC 16, +8 to hit with spell attacks). The River King can innately cast the following spells, requiring no material components.<br /><br /> At will: create or destroy water, shocking grasp, water breathing <br /> 3/day each: freedom of movement, control water <br /> 1/day each: chain lightning",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Legendary Resistance (3/day)",
-        "desc": "If the River King fails a saving throw, he can choose to succeed instead.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Weapons",
-        "desc": "The River King's weapon attacks are magical and do an extra 10 (3d6) lightning damage (included below).",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The River King makes three attacks with his longsword and/or flood blash, in any combination",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Longsword",
-        "desc": "Melee Weapon Attack: + 10 to hit, reach 5 ft, one target. Hit: 9 (1d8 + 5) slaashing damage or 10 (1d10 + 5) slashing damage if used with two hands, plus 10 (3d6) lightning damage.",
-        "attack_bonus": 10,
-        "damage_dice": "(1d8 or 1d10) + 3d6",
-        "damage_bonus": 5
-      },
-      {
-        "name": "Flood Blash",
-        "desc": "Ranged Spell Attack: +8 to hit, range 120 ft, one target. Hit: 18 (4d8) bludgeoning damage. A target creature must succeed on a DC 16 Strength saving throw or be knocked prone and shifted up to 60 feet at the River King's choosing.",
-        "attack_bonus": 8,
-        "damage_dice": "4d8",
-        "damage_bonus": 0
-      },
-      {
-        "name": "Grasping Whirlpool (Recharge 5-6)",
-        "desc": "The River King magically creates a swirling vortex of water centered on a point he can see within 60 feet. The vortex fills a clinder with a 10-foot radius and 15 feet high. Creatures in the area must make a successful DC 16 Strength saving throw or take 11 (2d10) bludgeoning damage and be restrained and unable to breathe. On a successful save, the creature is pushed to the edge of the area. A restrained creature can escape from the whirlpool by using an action to make a successful DC 16 Strength check. A creature that's in the whirlpool at the end of its turn takes 11 (2d10) bludgeoning damage in addition to any effects from being unable to breathe. Creatures with a swim speed have advantage on the saving throw and the Strength check to escape. The whirlpool lasts for 1 minute or until the River King uses this ability again.",
-        "attack_bonus": 0
-      }
-    ],
-    "reactions": [
-      {
-        "name": "Blade Current",
-        "desc": "When a creature within the River King's melee reach stands up from prone, the River King can make a longsword attack on that creature with advantage.",
-        "attack_bonus": 0
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "Longsword.",
-        "desc": "The River King makes a longsword attack",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Flow",
-        "desc": "The River King moves half his speed without provoking opportunity attacks.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Ripple (2 Actions)",
-        "desc": "The River King magically ripples like sunlight on the surface of the water. Until the start of his next turn, all attacks against him have disadvantage.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Snow Queen",
-    "size": "Medium",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "neutral evil",
-    "armor_class": "17",
-    "hit_points": "123",
-    "hit_dice": "19d8",
-    "speed": "40 ft.",
-    "strength": "16",
-    "dexterity": "18",
-    "constitution": "14",
-    "intelligence": "18",
-    "wisdom": "20",
-    "charisma": "18",
-    "strength_save": "",
-    "dexterity_save": "9",
-    "constitution_save": "7",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "9",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "10",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "9",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't cold iron",
-    "damage_immunities": "cold",
-    "condition_immunities": "charmed, frightened, exhaustion",
-    "senses": "blindsight 10 ft, darkvision 60 ft, passive Perception 20",
-    "languages": "Common, Elvish, Giant, Sylvan",
-    "challenge_rating": "16",
-    "special_abilities": [
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The Snow Queen's innate spellcasting ability score is Charisma (save DC 17, +9 to hit with spell attacks). The Snow Queen can innately cast the following spells, requiring no material components.<br /><br /> At will: fog cloug, magic missile, ray of frost<br /> 3/day each: chill metal (as heat metal, but does cold damage), freezing sphere, <br /> 1/day: cone of cold",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Legendary Resistance (3/day)",
-        "desc": "If the Snow Queen fails a saving trow, she can choose to succeed instead.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Magic Weapons",
-        "desc": "The Snow Queen's weapon attacks are magical and doan extra 7 (2d6) cold damage (included below)",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Winter Step",
-        "desc": "The Snow Queen ignores difficult terrain caused by ice and snow. She can walk on vertical and horizontal surfaces that are covered by ice or snow.",
-        "attack_bonus": 0
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The Snow Queen makes two attacks in any combination of her claws and her ice crown.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Claws",
-        "desc": "Melee Weapon Attack: +9 to hit,reach 5 ft, one target. Hit: 11 (2d6 + 4) slashing damage plus 7 (2d6) cold damage",
-        "attack_bonus": 9,
-        "damage_dice": "2d6 + 2d6",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Ice Crown",
-        "desc": "Ranged Weapon Attack: +9 to hit, range 80/320ft, one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) cold damage. The target's speed is reduced by 10 feet until the end of its next turn.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Cold Snap (Recharge 5-6)",
-        "desc": "The Snow Queen causes the temperature around her to drop dramatically. Every creature within 30 feet of the Snow Queen must make a successful DC 17 Constitution saving throw or gain 1 level of exhaustion. Immunity to cold grants immunity to Cold Snap.",
-        "attack_bonus": 0
-      }
-    ],
-    "reactions": [
-      {
-        "name": "Frozen Shards",
-        "desc": "When the Snow Queen is hit by a melee attack, she canstrike her attacker with shards from her icy crown.The attacker takes 11 (2d10) piercingdamage and 11 (2d10) cold damage, or no damage with asuccessful DC 17 Dexterity saving throw.",
-        "attack_bonus": 0
-      }
-    ],
-    "legendary_actions": [
-      {
-        "name": "Ice Crown",
-        "desc": "The Snow Queen makes an ice crown attack.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Snowblind",
-        "desc": "One target that the Snow Queen can see within 100 feet must succeed on a DC 17 Constitution saving throw or be blinded by swirling snow until the end of its next.",
-        "attack_bonus": 0
-      },
-      {
-        "name": "Snowfall Mantle (2 Actions)",
-        "desc": "The Snow Queen throws her mantle of snow at a point she can see within 60 feet. An area within 30 feet of that point instantly becomes covered in deep snow. Creatures in the area must succeed on a DC 17 Strength saving throw or be restrained. The area becomes difficult terrain, costing 2 feet of movement for every 1 foot moved. The difficult terrain lasts until the end of the Snow Queen's next turn, at which time her mantle returns to her shoulders.",
-        "attack_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Feyward",
-    "size": "Huge",
-    "type": "construct",
-    "subtype": "",
-    "alignment": "unaligned",
-    "armor_class": "17 (natural armor)",
-    "hit_points": "94",
-    "hit_dice": "9d12",
-    "speed": "20 ft.",
-    "strength": "26",
-    "dexterity": "10",
-    "constitution": "18",
-    "intelligence": "2",
-    "wisdom": "11",
-    "charisma": "6",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "7",
-    "intelligence_save": "",
-    "wisdom_save": "3",
-    "charisma_save": "1",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "3",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "",
-    "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
-    "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
-    "senses": "darkvision 60 ft, passive Perception 13",
-    "languages": "",
-    "challenge_rating": "8",
-    "special_abilities": [
-      {
-        "name": "Magic Resistance",
-        "desc": "A feyward tree has advantage on saving throws aganist spells and other magical effects.",
-      },
-      {
-        "name": "Contractibility and Conductivity",
-        "desc": "Certain spells and effects function differently against feyward trees: <br /><br />• A magical attack that deals cold damage slows a feyward tree (as the slow spell) for 3 rounds.<br />• A magical attack that deals lightning damage breaks any slow effect on the feyward tree and heals 1 hit point for each 3 damage the attack would otherwise deal. If the amount of healing would cause the tree to exceed its full normal hp, it gains any excess as temporary hp. The tree gets no saving throw against lightning effects.",
-      },
-      {
-        "name": "Immutable Form",
-        "desc": "The feyward tree is immune to any spell or effect that would alter its form.",
-      },
-      {
-        "name": "Magic Weapons",
-        "desc": "The feyward tree's weapon attacks are magical",
-      },
-      {
-        "name": "Warden's Reach",
-        "desc": "Creatures within 15 feet of a feyward tree provoke opportunity attacks even if they take the Disengage action before leaving its reach."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The tree makes two razor-leafed branch attacks, and may use a bonus action to make a razor-eafed branch attack against any creature standing next to it."
-      },
-      {
-        "name": "Razor-Leafed Branch",
-        "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft, one target. Hit: 21 (3d8 + 8) slashing damage.",
-        "attack bonus": 11,
-        "damage_dice": "3d8",
-        "damage_bonus": 8
-      },
-      {
-        "name": "Flaying Leaves (Recharge 5-6)",
-        "desc": "The tree can launch a barrage of razor-sharp cold iron leaves from its branches in a 20-foot-radius burst. All creatures caught within this area must make a successful DC 16 Dexterity saving throw or take 21 (6d6) slashing damage, or half as much damage on a successful one."
-      }
-    ]
-  },
-  {
-    "name": "Firebird",
-    "size": "Small",
-    "type": "celestial",
-    "subtype": "",
-    "alignment": "neutral good",
-    "armor_class": "16 (natural armor)",
-    "hit_points": "99",
-    "hit_dice": "18d6",
-    "speed": "20 ft, fly 100 ft.",
-    "strength": "12",
-    "dexterity": "19",
-    "constitution": "14",
-    "intelligence": "16",
-    "wisdom": "15",
-    "charisma": "21",
-    "strength_save": "",
-    "dexterity_save": "6",
-    "constitution_save": "4",
-    "intelligence_save": "5",
-    "wisdom_save": "4",
-    "charisma_save": "7",
-    "acrobatics": "6",
-    "animal_handling": "",
-    "arcana": "5",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "4",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "4",
-    "nature": "5",
-    "perception": "7",
-    "performance": "",
-    "persuasion": "",
-    "religion": "5",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "lightning; bludgeoning,piercing, and slashing from nonmagical weapons",
-    "damage_immunities": "fire",
-    "condition_immunities": "charmed, frightened, invisible",
-    "senses": "truesight 60 ft, passive Perception 17",
-    "languages": "Celestial, Common, Elvish, Primordial, Sylvan",
-    "challenge_rating": "4",
-    "special_abilities": [
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The firebird's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:<br /><br />At will: guidance, purify food and drink, speak with animals<br /> 3/day: charm person, cure woulds (2d8 + 5), daylight, faerie fire, heat metal, hypnotic pattern, tongues<br /> 1/day: geas, heat, reincarnate"
-      },
-      {
-        "name": "Light of the World",
-        "desc": "The firebird's feathers glow with a warm light, the creature sheds light as dim as a candle or as bright as a lantern. It always sheds light and any feathers plucked from the creature continue to shed light as a torch."
-      },
-      {
-        "name": "Warming Presence",
-        "desc": "The fireird and any creatures within a 5-foot radius are immune to the effects of natural environmental cold. Invited into a home or building, a firebird canexpand this warming presence to its inhabitants no matter how close they are to the creature."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The firebird makes one bite attack and two claw attacks",
-      },
-      {
-        "name": "Bite",
-        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 10 (1d8 + 4) piercing damage.",
-        "attack_bonus": 6,
-        "damage_dice": "1d8",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Claw",
-        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 10 (2d8 + 4) slashing damage.",
-        "attack_bonus": 6,
-        "damage_dice": "2d8",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Blinding Ray (Recharge 5-6)",
-        "desc": "The firebird can fire a burning ray of light from its tail feathers in a line 5 feet wide and up to 50 feet long. Targets in the line must succeed on a DC 15 Dexterity saving throw or take 24 (7d6) fire damage and become blinded for 1d4 rounds. A successful saving throw negates the blindness and reduces the damage by half."
-      }
-    ]
-  },
-  {
-    "name": "Firegeist",
-    "size": "Small",
-    "type": "elemental",
-    "subtype": "",
-    "alignment": "neutral evil",
-    "armor_class": "14",
-    "hit_points": "87",
-    "hit_dice": "25d6",
-    "speed": "40 ft.",
-    "strength": "7",
-    "dexterity": "18",
-    "constitution": "10",
-    "intelligence": "4",
-    "wisdom": "16",
-    "charisma": "6",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "5",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "",
-    "damage_immunities": "fire, poison",
-    "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
-    "senses": "darkvision 60 ft, passive Perception 15",
-    "languages": "Primordial",
-    "challenge_rating": "2",
-    "special_abilities": [
-      {
-        "name": "Hide By Firelight",
-        "desc": "In an area lit only by nonmagical flame, a firegeist gainst a +2 bonus on Stealth checks. This becomes +4 when hiding with the fire.",
-      },
-      {
-        "name": "Illumination",
-        "desc": "The firegeist sheds dim light in a 30-foot radius."
-      },
-      {
-        "name": "Magical Light Sensitivity",
-        "desc": "A firegeist detests magical light of any intensity. It suffers the effects of being poisoned when inside the radius of a magical light source."
-      },
-      {
-        "name": "Water Susceptibility",
-        "desc": "For every 5 feet the firegeist moves in water, or every gallon of water splashing on in, it takes 3 cold damage."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The firegeist makes two slam attacks."
-      },
-      {
-        "name": "Slam",
-        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 7 (1d6 + 4) bludgeoning damage.",
-        "attack_bonus": 6,
-        "damage_dice": "1d6",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Combustion Touch (Recharge 5-6)",
-        "desc": "The firegeist may ignite a target when making a slam attack. The target must immediately succeed at a DC 13 Dexterity saving throw or catch fire, taking an additional 5 (1d10) fire damage at the beginnning of its next turn. Until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns."
-      }
-    ]
-  },
-  {
-    "name": "Flutterflesh",
-    "size": "Large",
-    "type": "undead",
-    "subtype": "",
-    "alignment": "chaotic evil",
-    "armor_class": "16 (natural armor)",
-    "hit_points": "187",
-    "hit_dice": "22d10",
-    "speed": "10 ft, Fly 60 ft.",
-    "strength": "11",
-    "dexterity": "18",
-    "constitution": "17",
-    "intelligence": "12",
-    "wisdom": "13",
-    "charisma": "10",
-    "strength_save": "4",
-    "dexterity_save": "8",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "4",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "5",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "8",
-    "survival": "",
-    "damange_vulnerabilities": "radiant",
-    "damange_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
-    "damage_immunities": "necrotic, poison",
-    "condition_immunities": "charmed, paralyzed, exhaustion, poison, stunned, unconscious",
-    "senses": "darkvision 240 ft, passive Perception 15",
-    "languages": "Common, Darakhul",
-    "challenge_rating": "12",
-    "special_abilities": [
-      {
-        "name": "Magic Weapons",
-        "desc": "The flutterflesh's attacks are magical"
-      },
-      {
-        "name": "Turn Resistance",
-        "desc": "The flutterflesh has advantage on saving throws against any effect that turns undead"
-      },
-      {
-        "name": "Regeneration",
-        "desc": "The flutterflesh regains 10 hit points at the start of its turn. If the flutterflesh takes radiant or fire damage, this trait doesn't function at the start of its next turn. The flutterflesh dies only if it starts its turn with 0 hit points and doesn't regenerate."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The flutterflesh makes two bone spur attacks or two tormenting gaze attacks."
-      },
-      {
-        "name": "Bone Spur",
-        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 17 (2d12 + 4) slashing damage plus 11 (2d10) necroticdamage. If both attacks hit a single creature in the same turn, it is grappled (escape DC 10). As a bonus action, the flutterflesh can choose whether this attack does bludgeoning, piercing, or slashing damage.",
-        "attack_bonus": 11,
-        "damage_dice": "2d12 + 2d10",
-        "damage_bonus": 4
-      },
-      {
-        "name": "Tormenting Gaze",
-        "desc": "A target creature within 120 feet and able to see the flutterflesh takes 18 (4d8) psychic damage and is paralyze for 1d4 rounds, or takes half damage and isn't paralyzed with a successful DC 15 Wisdom saving throw. Tormenting gaze can't be used against the same target twice in a single turn."
-      },
-      {
-        "name": "Slash",
-        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 11 (2d6 + 4) slashing damage. On a critical hit, the target takes an additional 27 (5d10) slashing damage and must make a DC 12 Constitution saving throw. On a failure, the flutterflesh lops off and absorbs one of the target's limbs (chosen randomly) and heals hit points equal to the additional slashing damage it inflicted.",
-        "attack_bonus": 8,
-        "damage_dice": "2d6 + 5d10",
-        "damage_bonus": 4
-      }
-    ]
-  },
-  {
-    "name": "Folk of Leng",
-    "size": "Medium",
-    "type": "humanoid",
-    "subtype": "",
-    "alignment": "neutral evil",
-    "armor_class": "14 (studded leather)",
-    "hit_points": "68",
-    "hit_dice": "8d8",
-    "speed": "30 ft.",
-    "strength": "12",
-    "dexterity": "15",
-    "constitution": "18",
-    "intelligence": "14",
-    "wisdom": "16",
-    "charisma": "22",
-    "strength_save": "",
-    "dexterity_save": "4",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "5",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "4",
-    "athletics": "",
-    "deception": "8",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "5",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "cold",
-    "damage_immunities": "necrotic",
-    "condition_immunities": "frightened",
-    "senses": "passive Perception 15",
-    "languages": "Common, Void Speech",
-    "challenge_rating": "2",
-    "special_abilities": [
-      {
-        "name": "Innate Spellcasting",
-        "desc": "The folk of Leng's innates spellcasting abilty is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:<br /><br /> At will: comprehend languages, minor illusion<br /> 3/day each: disguise self, suggestion <br /> 1/day each: dream, etherealness"
-      },
-      {
-        "name": "Regeneration",
-        "desc": "The folk of Leng regains 5 hit points at the start of its turn. If the folk of Leng takes fire or radiant damage, this trait does not function at the start of its next turn. The folk of Leng dies only if it starts its turn with 0 hit points, and does not regenerate. Even if slain, their bodies reform in a crypt of Leng and go on about their business."
-      },
-      {
-        "name": "Void Stare",
-        "desc": "The folk of Leng can see through doors and around corners as a bonus action. As a result, they are very rarely surprised."
-      },
-      {
-        "name": "Void Sailors",
-        "desc": "The folk of Leng can travel the airless void without harm."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Etheric Harpoon",
-        "desc": "Ranged Weapon Attack: +8 to hit, range 30 ft, one target. Hit: 10 (1d8 + 6) necrotic damage, and the target must make a successful DC 13 Wisdom saving throw or be grappled (escape DC 13). In addition, armor has no effect against the attack roll of an etheric harpoon; only the Dexterity modifier factored into the target's AC is considered.",
-        "attack_bonus": 8,
-        "damage_dice": 6,
-        "damage_bonus": 6
-      },
-      {
-        "name": "Psychic Scimitar",
-        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) psychic damage.",
-        "attack_bonus": 4,
-        "damage_dice": "1d6 + 1d6",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Hooked Spider Net (Recharge 5-6)",
-        "desc": "Ranged Weapon Attack: +4 to hit, range 20/50 ft, one target. Hit: 3 (1d6) piercing damage plus 19 (3d12) poison damage, and the target is restrained. A successful DC 14 Constitution saving throw halves the poison damage.",
-        "attack_bonus": 4,
-        "damage_dice": "1d6 + 3d12",
-        "damage_bonus": 0
-      }
-    ]
-  },
-  {
-    "name": "Forest Maurader",
-    "size": "Large",
-    "type": "giant",
-    "subtype": "",
-    "alignment": "chaotic evil",
-    "armor_class": "15 (natural armor)",
-    "hit_points": "114",
-    "hit_dice": "12d10",
-    "speed": "40 ft.",
-    "strength": "21",
-    "dexterity": "10",
-    "constitution": "18",
-    "intelligence": "6",
-    "wisdom": "10",
-    "charisma": "7",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "6",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "",
-    "damage_immunities": "",
-    "condition_immunities": "",
-    "senses": "darkvision 120 ft, passive Perception 10",
-    "languages": "Giant, Orcish, Sylvan",
-    "challenge_rating": "4",
-    "special_abilities": [
-      {
-        "name": "Light Sensitivity",
-        "desc": "While in bright light, the marauder has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The forest marauder makes two boar spear attacks."
-      },
-      {
-        "name": "Bone Spear",
-        "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft, one target. Hit: 16 (2d10 + 5) piercing damage, and the forest marauder can choose to push the target 10 feet away if it fails a DC 16 Strength saving throw.",
-        "attack_bonus": 7,
-        "damage_dice": "2d10",
-        "damage_bonus": 5
-      },
-      {
-        "name": "Rock",
-        "desc": "Ranged Weapon Attack: +5 to hit, range 30/120ft, one target, Hit: 19 (3d8 + 5) bludgeoning damage.",
-        "attack_bonus": 5,
-        "damage_dice": "3d8",
-        "damage_bonus": 5
-      }
-    ],
-  },
-  {
-    "name": "Fraughashar",
-    "size": "Small",
-    "type": "fey",
-    "subtype": "",
-    "alignment": "neutral evil",
-    "armor_class": "15 (leather armor, shield)",
-    "hit_points": "18",
-    "hit_dice": "4d6",
-    "speed": "25 ft.",
-    "strength": "8",
-    "dexterity": "14",
-    "constitution": "12",
-    "intelligence": "10",
-    "wisdom": "11",
-    "charisma": "7",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "4",
-    "survival": "",
-    "damange_vulnerabilities": "",
-    "damange_resistances": "",
-    "damage_immunities": "cold",
-    "condition_immunities": "",
-    "senses": "passive Perception 10",
-    "languages": "Sylvan",
-    "challenge_rating": "1/2",
-    "special_abilities": [
-      {
-        "name": "Frost Walker",
-        "desc": "The fraughashar speed is unimpeded by rocky, snowy, or icy terrain. It never needs to make Dexterity checks, to move or avoid falling prone because of icy or snowy ground."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The fraughashar makes one bite attack and one dagger attack.",
-      },
-      {
-        "name": "Bite",
-        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 4 (1d4 + 2) piercing damage.",
-        "attack_bonus": 4,
-        "damage_dice": "1d4",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Dagger",
-        "desc": "Melee or Ranged Attack: +4 to hit, reach 5ft, one target. Hit: 4 (1d4 + 2) piercing damage.",
-        "attack_bonus": 4,
-        "damage_dice": "1d4",
-        "damage_bonus": 2
-      },
-      {
-        "name": "Sling",
-        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft, one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
-        "attack_bonus": 4,
-        "damage_dice": "1d4",
-        "damage_bonus": 2
-      }
-    ]
-  },
-  {
-    "name": "Frostveil",
-    "size": "Medium",
-    "type": "plant",
-    "subtype": "",
-    "alignment": "unaligned",
-    "armor_class": "16",
-    "hit_points": "67",
-    "hit_dice": "9d8",
-    "speed": "10 ft, fly (varies; see Windborne ability)",
-    "strength": "20",
-    "dexterity": "20",
-    "constitution": "16",
-    "intelligence": "1",
-    "wisdom": "11",
-    "charisma": "1",
-    "strength_save": "",
-    "dexterity_save": "",
-    "constitution_save": "",
-    "intelligence_save": "",
-    "wisdom_save": "",
-    "charisma_save": "",
-    "acrobatics": "",
-    "animal_handling": "",
-    "arcana": "",
-    "athletics": "",
-    "deception": "",
-    "history": "",
-    "insight": "",
-    "intimidation": "",
-    "investigation": "",
-    "medicine": "",
-    "nature": "",
-    "perception": "",
-    "performance": "",
-    "persuasion": "",
-    "religion": "",
-    "sleight_of_hand": "",
-    "stealth": "7",
-    "survival": "",
-    "damange_vulnerabilities": "fire",
-    "damange_resistances": "bludgeoning and piercing from nonmagical weapons",
-    "damage_immunities": "cold",
-    "condition_immunities": "blinded, charmed, deafened, frightened, prone",
-    "senses": "blindsight 100 ft, passive Perception 10",
-    "languages": "",
-    "challenge_rating": "4",
-    "special_abilities": [
-      {
-        "name": "Chilling Acid",
-        "desc": "The frostveil's frozen acidic mist breaks down flesh and organic materials into useable nurtrients. Creatures who strike the frostveil with a non-reach melee weapon on an unarmed strike take 4 (1d8) acid damage."
-      },
-      {
-        "name": "Freeze",
-        "desc": "Aganst snowy ground or when flying in a blizzard, the frostveil has advantage on Stealth checks to hide in plain sight, appearing to be a patch of snow."
-      },
-      {
-        "name": "Windborne",
-        "desc": "Frostveils can catch the slightest breeze, but lack the motive power to fly unaided. Their fly speed is dependent on the local wind: Light (10 feet), Moderate (20 feet), Strong (40 feet), Severe (60 feet), Windstorm (80 feet), Hurricane (100 feet), or Tornado (120 feet). They cannot move directly against the wind but can tack at half speed."
-      }
-    ],
-    "actions": [
-      {
-        "name": "Multiattack",
-        "desc": "The frostveil makes three tendril attacks."
-      },
-      {
-        "name": "Tendril",
-        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 14 (2d8 + 5) bludgeoning damage. If two tendrils hit the same target in a single turn, the target is engulfed.",
-        "attack_bonus": 7,
-        "damage_dice": "2d8",
-        "damage_bonus": 5
-      },
-      {
-        "name": "Engulf",
-        "desc": "When a frostveil wraps itself around a Medium or smaller creature, the target takes 14 (2d8 + 5) bludgeoning damage plus 13 (3d8) acid damage and is grappled (escape DC 15). The target takes another 9 (2d8) bludgeoning damage plus 13 (3d8) acid damage at the end of each of its turns while it's still grappled by the frostveil. A frostveil can't attack while it has a creature egulfed. Damage from attacks against the frostveil is split evenly between the frostveil and the engulfed creature; the only exceptions are slashing and psychic damage, which affect only the frostveil."
-      },
-      {
-        "name": "Spirit Spores (recharge 6)",
-        "desc": "In distress, frostveils release a puff of psychotropic spores in a 10-foot cloud around themselves. Creatures within the cloud of spores must succeed on a DC 13 Constitution saving throw against poison or suffer hallucinations, as per a confusion spell, for 1d3 rounds."
-      }
-    ]
-    "legendary_actions": ""
-  },
-  {
-    "license": [
-      "OPEN GAME LICENSE Version 1.0a",
-      "The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.",
-      "1. Definitions: (a)\"Contributors\" means the copyright and/or trademark owners who have contributed Open Game Content; (b)\"Derivative Material\" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) \"Distribute\" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)\"Open Game Content\" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) \"Product Identity\" means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) \"Trademark\" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) \"Use\", \"Used\" or \"Using\" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) \"You\" or \"Your\" means the licensee in terms of this agreement.",
-      "2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.",
-      "3.Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.",
-      "4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.",
-      "5.Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.",
-      "6.Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.",
-      "7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.",
-      "8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.",
-      "9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.",
-      "10 Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.",
-      "11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.",
-      "12 Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.",
-      "13 Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.",
-      "14 Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.",
-      "15 COPYRIGHT NOTICE Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc."
-    ]
-  }
-]
+[{
+  "name": "Empty Cloak",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "unaligned",
+  "armor_class": "13",
+  "hit_points": "45",
+  "hit_dice": "10d8",
+  "speed": "0ft., fly 40ft.",
+  "strength": "18",
+  "dexterity": "14",
+  "constitution": "10",
+  "intelligence": "10",
+  "wisdom": "10",
+  "charisma": "1",
+  "strength_save": "",
+  "dexterity_save": "4",
+  "constitution_save": "2",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "4",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "bludgeoning",
+  "damage_immunities": "poison",
+  "condition_immunities": "fire",
+  "senses": "darkvision 60ft, passive Perception 10",
+  "languages": "understands Elvish and Umbral but can't speak",
+  "challenge_rating": "1/2",
+  "special_abilities": [{
+    "name": "Diligent Sentinal",
+    "desc": "Empty cloaks are designed to watch for intruders. They gain advantage on Wisdom (Perception) checks.",
+    "attack bonus": 0
+  }, {
+    "name": "Shadow Construction",
+    "desc": "Empty cloaks are designed with a delicate shadow construction. They burst into pieces, then dissipate into shadow, on a critical hit.",
+    "attack bonus": 0
+  }, {
+    "name": "Wrapping Embrace",
+    "desc": "Empty cloaks can share the same space as one Medium or smaller creature. The empty cloak has advantage on attack rolls against any creature in the same space with it.",
+    "attack bonus": 0
+  }],
+  "actions": [{
+    "name": "Longsword",
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 8 (1d8 + 4) slashing damage",
+    "attack_bonus": 6,
+    "damage_dice": "1d8",
+    "damage_bonus": 4
+  }, {
+    "name": "Shadow Slam",
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 6 (1d4 + 4) bludgeoning damage",
+    "attack_bonus": 6,
+    "damage_dice": "1d4",
+    "damage_bonus": 4
+  }, {
+    "name": "Shadow Snare: Ranged Weapon Attack: +4 to hit, range 20/60 ft, one target. Hit: Large or smaller creatures are restrained. To escape, the restrained creature or adjacent ally must use an action to make a successful DC 14 Strength check. The shadow snare has 15 hit points and AC 12.",
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 8 (1d8 + 4) slashing damage",
+    "attack_bonus": 4
+  }]
+}, {
+  "name": "Eonic Drifer",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "human",
+  "alignment": "chaotic neutral",
+  "armor_class": "13",
+  "hit_points": "65",
+  "hit_dice": "10d8",
+  "speed": "30 ft.",
+  "strength": "9",
+  "dexterity": "14",
+  "constitution": "14",
+  "intelligence": "18",
+  "wisdom": "11",
+  "charisma": "13",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "6",
+  "athletics": "",
+  "deception": "",
+  "history": "6",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Common, Eonic, Giant, Sylvan",
+  "challenge_rating": "1",
+  "special_abilities": "",
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The eonic drifter can either use Drift Backward or make two attacks with its time warping staff. The eonic drifter's future self (if present) can only use drift forward.",
+    "attack_bonus": 0
+  }, {
+    "name": "Time Warping Staff",
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: +7 (1d10 + 2) bludgeoning damage.",
+    "attack_bonus": 7,
+    "damage_dice": "1d10",
+    "damage_bonus": 2
+  }, {
+    "name": "Drift Backward (1/Day)",
+    "desc": "A future self of the eonic drifter materializes in an unoccupied space within 30 feet of the drifter. The future self has the eonic drifter's stats and its full hit points, and it takes its turn immediately after its present self. Killing the original eonic drifter makes its future self disappear. If the present self sees its future self die, the eonic drifter must make a DC 13 Wisdom saving throw. There is n oeffect if the save succeeds. If the saving throw fails, roll 1d6 to determine the effect on the eonic drifter: 1 = frightened, 2 = incapacitated, 3 = paralyzed, 4 = unconscious, 5 or 6 = has disadvantage on attack rolls and ability checks. These effects last 1d4 rounds.",
+    "attack_bonus": 0
+  }, {
+    "name": "Drift Forward (2/Day)",
+    "desc": "The future self makes a time warping staff attack against a target. If the attack hits, instead of causing bludgeoning damage both the target and the attacker jump forward through time, effectively ceasing to exist in the present time. They reappear in the same location 1d4 rounds later, at the end of the present self's turn. Creatures occupying those locations at the moment are pushed 5 feet in a direction of their own choosing. The target of the drift (but not the future self) must then make a DC 13 Wisdom saving throw, with effects identical to those for the eonic drifter witnessing the death of its future self (see Drift Backward). The future self doesn't reappear after using this ability the second time; only the target of the drift reappears from the second use. This does not trigger a saving throw for the present self.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Erina Scrounger",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "erina",
+  "alignment": "neutral",
+  "armor_class": "12",
+  "hit_points": "22",
+  "hit_dice": "4d6",
+  "speed": "20ft, burrow 20 ft.",
+  "strength": "9",
+  "dexterity": "12",
+  "constitution": "14",
+  "intelligence": "13",
+  "wisdom": "10",
+  "charisma": "11",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60ft, passive Perception 10",
+  "languages": "Common, Erina",
+  "challenge_rating": "1/4",
+  "special_abilities": [{
+    "name": "Keen Smell",
+    "desc": "The erina has advantage on Wisdom (Perception) checks that rely on smell.",
+    "attack_bonus": 0
+  }, {
+    "name": "Hardy",
+    "desc": "The erina has advantage on saving throws against poison",
+    "attack_bonus": 0
+  }, {
+    "name": "Spines",
+    "desc": "An enemy who hits the erina with a melee attack while within 5 feet of it takes 2 (1d4) piercing damage.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Dagger",
+    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft, one target. Hit: 4 (1d4 + 2) slashing damage",
+    "attack_bonus": 3,
+    "damage_dice": "1d4",
+    "damage_bonus": 2
+  }, {
+    "name": "Sling",
+    "desc": "Ranged Weapon Attack: +3 to hit, range 30/120ft, one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+    "attack_bonus": 3,
+    "damage_dice": "1d4",
+    "damage_bonus": 2
+  }]
+}, {
+  "name": "Erina Defender",
+  "size": "Small",
+  "type": "humanoid",
+  "subtype": "erina",
+  "alignment": "neutral",
+  "armor_class": "15",
+  "hit_points": "44",
+  "hit_dice": "8d6",
+  "speed": "20ft, burrow 20ft.",
+  "strength": "11",
+  "dexterity": "14",
+  "constitution": "14",
+  "intelligence": "13",
+  "wisdom": "12",
+  "charisma": "11",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "4",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "3",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60ft, passive Perception 13",
+  "languages": "Common, Erina",
+  "challenge_rating": "1",
+  "special_abilities": [{
+    "name": "Keen Smell",
+    "desc": "The erina has advantage on Wisdom (Perception) checks that rely on smell.",
+    "attack_bonus": 0
+  }, {
+    "name": "Hardy",
+    "desc": "The erina has advantage on saving throws against poison",
+    "attack_bonus": 0
+  }, {
+    "name": "Spines",
+    "desc": "An enemy who hits the erina with a melee attack while within 5 feet of it takes 2 (1d4) piercing damage.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The erina defender makes two attacks",
+    "attack_bonus": 0
+  }, {
+    "name": "Shortsword",
+    "desc": "Melee Weapon Attack, +4 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 2) piercing damage",
+    "attack_bonus": 4,
+    "damage_dice": "1d6",
+    "damage_bonus": 2
+  }, {
+    "name": "Shortbow",
+    "desc": "Ranged Weapon Attack: +4 to hit, range 80/320ft, one target. Hit: 5 (1d6 + 2) piercing damage",
+    "attack_bonus": 4,
+    "damage_dice": "1d6",
+    "damage_bonus": 2
+  }],
+  "reactions": [{
+    "name": "Protect",
+    "desc": "The erina imposes disadvantage on an attack roll made against an ally within 5 feet of the erina defender",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Far Darrig",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "neutral",
+  "armor_class": "14",
+  "hit_points": "104",
+  "hit_dice": "16d6",
+  "speed": "20 ft.",
+  "strength": "15",
+  "dexterity": "16",
+  "constitution": "17",
+  "intelligence": "11",
+  "wisdom": "15",
+  "charisma": "17",
+  "strength_save": "",
+  "dexterity_save": "5",
+  "constitution_save": "7",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "7",
+  "acrobatics": "",
+  "animal_handling": "6",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "6",
+  "nature": "4",
+  "perception": "6",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "6",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60ft, passive Perception 16",
+  "languages": "Common, Elvish, Sylvan",
+  "challenge_rating": "3",
+  "special_abilities": [{
+    "name": "Innate Spellcasting",
+    "desc": "The far darrig's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components.<br/><br/>Constant: magic weapon (antler glaive only), speak with animals<br/>At will: calm emotions, charm animal (as charm person but affects beasts only), cure wounds, detect poison and disease, water breathing, water walk<br/>3/day: barkskin, conjure woodland beings, hold animal (as hold person but affects beasts only), jump, longstrider<br/>1/day: commune with nature, freedom of movement, nondetection, tree stride",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The far darrig makes four antler glaive attacks.",
+    "attack_bonus": 0
+  }, {
+    "name": "Antler Glaive",
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5t, or 10ft, one target, Hit: 7 (1d10 +2) slashing damage and the target must make a successful DC 13 Strength saving throw or either be disarmed or fall prone; the attacking far darrig chooses which effect occurs",
+    "attack_bonus": 2,
+    "damage_dice": "1d10",
+    "damage_bonus": 2
+  }, {
+    "name": "Enchanted Glaive Maneuvers",
+    "desc": "A far darrig can magically extend or shrink its antler glaive as a bonus action to give it either a 10-foot or 5-foot reach",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Fate Eather",
+  "size": "Medium",
+  "type": "aberration",
+  "subtype": "",
+  "alignment": "neutral",
+  "armor_class": 16,
+  "hit_points": 182,
+  "hit_dice": "28d8",
+  "speed": "40 ft, climb 40 ft.",
+  "strength": "18",
+  "dexterity": "12",
+  "constitution": "14",
+  "intelligence": "18",
+  "wisdom": "16",
+  "charisma": "9",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "5",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "7",
+  "athletics": "",
+  "deception": "",
+  "history": "7",
+  "insight": "6",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "7",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, sleep",
+  "senses": "truesight 60 ft, passive Perception 13",
+  "languages": "telepathy 100 ft.",
+  "challenge_rating": "6",
+  "special_abilities": [{
+    "name": "Innate Spellcasting",
+    "desc": "The fate eater's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no material components:<br />1/day each: blink, hallucinatory terrain",
+    "attack_bonus": 0
+  }, {
+    "name": "Visionary Flesh",
+    "desc": "Eating the flesh of a fate eater requires a DC 15 Constitution saving throw. If successful, the eater gains a divination spell. If failed, the victim vomits blood and fails the next saving throw made in combat.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +7 to hit, reach 5ft, one target. Hit: 26 (5d8 + 4) slashing damage plus 11 (2d10) necrotic damage.",
+    "attack_bonus": 7,
+    "damage_dice": "5d8 + 2d10",
+    "damage_bonus": 4
+  }, {
+    "name": "Spectral Bite",
+    "desc": "When a fate eater scores a critical hit against a target, it damages not only the creature but also the threads of its fate, changing the character's past or future. The target must roll 1d6 on the chart below for each critical hit that isn't negated by a successful DC 15 Charisma saving throw.<br /><br />1 Seeing the Alternatives - Suffers the effects of the confusion spell for 1d4 rounds<br />2 Untied from the Loom - Character's speed is randomized for four rounds. Roll 3d20 at the start of each of the character's turns to determine his or her speed in feet that turn <br /> 3 Shifting Memories - Permanently loses 2 from a random skill and gains 2 in a random untrained skill <br /> 4 Not So Fast - Loses the use of one class ability, chosen at random <br /> 5 Lost Potential - Loses 1 point from one randomly chosed ability score <br /> 6 Took the Lesser Path - The character's current hit point total becomes his or her hit point maximum</br> Effect 3-6 are permanent until the character makes a successful Charisma saving throw. The saving throw is repeated after every long rest, but the DC increases by 1 after every long rest, as the character becomes more entrenched in this new destiny. Otherwise, these new fates can be undone by nothing short of a wish spell or comparable magic.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Fear Smith",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "chaotic neutral",
+  "armor_class": "17",
+  "hit_points": "123",
+  "hit_dice": "19d8",
+  "speed": "40 ft, climb 15 ft.",
+  "strength": "11",
+  "dexterity": "17",
+  "constitution": "14",
+  "intelligence": "11",
+  "wisdom": "15",
+  "charisma": "18",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "6",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "6",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "7",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
+  "damage_immunities": "charmed, frightened",
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft, passive Perception 12",
+  "languages": "Common, Elvish, Sylvan",
+  "challenge_rating": 10,
+  "special_abilities": [{
+    "name": "Distortion Gaze",
+    "desc": "Those who meet the gaze of the fear smith experience the world seeming to twist at unnatural angles beneath their feet. When a creature that can see the fear smith's eye starts its turn within 30 feet of the fear smith, the creature must make a successful DC 16 Wisdom saving throw or become disoriented. While disoriented, the creature falls prone each time it tries to move or take the Dash or Disengage action. To recover from disorientation, a creature must start its turn outside the fear smith's gaze and make a successful DC 16 Wisdom saving throw.<br /> To use this ability, the fear smith can't be incapacitated and must see the affected creature. A creature that isn't surprised can avert its eyes at the start of its turn to avoid the effect. In that case, no saving throw is necessary but the creature treats the fear smith as invisible until the start of the creature's next turn. If during its turn the creature chooses to look at the fear smith, it must immediately make the saving throw.",
+    "attack_bonus": 0
+  }, {
+    "name": "Hidden Eye",
+    "desc": "The fear smith has advantage on saving throws against the blinded condition",
+    "attack_bonus": 0
+  }, {
+    "name": "Innate Spellcasting",
+    "desc": "The fear smith's innate spellcasting ability is Charisma (spell save DC 16). The fear smith can innately cast the following spells, requiring no verbal or material components:<br />At will: detect thoughts, fear<br />2/day each: charm person, command, confusion",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Resistance",
+    "desc": "The fear smith has advantage on saving throws against spells and other magical effects.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The fear smith makes three claw attacks.",
+    "attack_bonus": 0
+  }, {
+    "name": "Claw",
+    "desc": "Melee Weapon Attack: +7 to hit, reach 5ft, 1 creature. Hit: 16 (2d12 + 3) slashing damage. If the target is disoriented by Distorion Gaze, this attack does an addition 13 (3d8) psychic damage and heals the fear smith by an equal amount.",
+    "attack_bonus": 0
+  }, {
+    "name": "Heartstopping Stare",
+    "desc": "The fear smith terrifies a creature within 30 feet with a look. The target must succeed on a DC 16 Wisdom saving throw or be stunned for 1 round and take 13 (3d8) psychic damage and heal the fear smith by an equal amount.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Fellforged",
+  "size": "Medium",
+  "type": "construct",
+  "subtype": "(undead)",
+  "alignment": "lawful evil",
+  "armor_class": 15,
+  "hit_points": 135,
+  "hit_dice": "18d8",
+  "speed": "30 ft.",
+  "strength": "14",
+  "dexterity": "12",
+  "constitution": "17",
+  "intelligence": "12",
+  "wisdom": "14",
+  "charisma": "15",
+  "strength_save": "8",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "acid, cold, fire, lightning",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft, passive Perception 12",
+  "languages": "any languages it knew in life",
+  "challenge_rating": 5,
+  "special_abilities": [{
+    "name": "Expelled Spirit",
+    "desc": "While the body the fellforged inhabits was made to bind spirits, the foul presence of the wraith within is vulnerable to turning attempts. Any successful turn attempt exorcises the wraith from its clockwork frame, but has no other effect. The expelled wraith retains its current hp total.",
+    "attack_bonus": 0
+  }, {
+    "name": "Sunlight Sensitivity",
+    "desc": "While in sunlight, the fellforged has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+    "attack_bonus": 0
+  }, {
+    "name": "Unnatural Aura",
+    "desc": "All animals, whether wild or domesticated, can sense the unnatural presence of fellforged at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so, and they remain panicked as long as they are within that range.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The fellforged makes two necrotic slam attacks.",
+    "attack_bonus": 0
+  }, {
+    "name": "Necrotic Slam",
+    "desc": "Melee Weapon Attack. +5 to hit, reach 5 ft, one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the total damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+    "attack_bonus": 0
+  }, {
+    "name": "Violent Escapement",
+    "desc": "With little regard for the clockwork bodies they inhabit, fellforged wraiths can stress and strain their mechanisms in such a violent manner that flywheels become unbalanced, gears shatter, and springs snap. As a bonus action, this violent burst of gears and pulleys deal 7 (2d6) piercing damage to all foes within 5 feet who fail a DC 14 Dexterity saving throw. Each use of this ability imposes a cumulative reduction in movement of 5 feet upon the fellforged. If its speed is reduced to 0 feet, the fellforged become paralyzed.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Fext",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "any alignment",
+  "armor_class": "17",
+  "hit_points": "60",
+  "hit_dice": "11d8 + 11",
+  "speed": "30 t.",
+  "strength": "14",
+  "dexterity": "16",
+  "constitution": "12",
+  "intelligence": "14",
+  "wisdom": "12",
+  "charisma": "18",
+  "strength_save": "",
+  "dexterity_save": "6",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "4",
+  "charisma_save": "7",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "4",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "bludgeoning, piercing, and slashing damage with nonmagical weapons",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft, passive Perception 14",
+  "languages": "the languages spoken by its patron",
+  "challenge_rating": 6,
+  "special_abilities": [{
+    "name": "Innate Spellcasting",
+    "desc": "The fext's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components.<br /><br /> At will: hex <br /> 1/day each: hold monster, true seeing",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Resistance",
+    "desc": "The fext has advantage on saving throws against spells and other magical effects.",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Weapon",
+    "desc": "The fext's weapon attacks are magical",
+    "attack_bonus": 0
+  }, {
+    "name": "Patron Blessing",
+    "desc": "The fext is infused with a portion of their patrons power. They have an Armor Class equal to 10 + their Charisma modifier + their Dexterity modifier.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The fext makes two melee or ranged attacks",
+    "attack_bonus": 0
+  }, {
+    "name": "Eldritch Blade",
+    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 9 (2d6+2) slashing damage plus 16 (3d10) force damage.",
+    "attack_bonus": 5,
+    "damage_dice": "2d6 + 3d10",
+    "damage_bonus": 2
+  }, {
+    "name": "Eldritch Fury",
+    "desc": "Ranged Weapon Attack: +6 to hit, range 60/200 ft, one creature. Hit: 25 (4d10 + 3) force damage.",
+    "attack_bonus": 6,
+    "damage_dice": "4d10",
+    "damage_bonus": 3
+  }]
+}, {
+  "name": "Bear King",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "shapechanger",
+  "alignment": "lawful neutral",
+  "armor_class": "18",
+  "hit_points": "133",
+  "hit_dice": "14d8",
+  "speed": "40 ft.",
+  "strength": "21",
+  "dexterity": "10",
+  "constitution": "20",
+  "intelligence": "12",
+  "wisdom": "17",
+  "charisma": "16",
+  "strength_save": "9",
+  "dexterity_save": "4",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "7",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "9",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "7",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "7",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "cold",
+  "damage_immunities": "poison; bludgeoning, slashing, and piercing from nonmagical weapons that aren't made of cold iron",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft. passive Perception +7",
+  "languages": "Common, Elvish, Giant, Sylvan",
+  "challenge_rating": 12,
+  "special_abilities": [{
+    "name": "Alternate Form",
+    "desc": "As a bonus action, the Bear King canassume the form of a shaggy grizzly bear, or a hybrid of his humanoid and bear forms. In alternate form the Bear King's size increases to Large, and he can make bite and claw attacks. He remains in this form until he returns to human form as a bonus action or he falls unconscious or dies.",
+    "attack_bonus": 0
+  }, {
+    "name": "Keen Smell",
+    "desc": "The Bear King has advantage on Perception (Wisdom) checks that rely on smell.",
+    "attack_bonus": 0
+  }, {
+    "name": "Legendary Resistance (3/day)",
+    "desc": "If the Bear King fails a saving throw, he can choose to succeed instead.",
+    "attack_bonus": 0
+  }, {
+    "name": "Regeneration (Alternate Form only)",
+    "desc": "The Bear King regains 10 hit points at the start of his turn if he has at least 1 hit point.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The bear king makes two ranged attacks or two melee attacks. In hybrid or grizzly bear form he can also make one additional bite attack.",
+    "attack_bonus": 0
+  }, {
+    "name": "Bite (Grizzly or Hybrid Form Only)",
+    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 10 (1d10 + 5) piercing damage. A target creature other than a construct or undead must make a successful DC 17 Constitution saving throw at the start of each of its turns or lose 10 (3d6) hit points from blood loss. Each time the Bear King hits the wounded creature with this attack, the hit point loss increases by 10 (3d6). A creature can take an action to staunch the bleeding on itself or an adjacent ally with a successful DC 12 Wisdom (Medicine) check. The bleeding also stops if the creature recieves any magical healing.",
+    "attack_bonus": 9,
+    "damage_dice": "1d10",
+    "damage_bonus": 5
+  }, {
+    "name": "Claws (Grizzly or Hybrid Form Only)",
+    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) slashing damage.",
+    "attack_bonus": 9,
+    "damage_dice": "2d6",
+    "damage_bonus": 5
+  }, {
+    "name": "Maul (Human or Hybrid Form Only)",
+    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) bludgeoning damage. A creature hit by two maul attacks in the same turn must succeed on a DC 17 Strength saving throw or fall prone.",
+    "attack_bonus": 9,
+    "damage_dice": "2d6",
+    "damage_bonus": 5
+  }, {
+    "name": "Javelin (Human Form Only)",
+    "desc": "Ranged Weapon Attack: +9 to hit, range 30/60 ft, one target. Hit: 8 (1d6 + 5) piercing damage.",
+    "attack_bonus": 9,
+    "damage_dice": "1d6",
+    "damage_bonus": 5
+  }],
+  "legendary_actions": [{
+    "name": "Melee Attack",
+    "desc": "The Bear King makes a claw or maul attack.",
+    "attack_bonus": 0
+  }, {
+    "name": "Honey Toss",
+    "desc": "The Bear King reaches into the jar he carries at his side and hurls a glob of honey at a target within 30 feet as a ranged weapon attack (+9 to hit). If the attack hits, the creature is restrained (escape DC 17).",
+    "attack_bonus": 0
+  }, {
+    "name": "Frightful Roar (2 actions)",
+    "desc": "The Bear King lets out a blood-curdling roar. All creatures within 90 feet who can hear the Bear King must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature that makes its save, or who the effect ends for, is immune to the Frightful Roar for 24 hours. The bear king's allies are unaffected.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Lord of the Hunt",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "lawful neutral",
+  "armor_class": "18",
+  "hit_points": "229",
+  "hit_dice": "27d8",
+  "speed": "40 ft.",
+  "strength": "21",
+  "dexterity": "18",
+  "constitution": "19",
+  "intelligence": "14",
+  "wisdom": "18",
+  "charisma": "15",
+  "strength_save": "11",
+  "dexterity_save": "",
+  "constitution_save": "10",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "8",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "11",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "10",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "10",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
+  "damage_immunities": "cold, poison",
+  "condition_immunities": "exhaustion, charmed, frightened, poisoned",
+  "senses": "blindsight 10ft, darkvision 60 ft, passive Perception 20",
+  "languages": "Common, Draconic, Elvish, Sylvan",
+  "challenge_rating": 18,
+  "special_abilities": [{
+    "name": "Expert Rider",
+    "desc": "While the Lord of the Hunt is mounted, any attack directed at his steed targets the rider instead. The steed uses the Lord of the Hunt's saving throws. If the mount succeeds on a saving throw against a damaging effect, it takes no damage.",
+    "attack_bonus": 0
+  }, {
+    "name": "Innate Spellcasting",
+    "desc": "The lord of the hunt's innate spellcasting ability score is Charisma (save DC 16). The Lord of the Hunt can innately cast the following spells, requiring no material components.<br /><br />At will:druidcraft, hunter's mark, phantom steed<br />3/day each: commune with nature, conjure volley.<br />1/day: conjure fey (conjured creatures vanish if the Lord of the Hunt's concentration is broken)",
+    "attack_bonus": 0
+  }, {
+    "name": "Legendary Resistance (3/day)",
+    "desc": "If the Lord of the Hunt fails a saving throw, he can choose to succeed instead.",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Weapons",
+    "desc": "The Lord of the Hunt's weapon attacks are magical.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The Lord of the Hunt makes three melee attacks or three ranged attacks.",
+    "attack_bonus": 0
+  }, {
+    "name": "Huntsman's Spear",
+    "desc": "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft. or range 60/120 ft, one target. Hit: 12 (2d6 + 5) piercing damage or 14 (2d8 + 5) piercing damage if used in two hands, plus 7 (2d6) poison damage. If the target is acreature, it must succeed on a DC 19 Strength saving throw or be knocked prone. As a bonus action, the Lord of the Hunt can cause his spear to magically appear in his hand, even if it is destroyed.",
+    "attack_bonus": 11,
+    "damage_dice": "(2d6 or 2d8) + 2d6",
+    "damage_bonus": 5
+  }, {
+    "name": "Howling Longbow",
+    "desc": "Ranged Weapon Attack: +10 to hit, range 150/600 ft, one target. Hit: 13 (2d8 + 4) piercing damage damage plus 7 (2d6) poison damage.",
+    "attack_bonus": 10,
+    "damage_dice": "2d8 + 2d6",
+    "damage_bonus": 4
+  }],
+  "reactions": [{
+    "name": "Parry",
+    "desc": "The Lord of the Hunt adds 3 to his AC against one attack that would hit him. To do so, he must see the attackerand must be weilding a melee weapon.",
+    "attack_bonus": 0
+  }],
+  "legendary_actions": [{
+    "name": "Strike",
+    "desc": "The Lord of the Hunt makes a huntsman's spear attack or a howling longbow.",
+    "attack_bonus": 0
+  }, {
+    "name": "Tenacious Strike",
+    "desc": "The Lord of the Hunt moves half his speed, or half the speed of any steed he rides.",
+    "attack_bonus": 0
+  }, {
+    "name": "Call the Hunt (2 actions)",
+    "desc": "The Lord of the Hunt blows his hunting horn and chooses one creature he can see within 60 feet. If the creature can hear the horn, it must succeed on a DC 16 Charisma saving throw against this magic or be charmed by the Lord of the Hunt for 8 hours. A charmed creature joins the wild hunt, and follows the verbal instructions of the Lord of the Hunt, treating all former allies as enemies. If a charmed creature damages or is damaged by a former ally, it can repeat the saving throw at the end of its turn, ending the effect on itself on a success. Once a creature successfully saves or the effect ends for it, it is immune to Call of the Hunt for the next 24 hours.",
+    "attack": 0
+  }]
+}, {
+  "name": "Moonlit King",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "neutral good",
+  "armor_class": "17",
+  "hit_points": "170",
+  "hit_dice": "20d8",
+  "speed": "50 ft.",
+  "strength": "16",
+  "dexterity": "20",
+  "constitution": "18",
+  "intelligence": "20",
+  "wisdom": "18",
+  "charisma": "20",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "10",
+  "intelligence_save": "",
+  "wisdom_save": "10",
+  "charisma_save": "11",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "11",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "10",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "acid; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron.",
+  "damage_immunities": "cold, fire, poison",
+  "condition_immunities": "charmed, frightened, poisoned",
+  "senses": "blightsight 30 ft, darkvision 120 ft, passive Perception 20",
+  "languages": "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Umbral; telepathy 100 ft.",
+  "challenge_rating": "17",
+  "special_abilities": [{
+    "name": "Control Moonlight",
+    "desc": "As a bonus action, the Moonlit King can cause all areas of moonlight within 100 feet to move up to 10 feet.",
+    "attack_bonus": 0
+  }, {
+    "name": "Innate Spellcasting",
+    "desc": "The Moonlit King's innate spellcasting ability score is Charisma (save DC19, +11 to hit with spell attacks). The Moonlit King can innately cast the following spells, requiring no material components.<br /><br />At will: continual flame, detect evil and good, invisibility (self only), moonbeam, zone of truth<br />3/day each: blight, dispel evil and good, dispel<br />1/day each: demiplane, heal",
+    "attack_bonus": 0
+  }, {
+    "name": "Legendary Resistance (3/day)",
+    "desc": "It the Moonlit King fails a saving throw, he can choose to succeed instead.",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Weapons",
+    "desc": "The Moonlit King's weapon attacks are magical, and deal an extra 7 (2d6) radiant damage (included below).",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The Moonlit King makes three attacks with either his crystal staff or his moon bolt.",
+    "attack_bonus": 0
+  }, {
+    "name": "Crystal Staff",
+    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) radiant damage. A target that is struck by the staff two or more times in one turn must make a successful DC 17 Constitution saving throw or be stunned until the end of its next turn.",
+    "attack_bonus": 9,
+    "damage_dice": "1d8 + 2d6",
+    "damage_bonus": 3
+  }, {
+    "name": "Moon Bolt",
+    "desc": "Ranged Spell Attack: +11 to hit, range 150/600 ft, one target. Hit: 22 (4d10) radiant damage. If the target is a creature in a form other than its natural form, it takes an additional 22 (4d10) radiant damage and must succeed on a DC 19 Charisma saving throw or revert to its natural form. When the moon bolt hits a target, moonlight glows in a 10-feet radius from that point, creating dim light. The light is stationary and lasts until the end of the Moonlit King's next turn.",
+    "attack_bonus": 0,
+    "damage_dice": "4d10 + 4d10",
+    "damage_bonus": 0
+  }, {
+    "name": "Fearful Shadows (Recharge 5-6)",
+    "desc": "The Moonlit King magically animates the shadows of all foes within 60 feet of himself. The animated shadows attack the creatures who cast them. All affected creaetures in the area take 35 (10d6) necrotic damage, or half damage with a successfull DC 19 Dexterity saving throw. A creature that fails the saving throw also loses 1d4 points from its Strength score. A creature reduced to 0 Strength is unconscious until it regains at least 1 point of Strength. Strength lost to fearful shadows returns when the creature finishes a short or long rest.",
+    "attack_bonus": 0
+  }, {
+    "name": "Summon Devil (1/Day)",
+    "desc": "The Moonlit King magically summons a lunar devil. The summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 10 minutes, until its summoner dies, or until its summoner dismisses it as an action.",
+    "attack_bonus": 0
+  }],
+  "reaction": [{
+    "name": "Shadow Slip",
+    "desc": "The Moonlit King takes on the quality of his manifest delusions when he is targeted by an attacker he can see. He becomes nearly insubstantial, so that the attack roll is made with disadvantage. If the attack hits, the Moonlit King takes half damage.",
+    "attack_bonus": 0
+  }],
+  "legendary_actions": [{
+    "name": "Staff",
+    "desc": "The Moonlit King makes a crystal staff attack.",
+    "attack_bonus": 0
+  }, {
+    "name": "Lightwalking",
+    "desc": "The Moonlight King teleports from one area of moonlight to another within 100 feet.",
+    "attack_bonus": 0
+  }, {
+    "name": "Aura of Madness (2 actions)",
+    "desc": "While he is standing in an area of moonlight, the Moonlit King can spread his madness to other creatures within 30 feet. A creature other than a fiend that starts its turn in the aura or enters it for the first time on a turn (including when the aura is created) must succeed on a DC 19 Charisma saving throw or be confused (as if affected by the confusion spell) until the start of its next turn. The aura lasts until the start of the Moonlit King's next turn.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Queen of Night and Magic",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "armor_class": "15 (18 with mage armor)",
+  "hit_points": "180",
+  "hit_dice": "24d8",
+  "speed": "30 ft, fly 60ft",
+  "strength": "12",
+  "dexterity": "20",
+  "constitution": "17",
+  "intelligence": "20",
+  "wisdom": "18",
+  "charisma": "26",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "10",
+  "intelligence_save": "",
+  "wisdom_save": "11",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "12",
+  "athletics": "",
+  "deception": "15",
+  "history": "",
+  "insight": "",
+  "intimidation": "15",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "11",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "12",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "fire, lightning",
+  "damage_immunities": "cold; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
+  "condition_immunities": "charmed, frightened",
+  "senses": "truesight 120ft, passive Perception 21",
+  "languages": "Celestial, Common, Elvish, Sylvan, Umbral; telepathy 120 ft.",
+  "challenge_rating": "21",
+  "special_abilities": [{
+    "name": "Legendary Resistance (3/day)",
+    "desc": "If the Queen of Night and Magic fails a saving throw, she can choose to succeed instead.",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Resistance",
+    "desc": "The Queen of Night and Magic has advantage on saving throws against spells.",
+    "attack_bonus": 0
+  }, {
+    "name": "Shadowborn",
+    "desc": "When in lighting other than bright light, the Queen of Night and Magic has advantage on Dexterity (Stealth) checks made to hide, and she can hide even while being observed.",
+    "attack_bonus": 0
+  }, {
+    "name": "Spellcasting",
+    "desc": "The Queen of Night and Magic is an 18th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). The Queen knows the following sorcerer spells: <br /><br />Cantrips (at will): blade ward, chill touch, dancing lights, mage hand, prestidigitation, ray of frost<br />1st level (4 slots): mage armor, magic missile, shield<br /> 2nd level (3 slots): darkness, mirror image, shield<br /> 3rd level (3 slots): blink, fear<br /> 4th level (3 slots): confusion, greater invisibility<br /> 5th level (3 slots): cone of cold, teleportation circle <br /> 6th level (1 slot): circle of death <br /> 7th level (1 slot): plane shift, prismatic spray <br /> 8th level (1 slot): dominate monster <br /> 9th level (1 slot): meteor swarm",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The Queen of Night and Magic makes three attacks with her rapier or with star strike.",
+    "attack_bonus": 0
+  }, {
+    "name": "Rapier",
+    "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft, one target. Hit: 9 (1d8 + 5) piercing damage plus 10 (3d6) cold damage.",
+    "attack_bonus": 12,
+    "damage_dice": "1d8 + 3d6",
+    "damage_bonus": "5"
+  }, {
+    "name": "Shadow Rift (Recharge 5-6)",
+    "desc": "The Queen of Night and Magic creaets a shadowy rift in a 20-foot sphere. Any creature within the rift takes 72 (16d8) cold damage, or half damage with a successful DC 23 Constitution saving throw. Creatures that fail the saving throw are also restrained by icy wisps of shadow. A restrained creature repeats the saving throw at the end of its turn, ending the restrained condition on a success.",
+    "attack_bonus": 0
+  }, {
+    "name": "Star Strike",
+    "desc": "Ranged Spell Attack: +15 to hit, range 120 ft, one target. Hit: 9 (2d8) fire damage plus 9 (2d8) radiant damage.",
+    "attack_bonus": 15,
+    "damage_dice": "2d8 + 2d8",
+    "damage_bonus": 0
+  }, {
+    "name": "Teleport",
+    "desc": "The Queen of Night and Magic teleports to an unoccupied space up to 60 feet away.",
+    "attack_bonus": 0
+  }, {
+    "name": "Unravel",
+    "desc": "The Queen of Night and Magic targets a creature, object, or magical effect that she can see. For every spell affecting the target, the Queen makes a Charisma check: the DC equals 10 + the spell's level. On a success, the spell is dispelled.",
+    "attack_bonus": 0
+  }],
+  "reactions": [{
+    "name": "Sudden Fraying",
+    "desc": "When the Queen of Night and Magic is targeted by a spell or included in a spell's area, she can use her Unravel ability on it. The Queen does not need to see a spice to target it with this reaction, but she must be able to see at least some portion of an area or object affected by the spell.",
+    "attack_bonus": 0
+  }],
+  "legendary_actions": [{
+    "name": "Cantrip",
+    "desc": "The Queen of Night and Magic makes one star strike attack. Having a foe within 5 feet of the Queen doesn't cause this attack to be made with disadvantage.",
+    "attack_bonus": 0
+  }, {
+    "name": "Swirling Stars",
+    "desc": "The Queen of Night and Magic makes one star strike attack. Having a foe within 5 feet of the Queen doesn't cause this attack to be made with disadvantage.",
+    "attack_bonus": 0
+  }, {
+    "name": "Teleport",
+    "desc": "The Queen of Night and Magic uses her Teleport ability.",
+    "attack_bonus": 0
+  }, {
+    "name": "Spell (2 actions)",
+    "desc": "The Queen of Night and Magic casts a spell.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Queen of Witches",
+  "size": "Large",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "neutral",
+  "armor_class": "18",
+  "hit_points": "123",
+  "hit_dice": "13d10",
+  "speed": "40 ft, fly 50 ft. (hover)",
+  "strength": "22",
+  "dexterity": "10",
+  "constitution": "19",
+  "intelligence": "16",
+  "wisdom": "18",
+  "charisma": "22",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "6",
+  "intelligence_save": "",
+  "wisdom_save": "10",
+  "charisma_save": "12",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "9",
+  "athletics": "",
+  "deception": "12",
+  "history": "9",
+  "insight": "10",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "10",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "fire, cold; bludgeoning, piercing, and slashing damage from weapons that aren't cold iron",
+  "damage_immunities": "radiant",
+  "condition_immunities": "blinded, charmed, frightened",
+  "senses": "truesight 60 ft, passive Perception 19",
+  "languages": "Celestial, Common, Draconic, Elvish, Sylvan, Umbral",
+  "challenge_rating": 17,
+  "special_abilities": [{
+    "name": "Absorb the Weave",
+    "desc": "When Nicnevin counters or dispels a spell, she heals damage equal to twice the spell level.",
+    "attack_bonus": 0
+  }, {
+    "name": "Innate Spellcasting",
+    "desc": "Nicnevin's spellcasting attribute is Charisma (save DC 19, +12 to hit with spell attacks). She can innateley cast the following spells, requiring no material components. <br /><br /> At will: faerie fire, hex, misty step, silent image, tongues <br /> 1/day each: power word kill, sleep (9th level), true polymorph <br /> 2/day each: bestow curse, feeblemind, mass suggestion, flesh to stone <br /> 3/day each: chain lightning, counterspell, dispel magic, hypnotic pattern, teleportation circle",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Resistance",
+    "desc": "Nicnevin has advantage on saving throws against spells and other magical effects.",
+    "attack_bonus": 0
+  }, {
+    "name": "Legendary Resistance (3/day)",
+    "desc": "If Nicnevin fails a saving throw she can choose to succeed instead.",
+    "attack_bonus": 0
+  }, {
+    "name": "Token of Favor",
+    "desc": "As an action, Nicnevin can cut a lock of her copper hair and twist it into a token for a creature she chooses. As long as that creature carries the token, it gains the magic resistance trait (see above). Nicnevin can revoke her favor at any time as a bonus action. When that happens, the creature loses the benefit of the token and, if Nicnevin wishes, the creature also has disadvantage on saving throws against spells and other magical effects for 24 hours.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "Nicnevin makes two attacks, or makes one attack and casts a spell",
+    "attack_bonus": 0
+  }, {
+    "name": "Moonsilver Ring",
+    "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft, one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 10 (3d6) radiant damage. The moonsilver ring is a magical weapon.",
+    "attack_bonus": 12,
+    "damage_dice": "2d8 + 3d6",
+    "damage_bonus": 6
+  }, {
+    "name": "Blast",
+    "desc": "Ranged Spell Attack: +12 to hit, range 120 ft, one target. Hit: 11 (1d10 + 6) force damage. A creature hit by a blast must succeed on a DC 19 Strength saving throw or be pushed 10 feet directly away from Nicnevin.",
+    "attack_bonus": 12,
+    "damage_dice": "1d10",
+    "damage_bonus": "6"
+  }],
+  "legendary_actions": [{
+    "name": "Attack",
+    "desc": "Nicnevin makes one attack.",
+    "attack_bonus": 0
+  }, {
+    "name": "Spell (2 actions)",
+    "desc": "Nicnevin casts a spell.",
+    "attack_bonus": 0
+  }, {
+    "name": "Teleport",
+    "desc": "Nicnevin magically teleports to an unoccupied space she car see within 40 feet.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "River King",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "chaotic neutral",
+  "armor_class": "18",
+  "hit_points": "152",
+  "hit_dice": "16d8",
+  "speed": "30 ft, swim 40 ft.",
+  "strength": "21",
+  "dexterity": "17",
+  "constitution": "20",
+  "intelligence": "14",
+  "wisdom": "13",
+  "charisma": "17",
+  "strength_save": "",
+  "dexterity_save": "8",
+  "constitution_save": "10",
+  "intelligence_save": "",
+  "wisdom_save": "6",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "8",
+  "investigation": "",
+  "medicine": "",
+  "nature": "7",
+  "perception": "6",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "8",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "fire, cold, thunder; bludgeoning, piercing, and slashing damage from weapons that aren't cold iron",
+  "damage_immunities": "lightning",
+  "condition_immunities": "exhaustion",
+  "senses": "blindsight 10 ft, darkvision 60 ft, passive Perception 16",
+  "languages": "Common, Elemental, Elvish, Giant",
+  "challenge_rating": "16",
+  "special_abilities": [{
+    "name": "Amphibious",
+    "desc": "The River King can breathe air and water",
+    "attack_bonus": 0
+  }, {
+    "name": "Innate Spellcasting",
+    "desc": "The River King's innate spellcasting ability score is Charisma (save DC 16, +8 to hit with spell attacks). The River King can innately cast the following spells, requiring no material components.<br /><br /> At will: create or destroy water, shocking grasp, water breathing <br /> 3/day each: freedom of movement, control water <br /> 1/day each: chain lightning",
+    "attack_bonus": 0
+  }, {
+    "name": "Legendary Resistance (3/day)",
+    "desc": "If the River King fails a saving throw, he can choose to succeed instead.",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Weapons",
+    "desc": "The River King's weapon attacks are magical and do an extra 10 (3d6) lightning damage (included below).",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The River King makes three attacks with his longsword and/or flood blash, in any combination",
+    "attack_bonus": 0
+  }, {
+    "name": "Longsword",
+    "desc": "Melee Weapon Attack: + 10 to hit, reach 5 ft, one target. Hit: 9 (1d8 + 5) slaashing damage or 10 (1d10 + 5) slashing damage if used with two hands, plus 10 (3d6) lightning damage.",
+    "attack_bonus": 10,
+    "damage_dice": "(1d8 or 1d10) + 3d6",
+    "damage_bonus": 5
+  }, {
+    "name": "Flood Blash",
+    "desc": "Ranged Spell Attack: +8 to hit, range 120 ft, one target. Hit: 18 (4d8) bludgeoning damage. A target creature must succeed on a DC 16 Strength saving throw or be knocked prone and shifted up to 60 feet at the River King's choosing.",
+    "attack_bonus": 8,
+    "damage_dice": "4d8",
+    "damage_bonus": 0
+  }, {
+    "name": "Grasping Whirlpool (Recharge 5-6)",
+    "desc": "The River King magically creates a swirling vortex of water centered on a point he can see within 60 feet. The vortex fills a clinder with a 10-foot radius and 15 feet high. Creatures in the area must make a successful DC 16 Strength saving throw or take 11 (2d10) bludgeoning damage and be restrained and unable to breathe. On a successful save, the creature is pushed to the edge of the area. A restrained creature can escape from the whirlpool by using an action to make a successful DC 16 Strength check. A creature that's in the whirlpool at the end of its turn takes 11 (2d10) bludgeoning damage in addition to any effects from being unable to breathe. Creatures with a swim speed have advantage on the saving throw and the Strength check to escape. The whirlpool lasts for 1 minute or until the River King uses this ability again.",
+    "attack_bonus": 0
+  }],
+  "reactions": [{
+    "name": "Blade Current",
+    "desc": "When a creature within the River King's melee reach stands up from prone, the River King can make a longsword attack on that creature with advantage.",
+    "attack_bonus": 0
+  }],
+  "legendary_actions": [{
+    "name": "Longsword.",
+    "desc": "The River King makes a longsword attack",
+    "attack_bonus": 0
+  }, {
+    "name": "Flow",
+    "desc": "The River King moves half his speed without provoking opportunity attacks.",
+    "attack_bonus": 0
+  }, {
+    "name": "Ripple (2 Actions)",
+    "desc": "The River King magically ripples like sunlight on the surface of the water. Until the start of his next turn, all attacks against him have disadvantage.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Snow Queen",
+  "size": "Medium",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "armor_class": "17",
+  "hit_points": "123",
+  "hit_dice": "19d8",
+  "speed": "40 ft.",
+  "strength": "16",
+  "dexterity": "18",
+  "constitution": "14",
+  "intelligence": "18",
+  "wisdom": "20",
+  "charisma": "18",
+  "strength_save": "",
+  "dexterity_save": "9",
+  "constitution_save": "7",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "9",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "10",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "9",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't cold iron",
+  "damage_immunities": "cold",
+  "condition_immunities": "charmed, frightened, exhaustion",
+  "senses": "blindsight 10 ft, darkvision 60 ft, passive Perception 20",
+  "languages": "Common, Elvish, Giant, Sylvan",
+  "challenge_rating": "16",
+  "special_abilities": [{
+    "name": "Innate Spellcasting",
+    "desc": "The Snow Queen's innate spellcasting ability score is Charisma (save DC 17, +9 to hit with spell attacks). The Snow Queen can innately cast the following spells, requiring no material components.<br /><br /> At will: fog cloug, magic missile, ray of frost<br /> 3/day each: chill metal (as heat metal, but does cold damage), freezing sphere, <br /> 1/day: cone of cold",
+    "attack_bonus": 0
+  }, {
+    "name": "Legendary Resistance (3/day)",
+    "desc": "If the Snow Queen fails a saving trow, she can choose to succeed instead.",
+    "attack_bonus": 0
+  }, {
+    "name": "Magic Weapons",
+    "desc": "The Snow Queen's weapon attacks are magical and doan extra 7 (2d6) cold damage (included below)",
+    "attack_bonus": 0
+  }, {
+    "name": "Winter Step",
+    "desc": "The Snow Queen ignores difficult terrain caused by ice and snow. She can walk on vertical and horizontal surfaces that are covered by ice or snow.",
+    "attack_bonus": 0
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The Snow Queen makes two attacks in any combination of her claws and her ice crown.",
+    "attack_bonus": 0
+  }, {
+    "name": "Claws",
+    "desc": "Melee Weapon Attack: +9 to hit,reach 5 ft, one target. Hit: 11 (2d6 + 4) slashing damage plus 7 (2d6) cold damage",
+    "attack_bonus": 9,
+    "damage_dice": "2d6 + 2d6",
+    "damage_bonus": 4
+  }, {
+    "name": "Ice Crown",
+    "desc": "Ranged Weapon Attack: +9 to hit, range 80/320ft, one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) cold damage. The target's speed is reduced by 10 feet until the end of its next turn.",
+    "attack_bonus": 0
+  }, {
+    "name": "Cold Snap (Recharge 5-6)",
+    "desc": "The Snow Queen causes the temperature around her to drop dramatically. Every creature within 30 feet of the Snow Queen must make a successful DC 17 Constitution saving throw or gain 1 level of exhaustion. Immunity to cold grants immunity to Cold Snap.",
+    "attack_bonus": 0
+  }],
+  "reactions": [{
+    "name": "Frozen Shards",
+    "desc": "When the Snow Queen is hit by a melee attack, she canstrike her attacker with shards from her icy crown.The attacker takes 11 (2d10) piercingdamage and 11 (2d10) cold damage, or no damage with asuccessful DC 17 Dexterity saving throw.",
+    "attack_bonus": 0
+  }],
+  "legendary_actions": [{
+    "name": "Ice Crown",
+    "desc": "The Snow Queen makes an ice crown attack.",
+    "attack_bonus": 0
+  }, {
+    "name": "Snowblind",
+    "desc": "One target that the Snow Queen can see within 100 feet must succeed on a DC 17 Constitution saving throw or be blinded by swirling snow until the end of its next.",
+    "attack_bonus": 0
+  }, {
+    "name": "Snowfall Mantle (2 Actions)",
+    "desc": "The Snow Queen throws her mantle of snow at a point she can see within 60 feet. An area within 30 feet of that point instantly becomes covered in deep snow. Creatures in the area must succeed on a DC 17 Strength saving throw or be restrained. The area becomes difficult terrain, costing 2 feet of movement for every 1 foot moved. The difficult terrain lasts until the end of the Snow Queen's next turn, at which time her mantle returns to her shoulders.",
+    "attack_bonus": 0
+  }]
+}, {
+  "name": "Feyward",
+  "size": "Huge",
+  "type": "construct",
+  "subtype": "",
+  "alignment": "unaligned",
+  "armor_class": "17 (natural armor)",
+  "hit_points": "94",
+  "hit_dice": "9d12",
+  "speed": "20 ft.",
+  "strength": "26",
+  "dexterity": "10",
+  "constitution": "18",
+  "intelligence": "2",
+  "wisdom": "11",
+  "charisma": "6",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "7",
+  "intelligence_save": "",
+  "wisdom_save": "3",
+  "charisma_save": "1",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "3",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft, passive Perception 13",
+  "languages": "",
+  "challenge_rating": "8",
+  "special_abilities": [{
+    "name": "Magic Resistance",
+    "desc": "A feyward tree has advantage on saving throws aganist spells and other magical effects."
+  }, {
+    "name": "Contractibility and Conductivity",
+    "desc": "Certain spells and effects function differently against feyward trees: <br /><br />• A magical attack that deals cold damage slows a feyward tree (as the slow spell) for 3 rounds.<br />• A magical attack that deals lightning damage breaks any slow effect on the feyward tree and heals 1 hit point for each 3 damage the attack would otherwise deal. If the amount of healing would cause the tree to exceed its full normal hp, it gains any excess as temporary hp. The tree gets no saving throw against lightning effects."
+  }, {
+    "name": "Immutable Form",
+    "desc": "The feyward tree is immune to any spell or effect that would alter its form."
+  }, {
+    "name": "Magic Weapons",
+    "desc": "The feyward tree's weapon attacks are magical"
+  }, {
+    "name": "Warden's Reach",
+    "desc": "Creatures within 15 feet of a feyward tree provoke opportunity attacks even if they take the Disengage action before leaving its reach."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The tree makes two razor-leafed branch attacks, and may use a bonus action to make a razor-eafed branch attack against any creature standing next to it."
+  }, {
+    "name": "Razor-Leafed Branch",
+    "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft, one target. Hit: 21 (3d8 + 8) slashing damage.",
+    "attack bonus": 11,
+    "damage_dice": "3d8",
+    "damage_bonus": 8
+  }, {
+    "name": "Flaying Leaves (Recharge 5-6)",
+    "desc": "The tree can launch a barrage of razor-sharp cold iron leaves from its branches in a 20-foot-radius burst. All creatures caught within this area must make a successful DC 16 Dexterity saving throw or take 21 (6d6) slashing damage, or half as much damage on a successful one."
+  }]
+}, {
+  "name": "Firebird",
+  "size": "Small",
+  "type": "celestial",
+  "subtype": "",
+  "alignment": "neutral good",
+  "armor_class": "16 (natural armor)",
+  "hit_points": "99",
+  "hit_dice": "18d6",
+  "speed": "20 ft, fly 100 ft.",
+  "strength": "12",
+  "dexterity": "19",
+  "constitution": "14",
+  "intelligence": "16",
+  "wisdom": "15",
+  "charisma": "21",
+  "strength_save": "",
+  "dexterity_save": "6",
+  "constitution_save": "4",
+  "intelligence_save": "5",
+  "wisdom_save": "4",
+  "charisma_save": "7",
+  "acrobatics": "6",
+  "animal_handling": "",
+  "arcana": "5",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "4",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "4",
+  "nature": "5",
+  "perception": "7",
+  "performance": "",
+  "persuasion": "",
+  "religion": "5",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "lightning; bludgeoning,piercing, and slashing from nonmagical weapons",
+  "damage_immunities": "fire",
+  "condition_immunities": "charmed, frightened, invisible",
+  "senses": "truesight 60 ft, passive Perception 17",
+  "languages": "Celestial, Common, Elvish, Primordial, Sylvan",
+  "challenge_rating": "4",
+  "special_abilities": [{
+    "name": "Innate Spellcasting",
+    "desc": "The firebird's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:<br /><br />At will: guidance, purify food and drink, speak with animals<br /> 3/day: charm person, cure woulds (2d8 + 5), daylight, faerie fire, heat metal, hypnotic pattern, tongues<br /> 1/day: geas, heat, reincarnate"
+  }, {
+    "name": "Light of the World",
+    "desc": "The firebird's feathers glow with a warm light, the creature sheds light as dim as a candle or as bright as a lantern. It always sheds light and any feathers plucked from the creature continue to shed light as a torch."
+  }, {
+    "name": "Warming Presence",
+    "desc": "The fireird and any creatures within a 5-foot radius are immune to the effects of natural environmental cold. Invited into a home or building, a firebird canexpand this warming presence to its inhabitants no matter how close they are to the creature."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The firebird makes one bite attack and two claw attacks"
+  }, {
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 10 (1d8 + 4) piercing damage.",
+    "attack_bonus": 6,
+    "damage_dice": "1d8",
+    "damage_bonus": 4
+  }, {
+    "name": "Claw",
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 10 (2d8 + 4) slashing damage.",
+    "attack_bonus": 6,
+    "damage_dice": "2d8",
+    "damage_bonus": 4
+  }, {
+    "name": "Blinding Ray (Recharge 5-6)",
+    "desc": "The firebird can fire a burning ray of light from its tail feathers in a line 5 feet wide and up to 50 feet long. Targets in the line must succeed on a DC 15 Dexterity saving throw or take 24 (7d6) fire damage and become blinded for 1d4 rounds. A successful saving throw negates the blindness and reduces the damage by half."
+  }]
+}, {
+  "name": "Firegeist",
+  "size": "Small",
+  "type": "elemental",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "armor_class": "14",
+  "hit_points": "87",
+  "hit_dice": "25d6",
+  "speed": "40 ft.",
+  "strength": "7",
+  "dexterity": "18",
+  "constitution": "10",
+  "intelligence": "4",
+  "wisdom": "16",
+  "charisma": "6",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "5",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 60 ft, passive Perception 15",
+  "languages": "Primordial",
+  "challenge_rating": "2",
+  "special_abilities": [{
+    "name": "Hide By Firelight",
+    "desc": "In an area lit only by nonmagical flame, a firegeist gainst a +2 bonus on Stealth checks. This becomes +4 when hiding with the fire."
+  }, {
+    "name": "Illumination",
+    "desc": "The firegeist sheds dim light in a 30-foot radius."
+  }, {
+    "name": "Magical Light Sensitivity",
+    "desc": "A firegeist detests magical light of any intensity. It suffers the effects of being poisoned when inside the radius of a magical light source."
+  }, {
+    "name": "Water Susceptibility",
+    "desc": "For every 5 feet the firegeist moves in water, or every gallon of water splashing on in, it takes 3 cold damage."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The firegeist makes two slam attacks."
+  }, {
+    "name": "Slam",
+    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 7 (1d6 + 4) bludgeoning damage.",
+    "attack_bonus": 6,
+    "damage_dice": "1d6",
+    "damage_bonus": 4
+  }, {
+    "name": "Combustion Touch (Recharge 5-6)",
+    "desc": "The firegeist may ignite a target when making a slam attack. The target must immediately succeed at a DC 13 Dexterity saving throw or catch fire, taking an additional 5 (1d10) fire damage at the beginnning of its next turn. Until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns."
+  }]
+}, {
+  "name": "Flutterflesh",
+  "size": "Large",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "armor_class": "16 (natural armor)",
+  "hit_points": "187",
+  "hit_dice": "22d10",
+  "speed": "10 ft, Fly 60 ft.",
+  "strength": "11",
+  "dexterity": "18",
+  "constitution": "17",
+  "intelligence": "12",
+  "wisdom": "13",
+  "charisma": "10",
+  "strength_save": "4",
+  "dexterity_save": "8",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "4",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "5",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "8",
+  "survival": "",
+  "damange_vulnerabilities": "radiant",
+  "damange_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, paralyzed, exhaustion, poison, stunned, unconscious",
+  "senses": "darkvision 240 ft, passive Perception 15",
+  "languages": "Common, Darakhul",
+  "challenge_rating": "12",
+  "special_abilities": [{
+    "name": "Magic Weapons",
+    "desc": "The flutterflesh's attacks are magical"
+  }, {
+    "name": "Turn Resistance",
+    "desc": "The flutterflesh has advantage on saving throws against any effect that turns undead"
+  }, {
+    "name": "Regeneration",
+    "desc": "The flutterflesh regains 10 hit points at the start of its turn. If the flutterflesh takes radiant or fire damage, this trait doesn't function at the start of its next turn. The flutterflesh dies only if it starts its turn with 0 hit points and doesn't regenerate."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The flutterflesh makes two bone spur attacks or two tormenting gaze attacks."
+  }, {
+    "name": "Bone Spur",
+    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 17 (2d12 + 4) slashing damage plus 11 (2d10) necroticdamage. If both attacks hit a single creature in the same turn, it is grappled (escape DC 10). As a bonus action, the flutterflesh can choose whether this attack does bludgeoning, piercing, or slashing damage.",
+    "attack_bonus": 11,
+    "damage_dice": "2d12 + 2d10",
+    "damage_bonus": 4
+  }, {
+    "name": "Tormenting Gaze",
+    "desc": "A target creature within 120 feet and able to see the flutterflesh takes 18 (4d8) psychic damage and is paralyze for 1d4 rounds, or takes half damage and isn't paralyzed with a successful DC 15 Wisdom saving throw. Tormenting gaze can't be used against the same target twice in a single turn."
+  }, {
+    "name": "Slash",
+    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 11 (2d6 + 4) slashing damage. On a critical hit, the target takes an additional 27 (5d10) slashing damage and must make a DC 12 Constitution saving throw. On a failure, the flutterflesh lops off and absorbs one of the target's limbs (chosen randomly) and heals hit points equal to the additional slashing damage it inflicted.",
+    "attack_bonus": 8,
+    "damage_dice": "2d6 + 5d10",
+    "damage_bonus": 4
+  }]
+}, {
+  "name": "Folk of Leng",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "armor_class": "14 (studded leather)",
+  "hit_points": "68",
+  "hit_dice": "8d8",
+  "speed": "30 ft.",
+  "strength": "12",
+  "dexterity": "15",
+  "constitution": "18",
+  "intelligence": "14",
+  "wisdom": "16",
+  "charisma": "22",
+  "strength_save": "",
+  "dexterity_save": "4",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "5",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "4",
+  "athletics": "",
+  "deception": "8",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "5",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "cold",
+  "damage_immunities": "necrotic",
+  "condition_immunities": "frightened",
+  "senses": "passive Perception 15",
+  "languages": "Common, Void Speech",
+  "challenge_rating": "2",
+  "special_abilities": [{
+    "name": "Innate Spellcasting",
+    "desc": "The folk of Leng's innates spellcasting abilty is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:<br /><br /> At will: comprehend languages, minor illusion<br /> 3/day each: disguise self, suggestion <br /> 1/day each: dream, etherealness"
+  }, {
+    "name": "Regeneration",
+    "desc": "The folk of Leng regains 5 hit points at the start of its turn. If the folk of Leng takes fire or radiant damage, this trait does not function at the start of its next turn. The folk of Leng dies only if it starts its turn with 0 hit points, and does not regenerate. Even if slain, their bodies reform in a crypt of Leng and go on about their business."
+  }, {
+    "name": "Void Stare",
+    "desc": "The folk of Leng can see through doors and around corners as a bonus action. As a result, they are very rarely surprised."
+  }, {
+    "name": "Void Sailors",
+    "desc": "The folk of Leng can travel the airless void without harm."
+  }],
+  "actions": [{
+    "name": "Etheric Harpoon",
+    "desc": "Ranged Weapon Attack: +8 to hit, range 30 ft, one target. Hit: 10 (1d8 + 6) necrotic damage, and the target must make a successful DC 13 Wisdom saving throw or be grappled (escape DC 13). In addition, armor has no effect against the attack roll of an etheric harpoon; only the Dexterity modifier factored into the target's AC is considered.",
+    "attack_bonus": 8,
+    "damage_dice": 6,
+    "damage_bonus": 6
+  }, {
+    "name": "Psychic Scimitar",
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) psychic damage.",
+    "attack_bonus": 4,
+    "damage_dice": "1d6 + 1d6",
+    "damage_bonus": 2
+  }, {
+    "name": "Hooked Spider Net (Recharge 5-6)",
+    "desc": "Ranged Weapon Attack: +4 to hit, range 20/50 ft, one target. Hit: 3 (1d6) piercing damage plus 19 (3d12) poison damage, and the target is restrained. A successful DC 14 Constitution saving throw halves the poison damage.",
+    "attack_bonus": 4,
+    "damage_dice": "1d6 + 3d12",
+    "damage_bonus": 0
+  }]
+}, {
+  "name": "Forest Maurader",
+  "size": "Large",
+  "type": "giant",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "armor_class": "15 (natural armor)",
+  "hit_points": "114",
+  "hit_dice": "12d10",
+  "speed": "40 ft.",
+  "strength": "21",
+  "dexterity": "10",
+  "constitution": "18",
+  "intelligence": "6",
+  "wisdom": "10",
+  "charisma": "7",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "6",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft, passive Perception 10",
+  "languages": "Giant, Orcish, Sylvan",
+  "challenge_rating": "4",
+  "special_abilities": [{
+    "name": "Light Sensitivity",
+    "desc": "While in bright light, the marauder has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The forest marauder makes two boar spear attacks."
+  }, {
+    "name": "Bone Spear",
+    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft, one target. Hit: 16 (2d10 + 5) piercing damage, and the forest marauder can choose to push the target 10 feet away if it fails a DC 16 Strength saving throw.",
+    "attack_bonus": 7,
+    "damage_dice": "2d10",
+    "damage_bonus": 5
+  }, {
+    "name": "Rock",
+    "desc": "Ranged Weapon Attack: +5 to hit, range 30/120ft, one target, Hit: 19 (3d8 + 5) bludgeoning damage.",
+    "attack_bonus": 5,
+    "damage_dice": "3d8",
+    "damage_bonus": 5
+  }]
+}, {
+  "name": "Fraughashar",
+  "size": "Small",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "neutral evil",
+  "armor_class": "15 (leather armor, shield)",
+  "hit_points": "18",
+  "hit_dice": "4d6",
+  "speed": "25 ft.",
+  "strength": "8",
+  "dexterity": "14",
+  "constitution": "12",
+  "intelligence": "10",
+  "wisdom": "11",
+  "charisma": "7",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "4",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Sylvan",
+  "challenge_rating": "1/2",
+  "special_abilities": [{
+    "name": "Frost Walker",
+    "desc": "The fraughashar speed is unimpeded by rocky, snowy, or icy terrain. It never needs to make Dexterity checks, to move or avoid falling prone because of icy or snowy ground."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The fraughashar makes one bite attack and one dagger attack."
+  }, {
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 4 (1d4 + 2) piercing damage.",
+    "attack_bonus": 4,
+    "damage_dice": "1d4",
+    "damage_bonus": 2
+  }, {
+    "name": "Dagger",
+    "desc": "Melee or Ranged Attack: +4 to hit, reach 5ft, one target. Hit: 4 (1d4 + 2) piercing damage.",
+    "attack_bonus": 4,
+    "damage_dice": "1d4",
+    "damage_bonus": 2
+  }, {
+    "name": "Sling",
+    "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft, one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+    "attack_bonus": 4,
+    "damage_dice": "1d4",
+    "damage_bonus": 2
+  }]
+}, {
+  "name": "Frostveil",
+  "size": "Medium",
+  "type": "plant",
+  "subtype": "",
+  "alignment": "unaligned",
+  "armor_class": "16",
+  "hit_points": "67",
+  "hit_dice": "9d8",
+  "speed": "10 ft, fly (varies; see Windborne ability)",
+  "strength": "20",
+  "dexterity": "20",
+  "constitution": "16",
+  "intelligence": "1",
+  "wisdom": "11",
+  "charisma": "1",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "7",
+  "survival": "",
+  "damange_vulnerabilities": "fire",
+  "damange_resistances": "bludgeoning and piercing from nonmagical weapons",
+  "damage_immunities": "cold",
+  "condition_immunities": "blinded, charmed, deafened, frightened, prone",
+  "senses": "blindsight 100 ft, passive Perception 10",
+  "languages": "",
+  "challenge_rating": "4",
+  "special_abilities": [{
+    "name": "Chilling Acid",
+    "desc": "The frostveil's frozen acidic mist breaks down flesh and organic materials into useable nurtrients. Creatures who strike the frostveil with a non-reach melee weapon on an unarmed strike take 4 (1d8) acid damage."
+  }, {
+    "name": "Freeze",
+    "desc": "Aganst snowy ground or when flying in a blizzard, the frostveil has advantage on Stealth checks to hide in plain sight, appearing to be a patch of snow."
+  }, {
+    "name": "Windborne",
+    "desc": "Frostveils can catch the slightest breeze, but lack the motive power to fly unaided. Their fly speed is dependent on the local wind: Light (10 feet), Moderate (20 feet), Strong (40 feet), Severe (60 feet), Windstorm (80 feet), Hurricane (100 feet), or Tornado (120 feet). They cannot move directly against the wind but can tack at half speed."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The frostveil makes three tendril attacks."
+  }, {
+    "name": "Tendril",
+    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft, one target. Hit: 14 (2d8 + 5) bludgeoning damage. If two tendrils hit the same target in a single turn, the target is engulfed.",
+    "attack_bonus": 7,
+    "damage_dice": "2d8",
+    "damage_bonus": 5
+  }, {
+    "name": "Engulf",
+    "desc": "When a frostveil wraps itself around a Medium or smaller creature, the target takes 14 (2d8 + 5) bludgeoning damage plus 13 (3d8) acid damage and is grappled (escape DC 15). The target takes another 9 (2d8) bludgeoning damage plus 13 (3d8) acid damage at the end of each of its turns while it's still grappled by the frostveil. A frostveil can't attack while it has a creature egulfed. Damage from attacks against the frostveil is split evenly between the frostveil and the engulfed creature; the only exceptions are slashing and psychic damage, which affect only the frostveil."
+  }, {
+    "name": "Spirit Spores (recharge 6)",
+    "desc": "In distress, frostveils release a puff of psychotropic spores in a 10-foot cloud around themselves. Creatures within the cloud of spores must succeed on a DC 13 Constitution saving throw against poison or suffer hallucinations, as per a confusion spell, for 1d3 rounds."
+  }]
+}, {
+  "name": "Garroter Cra",
+  "size": "Tiny",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "armor_class": "13 (natural armor)",
+  "hit_points": "4d4",
+  "hit_dice": "6",
+  "speed": "30 ft, swim 20ft.",
+  "strength": "7",
+  "dexterity": "14",
+  "constitution": "14",
+  "intelligence": "1",
+  "wisdom": "10",
+  "charisma": "2",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "psychic",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60ft, passive Perception 10",
+  "languages": "",
+  "challenge_rating": "1/4",
+  "special_abilities": [{
+    "name": "Amphibious",
+    "desc": "The crab can breathe air and water"
+  }],
+  "actions": [{
+    "name": "Whip-claw",
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 2) slashing damage, and the target is grappled (escape DC 8). While grappled, the target cannot speak or cast spells with verbal components."
+  }]
+}, {
+  "name": "Gbahali",
+  "size": "Huge",
+  "type": "beast",
+  "subtype": "",
+  "alignment": "unaligned",
+  "armor_class": "15 (natural armor)",
+  "hit_points": "126",
+  "hit_dice": "12d12",
+  "speed": "50 ft.",
+  "strength": "21",
+  "dexterity": "14",
+  "constitution": "19",
+  "intelligence": "2",
+  "wisdom": "13",
+  "charisma": "7",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "4",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "8",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 14",
+  "languages": "",
+  "challenge_rating": "6",
+  "special_abilities": [{
+    "name": "Chameleon Hide",
+    "desc": "The gbahali has advatage on Dexterity (Stealth) checks. If the gbahali moves one-half its speed or less, attacks made against it before the start of the gbhali's next turn have disadvantage."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The gbahali makes one bite attack and two claw attacks."
+  }, {
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 24 (3d12 + 5) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the gbahali can't bite another target."
+  }, {
+    "name": "Claw",
+    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 14 (2d8 + 5) slashing damage."
+  }]
+}, {
+  "name": "Gearforged Templar",
+  "size": "Medium",
+  "type": "humanoid",
+  "subtype": "gearforged",
+  "alignment": "lawful neutral",
+  "armor_class": "18 (plate armor)",
+  "hit_points": "71",
+  "hit_dice": "11d8",
+  "speed": "30 ft.",
+  "strength": "20",
+  "dexterity": "9",
+  "constitution": "15",
+  "intelligence": "12",
+  "wisdom": "16",
+  "charisma": "10",
+  "strength_save": "",
+  "dexterity_save": "2",
+  "constitution_save": "5",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, frightened, exhaustion, poisoned",
+  "senses": "passive Perception 13",
+  "languages": "Common",
+  "challenge_rating": "6",
+  "special_abilities": [{
+    "name": "Defensive Zone",
+    "desc": "The gearforged templar can make an opportunity attack when a creature enters its reach."
+  }, {
+    "name": "Onslaught",
+    "desc": "As a bonus action, the gearforged can make a Shove attack."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The gearforged templar makes three attacks with its glaive."
+  }, {
+    "name": "Glaive",
+    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 10 (1d10 + 5) slashing damage."
+  }, {
+    "name": "Javelin",
+    "desc": "Ranged Weapon Attack: +8 to hit, range 30/120 ft, one target. Hit: 8 (1d6 + 5) piercing damage."
+  }, {
+    "name": "Whirlwind (recharge 5-6)",
+    "desc": "The gearforged templar whirls its glaive in a great arc. Every creature within 10 feet of the gearforged takes 16 (3d10) slashing damage, or half damage with a DC 16 Dexterity saving throw."
+  }],
+  "reactions": [{
+    "name": "Parry",
+    "desc": "The gearforged templar raises its AC by 3 against one melee attack that would hit it. To do so, the gearforged must be ale to see the attacker and must be wielding a melee weapon."
+  }]
+}, {
+  "name": "Genie, Al-Aeshma",
+  "size": "Large",
+  "type": "elemental",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "armor_class": "17 (natural armor)",
+  "hit_points": "172",
+  "hit_dice": "15d10",
+  "speed": "30 ft, fly 90ft (hover)",
+  "strength": "21",
+  "dexterity": "15",
+  "constitution": "22",
+  "intelligence": "15",
+  "wisdom": "16",
+  "charisma": "20",
+  "strength_save": "",
+  "dexterity_save": "6",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "7",
+  "charisma_save": "9",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "lightning",
+  "condition_immunities": "",
+  "senses": "",
+  "languages": "",
+  "challenge_rating": "",
+  "special_abilities": "",
+  "actions": "",
+  "legendary_actions": ""
+}, {
+  "license": [
+    "OPEN GAME LICENSE Version 1.0a",
+    "The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (\"Wizards\"). All Rights Reserved.",
+    "1. Definitions: (a)\"Contributors\" means the copyright and/or trademark owners who have contributed Open Game Content; (b)\"Derivative Material\" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) \"Distribute\" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)\"Open Game Content\" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) \"Product Identity\" means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) \"Trademark\" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) \"Use\", \"Used\" or \"Using\" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) \"You\" or \"Your\" means the licensee in terms of this agreement.",
+    "2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.",
+    "3.Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.",
+    "4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.",
+    "5.Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.",
+    "6.Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.",
+    "7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.",
+    "8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.",
+    "9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.",
+    "10 Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.",
+    "11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.",
+    "12 Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.",
+    "13 Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.",
+    "14 Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.",
+    "15 COPYRIGHT NOTICE Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc."
+  ]
+}]
