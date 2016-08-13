@@ -664,14 +664,307 @@
     "stealth": "",
     "survival": "",
     "damage_vulnerabilities": "",
-    "damage_resistances": "",
-    "damage_immunities": "",
+    "damage_resistances": "acid, cold fire, lightning",
+    "damage_immunities": "psychic",
     "condition_immunities": "",
-    "senses": "",
-    "languages": "",
-    "challenge_rating": "",
-    "special_abilities": "",
-    "actions": "",
+    "senses": "darkvision 60 ft., tremorsense 120 ft., passive Perception 19",
+    "languages": "Common, Celestial, Giant, Sylvan",
+    "challenge_rating": "15",
+    "special_abilities": [
+        {
+            "name": "Amphibious",
+            "desc": "The andrenjinyi can breathe air and water."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The andrenjinyi's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components: <br /> At will: create water, speak with animals, stoneshape <br /> 3/day each: control weather, dispel magic, reincarnate <br /> 1/day each: blight, commune with nature, contagion, flesh to stone, plant growth"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The andrenjinyi makes two attacks, one with its bite and one with its constriction. If both attacks hit the same target then the target is Swallowed Whole.",
+            "attack_bonus": "15 (bite), 15 (constrict)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: reach 20 ft., one target. Hit: 36 (4d12 + 10) piercing damage.",
+            "attack_bonus": "15"
+        },
+        {
+            "name": "Constrict",
+            "desc": "Melee Weapon Attack: reach 5 ft, one target. Hit: 36 (4d12 + 10) bludgeoning damage, and the target is grappled (escape DC 20). Until this grapple ends the target is restrained, and the andrenjinyi can't constrict another target.",
+            "attack_bonus": ""
+        },
+        {
+            "name": "Rainbow Arch",
+            "desc": "The andrenjinyi can instantaneously teleport between sources of fresh water within 1 mile as an action. It can't move normally or take any other action on the turn when it uses this power. When this power is activated, a rainbow manifests between the origin and destination, lasting for 1 minute."
+        },
+        {
+            "name": "Swallow Whole",
+            "desc": "If the bite and constrict attacks hit the same target in one turn, the creature is swallowed whole. The target is blinded and restrained, and has total cover against attacks and other effects outside the andrenjinyi. The andrenjinyi can have three Medium-sized creatures or four Small-sized creatures swallowed at a time. If the andrenjinyi takes 20 damage or more in a single turn from a swallowed creature, the andrenjinyi must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 5 feet of the andrenjinyi. If the andrenjinyi is slain, a swallowed creature is no longer restrained by it and can escape from the andrenjinyi by using 15 feet of movement, exiting prone. The andrenjinyi can regurgitate swallowed creatures as a free action."
+        },
+        {
+            "name": "Transmuting Gullet",
+            "desc": "When a creature is swallowed by an andrenjinyi, it must make a successful DC 19 Wisdom saving throw each round at the end of its turn or be affected by true polymorph into a new form chosen by the andrenjinyi. The effect is permanent until dispelled or ended with a wish or comparable magic."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Angatra",
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "17",
+    "hit_points": "85",
+    "hit_dice": "10d8 + 40",
+    "speed": "50 ft.",
+    "strength": "14",
+    "dexterity": "20",
+    "constitution": "18",
+    "intelligence": "8",
+    "wisdom": "12",
+    "charisma": "15",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "4",
+    "performance": "8",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "damage_immunities": "poison",
+    "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "all languages it knew in life",
+    "challenge_rating": "6",
+    "special_abilities": [
+        "name": ""Agonizing Gaze",
+        "desc": "When a creature that can see the angatra's eyes starts its turn within 30 feet of the angatra, it must make a DC 13 Charisma saving throw if the angatra isn't incapacitated and can see the creature. On a failed saving throw, the creature has its pain threshold lowered so that it becomes vulnerable to all damage types until the end of its next turn. Unless it's surprised, a creature can avoid the saving throw by averting its eyes at the start of its turn. A creature that averts its eyes can't see the angatra for one full round, when it chooses anew whether to avert its eyes again. If the creature looks at the angatra in the meantie, it must immediately make the save.",
+        {
+            "name": "Ancestral Wrath",
+            "desc": "The angatra immediately recognizes any individual that is descended from its tribe. It has advantage on attack rolls against such creatures, and those creatures have a disadvantage on saving throws against the angatras traits and attacks."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The angatra makes two attacks with its claws.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack: reach 5 ft., one creature. Hit: 10 (2d4 + 5) piercing damage, and the creature must succeed on a DC 15 Constitution saving throw or be paralyzed by pain until the end of its turn.",
+            "attack_bonus": "8"
+        }
+
+    ],
+    "legendary actions": ""
+  },
+  {
+    "name": "Angel, Chained",
+    "size": "Medium",
+    "type": "Celestial",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "16 (natural armor)",
+    "hit_points": "88",
+    "hit_dice": "16d8 + 16",
+    "speed": "30 ft., fly 60 ft.",
+    "strength": "18",
+    "dexterity": "16",
+    "constitution": "12",
+    "intelligence": "12",
+    "wisdom": "18",
+    "charisma": "20",
+    "strength_save": "",
+    "dexterity_save": "6",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "7",
+    "charisma_save": "8",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "7",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "piercing",
+    "damage_immunities": "fire, radiant",
+    "condition_immunities": "",
+    "senses": "darkvision 200 ft., passive Perception 17",
+    "languages": "Common, Celestial, Infernal",
+    "challenge_rating": "8",
+    "special_abilities": [
+        {
+            "name": "Dark Halo",
+            "desc": "A chained angel is immune to direct damage spells from divine casters."
+        },
+        {
+            "name": "Redemption",
+            "desc": "Any caster brave enough to cast a knock spell on a chained angel can remove the creature's shackles - but this always exposes the caster to an immediate fiery greatsword attack as a reaction. If the caster survives that attack, the angel makes an immediate DC 20 Wisdom saving throw; if it succeeds, the angel's chains fall away and it is restored to its senses and to a Good alignment. If the saving throw fails, any further attempts to cast knock on the angel's chains fail automatically for one week."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The chained angel makes two fiery greatsword attacks.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Fiery Greatsword",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 16 (3d10) fire damage.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Fallen Glory (Recharge 5-6)",
+            "desc": "Ranged Spell Attack: All creatures within 50 feet of the chained angel and in its line of sight take 19 (3d12) radiant damage and are knocked prone, or take half damage and aren't knocked prone with a successful DC 15 Strength saving throw."
+        },
+        {
+            "name": "Fiendish Cunning",
+            "desc": "Reaction. A chained angel can counter and destroy the ongoing effect of one divine spell each round. This functions as a counterspell with +7 spellcasting ability."
+        }
+
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Angel, Fidele",
+    "size": "Medium",
+    "type": "Celestial",
+    "subtype": "",
+    "alignment": "Lawful Good",
+    "armor_class": "16 (natural armor)",
+    "hit_points": "104",
+    "hit_dice": "16d8 + 32",
+    "speed": "40 ft., fly 40 ft. (angelic form), or 10 ft., fly 80 ft. (eagle form)",
+    "strength": "20",
+    "dexterity": "18",
+    "constitution": "14",
+    "intelligence": "14",
+    "wisdom": "16",
+    "charisma": "18",
+    "strength_save": "",
+    "dexterity_save": "7",
+    "constitution_save": "5",
+    "intelligence_save": "5",
+    "wisdom_save": "6",
+    "charisma_save": "7",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "6",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "6",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "fire, lightning, poison; bludgeoning, piercing, and slashing damage from nonmagical weapons",
+    "damage_immunities": "acid, cold",
+    "condition_immunities": "charmed, petrified, poisoned",
+    "senses": "darkvision 60 ft., passive Perception 16",
+    "languages": "Common, Celestial, Infernal",
+    "challenge_rating": "5",
+    "special_abilities": [
+        {
+            "name": "Shapechange",
+            "desc": "The angel can change between winged celestial form, its original mortal form, and that of a Medium-sized eagle. Its statistics are the same in each form, with the exception of its attacks in eagle form."
+        },
+        {
+            "name": "Ever Touching",
+            "desc": "Fidele angels maintain awareness of their mate's disposition and health. Damage taken by one is split evenly between both, with the original target of the attack taking the extra point of attack when damage doesn't divide evenly. Any other baneful effect, such as ability damage, affects both equally."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The angel's spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components: <br /> At will: guidance, light, purify food and drink, spare the dying <br /> 3/day: cure wounds, scorching ray (5 rays) <br /> 1/day: bless, daylight, detect evil and good, enhance ability, hallow, protection from evil and good"
+        },
+        {
+            "name": "Magic Resistance",
+            "desc": "The angel has advantage on saving throws against spells and other magical effects."
+        },
+        {
+            "name": "Magic Weapons",
+            "desc": "The angel's weapon attacks are magical while it is in eagle form."
+        },
+        {
+            "name": "To My Lover's Side",
+            "desc": "If separated from its mate, each fidele angel can use both plane shift and teleport 1/day to reunite."
+        },
+        {
+            "name": "Unshakeable Fidelity",
+            "desc": "Fidele angels are never voluntarily without their partners. No magical effect or power can cause a fidele angel to act against its mate, and no charm or domination effect can cause them to leave their side or to change their feelings of love and loyalty toward each other."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The angel makes two longsword attacks or two longbow attacks: in eagle form, it instead makes two talon attacks and one beak attack.",
+            "attack_bonus": "9 (longsword), 8 (longbow)"
+        },
+        {
+            "name": "+1 Longsword",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands.",
+            "attack_bonus": "10"
+        },
+        {
+            "name": "+1 Longbow",
+            "desc": "Ranged Weapon Attack: range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Beak (Eagle Form)",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Talons (Eagle Form)",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+            "attack_bonus": "8"
+        }
+    ],
     "legendary_actions": ""
   }
 ]
