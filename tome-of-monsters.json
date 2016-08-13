@@ -1678,7 +1678,7 @@
     "desc": "The flutterflesh makes two bone spur attacks or two tormenting gaze attacks."
   }, {
     "name": "Bone Spur",
-    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 17 (2d12 + 4) slashing damage plus 11 (2d10) necroticdamage. If both attacks hit a single creature in the same turn, it is grappled (escape DC 10). As a bonus action, the flutterflesh can choose whether this attack does bludgeoning, piercing, or slashing damage.",
+    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft, one target. Hit: 17 (2d12 + 4) slashing damage plus 11 (2d10) necrotic damage. If both attacks hit a single creature in the same turn, it is grappled (escape DC 10). As a bonus action, the flutterflesh can choose whether this attack does bludgeoning, piercing, or slashing damage.",
     "attack_bonus": 11,
     "damage_dice": "2d12 + 2d10",
     "damage_bonus": 4
@@ -2159,10 +2159,16 @@
     "desc": "The gearforged templar makes three attacks with its glaive."
   }, {
     "name": "Glaive",
-    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 10 (1d10 + 5) slashing damage."
+    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft, one target. Hit: 10 (1d10 + 5) slashing damage.",
+    "attack_bonus": 8,
+    "damage_dice": "1d10",
+    "damage_bonus": 5
   }, {
     "name": "Javelin",
-    "desc": "Ranged Weapon Attack: +8 to hit, range 30/120 ft, one target. Hit: 8 (1d6 + 5) piercing damage."
+    "desc": "Ranged Weapon Attack: +8 to hit, range 30/120 ft, one target. Hit: 8 (1d6 + 5) piercing damage.",
+    "attack_bonus": 8,
+    "damage_dice": "1d8",
+    "damage_bonus": 5
   }, {
     "name": "Whirlwind (recharge 5-6)",
     "desc": "The gearforged templar whirls its glaive in a great arc. Every creature within 10 feet of the gearforged takes 16 (3d10) slashing damage, or half damage with a DC 16 Dexterity saving throw."
@@ -2213,14 +2219,180 @@
   "survival": "",
   "damange_vulnerabilities": "",
   "damange_resistances": "",
-  "damage_immunities": "lightning",
+  "damage_immunities": "lightning, thunder",
   "condition_immunities": "",
-  "senses": "",
+  "senses": "darkvision 120 ft, passive Perception 13",
+  "languages": "Auran, Common, Ignan",
+  "challenge_rating": "9",
+  "special_abilities": [{
+    "name": "Air Hatred",
+    "desc": "The al-Aeshma has advantage on attack rolls against airborne opponents."
+  }, {
+    "name": "Bound",
+    "desc": "The al-Aeshma must always be anchored to the earth. Even in gaseous form or sandstorm form, part of it must always touch the ground. The al-Aeshma's maximum altitude while flying is 50ft. If it is not touching, it gains vulnerability to lightning and thunder."
+  }, {
+    "name": "Elemental Demise",
+    "desc": "When an al-Aeshma dies, its body disintegrates into a swirling spray of coarse sand, leaving behind equipmment it was wearing or carrying."
+  }, {
+    "name": "Ill Wild",
+    "desc": "As a onus action when in gaseous form, the al-Aeshma can befoul its space with a choking scent. When the al-Aeshma moves through another creature's space in gaseous form, the creature must succeed on a DC 18 Constitution saving throw or be incapacitated until the end of its next turn. Ill Wind lasts until the al-Aeshma leaves gaseous form, or chooses to end the ability as a bonus action."
+  }, {
+    "name": "Innate Spellcasting",
+    "desc": "The al-Aeshma's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following, requiring no material components:<br /> At will: detect evil and good, detect magic, thunderwave<br />3/day each: destroy food and water (as create food and water, but makes food and drink unpalatable), tongues, wind walk<br /> 1/day each: creation, gaseous form, insect plague, invisiility, major image"
+  }, {
+    "name": "Regeneration",
+    "desc": "The al-Aeshma regains 10 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. The al-Aeshma dies only if it starts its turn at 0 hit points and doesn't regenerate."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The al-Aeshma makes three scimitar attacks."
+  }, {
+    "name": "Scimitar",
+    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 12 (2d6 + 5) slashing damage, plus 3 (1d6) necrotic damage.",
+    "attack_bonus": 9,
+    "damage_dice": "2d6 + 1d6",
+    "damage_bonus": 5
+  }, {
+    "name": "Dust Devil",
+    "desc": "A 5-foot radius, 30-foot tall cylinder of sand magically forms on a point the al_aeshma can see within 120 feet of it. The dust devil lasts as long as the al-Aeshma maintains concentration (as if a spell). Any creature but the al-Aeshma that enters the dust devil must succeed on a DC 18 Strength saving throw or be restrained by it; any number of creatures may be restrained this way. At the start of a restrained creature's turn, it takes 7 (2d6) slashing damage plus 7 (2d6) necrotic damage. The al-Aeshma can move the dust devil up to 60 feet as an action; restrained creatures move with it. The dust devil ends if the al-Aeshma loses sight of it. A creature can use its action to free a creature restrained by the dust devil, including itself, by making a DC 18 Strength check. If the check succeeds, it moves to the nearest space outside the dust devil."
+  }]
+}, {
+  "name": "Gerridae",
+  "size": "Large",
+  "type": "fey",
+  "subtype": "",
+  "alignment": "neutral",
+  "armor_class": "14",
+  "hit_points": "77",
+  "hit_dice": "9d10",
+  "speed": "10 ft, climb 10ft, swim 80 ft.",
+  "strength": "16",
+  "dexterity": "15",
+  "constitution": "17",
+  "intelligence": "2",
+  "wisdom": "13",
+  "charisma": "7",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60ft, passive Perception 11",
   "languages": "",
-  "challenge_rating": "",
-  "special_abilities": "",
-  "actions": "",
-  "legendary_actions": ""
+  "challenge_rating": "1",
+  "special_abilities": [{
+    "name": "Bred to the Saddle",
+    "desc": "Geridae do not take any penalties to their movement or speed due to encumbrance or carrying a single rider."
+  }, {
+    "name": "Waterborne",
+    "desc": "Any gerridae can run while on the surface of water, but not while on land or climbing. They treat stormy water as normal rather than difficult terrain. A gerridae takes one point of damage for every hour spent on dry land."
+  }],
+  "actions": [{
+    "name": "Multiattack",
+    "desc": "The gerridae makes one bite attack and one claw attack"
+  }, {
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 5 (1d6 + 3) piercing damage.",
+    "attack_bonus": 5,
+    "damage_dice": "1d6",
+    "damage_bonus": 3
+  }, {
+    "name": "Claw",
+    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 5 (1d4 + 3) slashing damage.",
+    "attack_bonus": 5,
+    "damage_dice": "1d4",
+    "damage_bonus": 3
+  }]
+}, {
+  "name": "Ghoul, Beggar",
+  "size": "Medium",
+  "type": "undead",
+  "subtype": "",
+  "alignment": "chaotic evil",
+  "armor_class": "12",
+  "hit_points": 13,
+  "hit_dice": "3d8",
+  "speed": "30 ft.",
+  "strength": "10",
+  "dexterity": "15",
+  "constitution": "10",
+  "intelligence": "12",
+  "wisdom": "11",
+  "charisma": "14",
+  "strength_save": "",
+  "dexterity_save": "",
+  "constitution_save": "",
+  "intelligence_save": "",
+  "wisdom_save": "",
+  "charisma_save": "",
+  "acrobatics": "",
+  "animal_handling": "",
+  "arcana": "",
+  "athletics": "",
+  "deception": "",
+  "history": "",
+  "insight": "",
+  "intimidation": "",
+  "investigation": "",
+  "medicine": "",
+  "nature": "",
+  "perception": "",
+  "performance": "",
+  "persuasion": "",
+  "religion": "",
+  "sleight_of_hand": "",
+  "stealth": "",
+  "survival": "",
+  "damange_vulnerabilities": "",
+  "damange_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft, passive Perception 10",
+  "languages": "Undercommon",
+  "challenge_rating": "1/2",
+  "special_abilities": [{
+    "name": "Pack Tactics",
+    "desc": "The beggar ghoul has advantage on an attack roll against a creature if at least one other allied beggar ghoul is within 5 feet of the creature and the ally isn't incapacitated."
+  }, {
+    "name": "Savage Hunter",
+    "desc": "A beggar ghoul that hits with its bite attack against a creature that hasn't acted yet in this combat scores a critical hit."
+  }],
+  "actions": [{
+    "name": "Bite",
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft, one target. Hit: 9 (2d6 + 2) piercing damage.",
+    "attack_bonus": 4,
+    "damage_dice": "2d4",
+    "damage_bonus": 2
+  }, {
+    "name": "Claws",
+    "desc": "Melee Weapon Attack: +4 to hit, reach 5ft, one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. A paralyzed target repeals the saving throw at the end of each of its turns, ending the affect on itself on a success.",
+    "attack_bonus": 4,
+    "damage_dice": "2d4",
+    "damage_bonus": 2
+  }]
 }, {
   "license": [
     "OPEN GAME LICENSE Version 1.0a",
