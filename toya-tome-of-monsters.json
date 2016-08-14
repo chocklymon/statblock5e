@@ -48,93 +48,172 @@
     "challenge_rating": "12",
     "special_abilities": [
     	{
-		"name": "Aboleth Traits",
-		"desc": "Unless noted otherwise or where contradicted below, a nihileth has the same traits as a living aboleth. This includes legendary actions and lair actions.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Undead Nature",
-		"desc": "A nihileth does not require air, food, drink, or sleep.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Undead Fortitude",
-		"desc": "If a non-radiant damage reduces a nihileth to 0 hit points, it makes a Constitution saving throw with a DC of 5+ the damage taken. If it succeeds, the nihileth drops to 1 hit point instead.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Dual State",
-		"desc": "A nihileth exists upon the Material Plane in one of two forms and can switch between them at will. In its material form, it has resistance to damage from nonmagical weapons. In its ethereal form it is immune to damage from nonmagical weapons. The creature's ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within. A nihileth in ethereal form can move through air as though it were water, with a fly speed of 40 feet.",
-
-		"attack_bonus": ""
-	},
-	{
-		"name": "Void Aura",
-		"desc": "A nihileth doesn't secrete the mucous cloud of an aboleth. Instead, the undead nihileth is surrounded by a chilling cloud. A living creature that starts its turn within 5 feet of a nihileth must make a successful DC 14 Constitution saving throw or be slowed until the start of its next turn. In addition, any creature that has been diseased by a nihileth or a nihilethic zombie takes 7 (2d6) cold damage every time it starts its turn within the aura.",
-		"atack_bonus": ""
-	},
-	{
-		"name": "Infecting Telepathy",
-		"desc": "If a creature communicates telepathically with the nihileth, or uses a psychic attack against it, the nihileth can spread its disease to the creature. The creature must succeed on a DC 14 Wisdom save or become infected with the same disease caused by the nihileth's tentacle attack. This ability replaces an aboleth's Probing Telepathy ability.",
-		"attack_bonus": ""
-	}
+		    "name": "Aboleth Traits",
+		    "desc": "Unless noted otherwise or where contradicted below, a nihileth has the same traits as a living aboleth. This includes legendary actions and lair actions."
+	    },
+	    {
+	    	"name": "Undead Nature",
+	    	"desc": "A nihileth does not require air, food, drink, or sleep."
+	    },
+    	{
+	    	"name": "Undead Fortitude",
+	    	"desc": "If a non-radiant damage reduces a nihileth to 0 hit points, it makes a Constitution saving throw with a DC of 5+ the damage taken. If it succeeds, the nihileth drops to 1 hit point instead."
+    	},
+    	{
+    		"name": "Dual State",
+    		"desc": "A nihileth exists upon the Material Plane in one of two forms and can switch between them at will. In its material form, it has resistance to damage from nonmagical weapons. In its ethereal form it is immune to damage from nonmagical weapons. The creature's ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within. A nihileth in ethereal form can move through air as though it were water, with a fly speed of 40 feet."
+    	},
+    	{
+		    "name": "Void Aura",
+		    "desc": "A nihileth doesn't secrete the mucous cloud of an aboleth. Instead, the undead nihileth is surrounded by a chilling cloud. A living creature that starts its turn within 5 feet of a nihileth must make a successful DC 14 Constitution saving throw or be slowed until the start of its next turn. In addition, any creature that has been diseased by a nihileth or a nihilethic zombie takes 7 (2d6) cold damage every time it starts its turn within the aura."
+	    },
+	    {
+		    "name": "Infecting Telepathy",
+		    "desc": "If a creature communicates telepathically with the nihileth, or uses a psychic attack against it, the nihileth can spread its disease to the creature. The creature must succeed on a DC 14 Wisdom save or become infected with the same disease caused by the nihileth's tentacle attack. This ability replaces an aboleth's Probing Telepathy ability."
+	    },
+        {
+            "name": "Regional Effects (Nihileth's Lair only)",
+            "desc": "The regional effects of a nihileth's lair are the same as that of an aboleth, except as following: <br /> Water sources within 1 mile of a nihileth's lair are not only supernaturally fouled but can spread the disease of the nihileth. A creature who drinks from such water must make a successful DC 14 Constitution check or become infected."
+        }
     ],
     "actions": [
     	{
-		"name": "Multiattack",
-		"desc": "The nihileth makes three tentacle attacks or three withering  touches, depending on what form it is in.",
-		"attack_bonus": "9 (tentacle attacks), 8 (withering touch)"
-	},
-	{
-		"name": "Tentacle (Material Form Only)",
-		"desc": "Melee Weapon Attack: reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. Aft.er 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by healing or comparable magic. Unless the creature s fully submerged or frequently doused with water, it takes 6(1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth.",
-		"attack_bonus": "9"
-
-	},
-	{
-		"name": "Withering Touch (Ethereal Form Only)",
-		"desc": "Melee Weapon Attack: reach 10 ft., one creature. Hit: 14 (3d6+4) necrotic damage.",
-		"attack_bonus": "8"
-	},
-	{
-		"name": "Form Swap",
-		"desc": "As a bonus action, the nihileth can alter between its material and ethereal forms at will.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Void Body",
-		"desc": "As a reaction, the nihileth can reduce the damage it takes from a single source to 0. Divine damage can only be reduced by half.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Tail (Material Formm Only)",
-		"desc": "As per the aboleth action.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Enslave (3/day)",
-		"desc": "As per the aboleth action.",
-		"attack_bonus": ""
-	}
-
+		    "name": "Multiattack",
+		    "desc": "The nihileth makes three tentacle attacks or three withering  touches, depending on what form it is in.",
+		    "attack_bonus": "9 (tentacle attacks), 8 (withering touch)"
+	    },
+	    {
+		    "name": "Tentacle (Material Form Only)",
+		    "desc": "Melee Weapon Attack: reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. Aft.er 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by healing or comparable magic. Unless the creature s fully submerged or frequently doused with water, it takes 6(1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth.",
+		    "attack_bonus": "9"
+	    },
+	    {
+		    "name": "Withering Touch (Ethereal Form Only)",
+		    "desc": "Melee Weapon Attack: reach 10 ft., one creature. Hit: 14 (3d6+4) necrotic damage.",
+		    "attack_bonus": "8"
+	    },
+	    {
+		    "name": "Form Swap",
+		    "desc": "As a bonus action, the nihileth can alter between its material and ethereal forms at will."
+	    },
+ 	    {
+		    "name": "Void Body",
+		    "desc": "As a reaction, the nihileth can reduce the damage it takes from a single source to 0. Divine damage can only be reduced by half."
+	    },
+	    {
+		    "name": "Tail (Material Formm Only)",
+		    "desc": "As per the aboleth action."
+	    },
+	    {
+		    "name": "Enslave (3/day)",
+		    "desc": "As per the aboleth action."
+	    },
+        {
+            "name": "Lair Actions",
+            "desc": "On initiative count 20 (losing initiative ties), the nihileth can take a lair action to create one of the magical effects as per an aboleth, or the void absorbance action listed below. The nihileth cannot use the same effect two rounds in a row."
+        },
+        {
+            "name": "Void Absorbance",
+            "desc": "A nihileth can pull the life force from those it has converted to nihilethic zombies to replenish its own life. This takes 18 (6d6) hit points from zombies within 30 eet of the nihileth, spread evenly between the zombies, and healing the nihileth. If a zombie reaches 0 hit points from this action, it perishes with no Undead Fortitude saving throw."
+        }
     ],
     "legendary_actions": [
     	{
-		"name": "Detect",
-		"desc": "As per the aboleth action.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Tail Swipe",
-		"desc": "As pert the aboleth action.",
-		"attack_bonus": ""
-	},
-	{
-		"name": "Psychic Drain (Costs 2 Actions)",
-		"desc": "As per the aboleth action.",
-		"attack_bonus": ""
-	}
+		    "name": "Detect",
+		    "desc": "As per the aboleth action."
+	    },
+    	{
+	    	"name": "Tail Swipe",
+		    "desc": "As pert the aboleth action."
+	    },
+	    {
+		    "name": "Psychic Drain (Costs 2 Actions)",
+		    "desc": "As per the aboleth action."
+	    }
     ]
+  },
+  {
+    "name": "Nihilethic Zombie",
+    "size": "Medium",
+    "type": "Undead",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "9 (natural armor)",
+    "hit_points": "22",
+    "hit_dice": "3d8 + 9",
+    "speed": "20 ft., swim 30 ft.",
+    "strength": "13",
+    "dexterity": "6",
+    "constitution": "16",
+    "intelligence": "3",
+    "wisdom": "6",
+    "charisma": "5",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "0",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
+    "damage_immunities": "cold, necrootic, poison; bludgeoning, piercing and slashing from nonmagical weapons (only when in ethereal form)",
+    "condition_immunities": "poisoned",
+    "senses": "darkvision 60 ft., passive Perception 8",
+    "languages": "understand Void Speech and the languages it knew in life but can't speak",
+    "challenge_rating": "1",
+    "special_abilities": [
+        {
+            "name": "Dual State",
+            "desc": "Like its nihileth creator, a nihilethic zombie can assume either a material or ethereal form. When in its material form, it has resistance to nonmagical weapons. In its ethereal form, it is immune to nonmagical weapons. Its ethereal form appears as a dark purple outline of its material form, with a blackish purplish haze within."
+        },
+        {
+            "name": "Zombie Nature",
+            "desc": "Unless noted otherwise, a nihilethic zombie has the same traits as a zombie, including their Undead Fortitude."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Slam (Material Form Only)",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage and the target must make a successful DC 13 Constitution saving throw or become diseased. The disease has little effect for 1 minute; during that tie, it can be removed by bless, lesser restoration, or comparable magic. After 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unlembiss it is at least partially underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 2d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth that commands the attacking zombie.",
+            "attack_bonus": "3"
+        },
+        {
+            "name": "Withering Touch (Ethereal Form)",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 4 (1d6 + 1) necrotic damage.",
+            "attack_bonus": "3"
+        },
+        {
+            "name": "Form Swap",
+            "desc": "As a bonus action, the nihilethic zombie alter between its material and ethereal forms at will."
+        },
+        {
+            "name": "Void Body",
+            "desc": "As a reaction, the nihilethic zombie can reduce the damage it takes from a single source by 1d12 points. This reduction cannot be applied to divine damage."
+        },
+        {
+            "name": "Sacrifice Life",
+            "desc": "A nihilethic zombie can sacrifice itself to heal a nihileth within 30 feet of it. All of its remaining hit points transfer to the nihileth in the form of healing. The nihilethic zombie is reduced to 0 hit points and it doesn't make an Undead Fortitude saving throw. A nihileth cannot by healed above its maximum hit points in this manner."
+        }
+    ],
+    "legendary_actions": ""
   },
   {
 
@@ -963,6 +1042,591 @@
             "name": "Talons (Eagle Form)",
             "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
             "attack_bonus": "8"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Angler Worm",
+    "size": "Huge",
+    "type": "Monstrosity",
+    "subtype": "",
+    "alignment": "Unaligned",
+    "armor_class": "14 (natural armor",
+    "hit_points": "133",
+    "hit_dice": "14d12 + 42",
+    "speed": "20 ft., climb 20 ft.",
+    "strength": "14",
+    "dexterity": "5",
+    "constitution": "16",
+    "intelligence": "3",
+    "wisdom": "14",
+    "charisma": "1",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "blinded, charmed, deafened, poisoned, prone",
+    "senses": "tremorsense 60 ft., passive Perception 12",
+    "languages": "",
+    "challenge_rating": "4",
+    "special_abilities": [
+        {
+            "name": "Spider Climb",
+            "desc": "The worm can climb down difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines."
+        },
+        {
+            "name": "Keen Touch",
+            "desc": "The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations."
+        },
+        {
+            "name": "Transparent Trap",
+            "desc": "A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterit saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threas and within reach of its coils - once it has coiled around one creature it stops coils attacks against others.",
+            "attack_bonus": "4 (bite), 4 (coils)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.",
+            "attack_bonus": "4"
+        },
+        {
+            "name": "Coils",
+            "desc": "Melee Weapon Attack: reach 10 ft., one creatre. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe and takes 22 (5d8) acid damage at the start of each of the angler worms turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.",
+            "attack_bonus": "4"
+        },
+        {
+            "name": "Ethereal Lure (Recharge 4-6)",
+            "desc": "The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines and treats the angler worm as invisible."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Ant, Giant",
+    "size": "Large",
+    "type": "Beast",
+    "subtype": "",
+    "alignment": "Unaligned",
+    "armor_class": "14 (natural armor)",
+    "hit_points": "52",
+    "hit_dice": "7d10 + 14",
+    "speed": "40 ft.",
+    "strength": "15",
+    "dexterity": "13",
+    "constitution": "15",
+    "intelligence": "1",
+    "wisdom": "9",
+    "charisma": "2",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "blindsight 60 ft., passive Perception 9",
+    "languages": "",
+    "challenge_rating": "2",
+    "special_abilities": [
+        {
+            "name": "Keen Smell",
+            "desc": "iThe giant ant has advantage on Wisdom (Perception) checks that rely on smell."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The giant ant makes one bite attack and one sting attack.",
+            "attack_bonus": "4 (bite), 4 (hit)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the giant ant can't bite a different target.",
+            "attack_bonus": "4"
+        },
+        {
+            "name": "Sting",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.",
+            "attack_bonus": "4"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Giant Ant Queen",
+    "size": "Large",
+    "type": "Beast",
+    "subtype": "",
+    "alignment": "Unaligned",
+    "armor_class": "15 (natural armor)",
+    "hit_points": "85",
+    "hit_dice": "10d10 + 30",
+    "speed": "40 ft.",
+    "strength": "17",
+    "dexterity": "13",
+    "constitution": "16",
+    "intelligence": "2",
+    "wisdom": "11",
+    "charisma": "4",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "blindsight 60 ft., passive Percetion 10",
+    "languages": "",
+    "challenge_rating": "4",
+    "special_abilities": [
+        {
+            "name": "Keen Smell",
+            "desc": "The giant ant queen has advantage on Wisdom (Perception) checks that rely on smell."
+        },
+        {
+            "name": "Queen's Scent",
+            "desc": "Giant ants defending a queen gain advantage on all attack rolls."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The giant ant makes one bite attack and one sting attack.",
+            "attack_bonus": "4 (bite), 4 (hit)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the giant ant can't bite a different target.",
+            "attack_bonus": "4"
+        },
+        {
+            "name": "Sting",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.",
+            "attack_bonus": "4"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Anubian",
+    "size": "Medium",
+    "type": "Elemental",
+    "subtype": "",
+    "alignment": "Chaotic Evil",
+    "armor_class": "13",
+    "hit_points": "44",
+    "hit_dice": "8d8 + 8",
+    "speed": "30 ft.",
+    "strength": "12",
+    "dexterity": "16",
+    "constitution": "12",
+    "intelligence": "10",
+    "wisdom": "12",
+    "charisma": "10",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "5 (7 in sand terrain)",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "bludgeoning, piercing, and slashin from nonmagical weapons",
+    "damage_immunities": "poison",
+    "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconsious",
+    "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 11",
+    "languages": "Primordial",
+    "challenge_rating": "2",
+    "special_abilities": [
+        {
+            "name": "Sand Step",
+            "desc": "Instead of moving, the anubian's humanoid form collapses into loose sand and immediately reforms at another unoccupied space within 10 feet. This movement doesn't provide opportunity attacks. After using this trait in sand terrain, the anubian can take a Hide action even if under direct observation. Anubians can sand step under doors or through similar obstacles, provided there's a gap large enough for sand to sift through."
+        },
+        {
+            "name": "Vulnerability to Water",
+            "desc": "For every 5 feet the anubian moves while touching water or for every gallon of water splashed on it, it takes 2 (1d4) cold damage. An anubian completely immersed in water takes 10 (4d4) cold damage at the start of its turn."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The anubian makes two claw attacks.",
+            "attack_bonus": "5"
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+            "attack_bonus": "5"
+        },
+        {
+            "name": "Haboob (1/Day)",
+            "desc": "The anubian creates a sandstorm that fills a 5-foot-radius, a 30-foot-tall cylinder centered on itself. The area is heavily obscured, and each creature other than an anubian that enters the sandstorm or ends its turn there must make a successful DC 13 Strength saving throw or be restrained by it. Also, each creature other than an anubian that ends its turn inside the sandstorm takes 3 (1d6) slashing damage. The anubian can maintain the haboob for up to 10 minutes as if concentrating on a spell. While maintaining the haboob, the anubian's speed is redced to 5 feet and it can't sand step. Creatures restrained by the sandstorm move with the anubian. A creature can free itself or an adjacent creature from the sandstorm by using its action and making a DC 13 Strength check. A successful check ends the restraint on the target creature."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Arboreal Grappler",
+    "size": "Medium",
+    "type": "Aberration",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "14 (natural armor)",
+    "hit_points": "90",
+    "hit_dice": "(12d8 + 36)",
+    "speed": "10 ft., climb 40 ft.",
+    "strength": "16",
+    "dexterity": "16",
+    "constitution": "16",
+    "intelligence": "6",
+    "wisdom": "10",
+    "charisma": "6",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "5",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "5",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "",
+    "challenge_rating": "3",
+    "special_abilities": [
+        {
+            "name": "Spider Climb",
+            "desc": "The arboreal grappler can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+        },
+        {
+            "name": "Boscage Brachiation",
+            "desc": "The arboreal grappler doesn't provoke opportunity attacks when it moves out of an enemy's reach by climbing."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The arboreal grappler makes one bite attack and two tentacle attacks.",
+            "attack_bonus": "5 (bite), 5 (tentacle)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Meleee Weapon Attack: reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage.",
+            "attack_bonus": "5"
+        },
+        {
+            "name": "Tentacle",
+            "desc": "Melee Weapon Attack: reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained and te tentacle can't be used to attack a different target. The arboreal grappler has two tentacles, each of which can grapple on target. The arboreal grappler has two tentacles, each of which can grapple on target. When the arboreal grappler moves it can drag a Medium or smaller target it is grappling at full speed.",
+            "attack_bonus": "5"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Aridni",
+    "size": "Small",
+    "type": "Fey",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "15",
+    "hit_points": "82",
+    "hit_dice": "15d6 + 30",
+    "speed": "20 ft., fly 60 ft.",
+    "strength": "9",
+    "dexterity": "21",
+    "constitution": "14",
+    "intelligence": "12",
+    "wisdom": "11",
+    "charisma": "16",
+    "strength_save": "",
+    "dexterity_save": "8",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "11",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "3",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "11",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common, Gnoll, Sylvan, Void Speech",
+    "challenge_rating": "5",
+    "special_abilities": [
+        {
+            "name": "Flyby",
+            "desc": "The aridni doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+        },
+        {
+            "name": "Magic Resistance",
+            "desc": "The aridni's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells: <br /> At will: dancing lights, detect magic, invisibility <br /> 3/day: charm person, faerie fire, mage armor <br /> 1/day: spike growth"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Short Sword",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage."
+        },
+        {
+            "name": "Slaver Arrows",
+            "desc": "An aridni can add a magical effect in addition to the normal damage done by its arrows. If so the aridni chooses from the following effects: <br /> Confusion. The target must succeed on a DC 14 Wisdom saving throw or become confused (as the spell) for 2d4 - 1 rounds. <br /> Fear. The target must succeed on a DC 14 Wisdom saving throw or become frightened for 2d4 rounds. <br /> Hideous Laughter. The target must succeed on a DC 14 Wisdom saving throw or become incapacitated for 2d4 rounds. While incapacitated, the target is prone and laughing uncontrollably. <br /> Sleep. The target must succeed on a DC 14 Wisdom saving throw or fall asleep forr 2d4 minutes."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Asanbosam",
+    "size": "Large",
+    "type": "Aberration",
+    "subtype": "",
+    "alignment": "Chaotic Evil",
+    "armor_class": "14 (natural armor)",
+    "hit_points": "102",
+    "hit_dice": "12d10 + 36",
+    "speed": "40 ft., climb 15 ft.",
+    "strength": "18",
+    "dexterity": "13",
+    "constitution": "17",
+    "intelligence": "11",
+    "wisdom": "10",
+    "charisma": "5",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "4",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "3",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "4",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Giant",
+    "challenge_rating": "5",
+    "special_abilities": [
+        {
+            "name": "Spider Climb",
+            "desc": "The asanbosam makes one bite attack and one claws attack",
+            "attack_bonus": "7 (bite), 7 (claws)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage. If the target is a creature it must succeed on a DC 14 Constitution saving throw against disease. If the saving throw fails, the target takes 11 (2d10) poison damage immediately and becomes poisoned until the disease is cred. Every 24 hours that elapse, the creatures must repeat the saving throw and reduce its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Claws",
+            "desc": "Melee Weapon Attack: reach 10 ft., one target. Hit: 20 (3d10 + 4) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained and the asanbosam can't claw a different target. If the target is a creature, it must succeed on a DC 14 Constitution saving throw against disease or contract the disease described in the bite attack.",
+            "attack_bonus": "7"
+        }
+    ],
+    "actions": "",
+    "legendary_actions": ""
+  },
+  {
+    "name": "Azza Gremlin",
+    "size": "Small",
+    "type": "Fey",
+    "subtype": "",
+    "alignment": "Neutral",
+    "armor_class": "14",
+    "hit_points": "7",
+    "hit_dice": "2d6",
+    "speed": "10 ft., fly 40 ft. (hover)",
+    "strength": "5",
+    "dexterity": "18",
+    "constitution": "10",
+    "intelligence": "12",
+    "wisdom": "13",
+    "charisma": "10",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "lightning, thunder",
+    "condition_immunities": "",
+    "senses": "darkvision 120 ft., passive Perception 11",
+    "languages": "Common, Primordial",
+    "challenge_rating": "1/4",
+    "special_abilities": [
+        {
+            "name": "Contagious Lightning",
+            "desc": "A creature that touches the azza gremlin or hits it with a melee attack using a metal weapon receives a discharge of lightning. The creature must succeed on a DC 10 Constitution saving throw or attrack lightning for 1 minute. For the duration, attacks that cause lightning damage have advantage against this creature, the creature has disadvantage on saving throws against lightning damage and lightning effects, and if the creature takes lightning damage, it is paralyzed until the end of its next turn. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Lightning Jolt",
+            "desc": "Melee or Ranged Spell Attack: reach 5 ft., or range 30 ft., one creature. Hit: 3 (1d6) lightning damage, and the target is affected by Contagious Lightning.",
+            "attack_bonus": "6"
+        },
+        {
+            "name": "Ride the Bolt",
+            "desc": "As a reaction, the azza gremlin can travel instantly along any bolt of lightning. When it is within 5 feet of a lightning effect, the azza can teleport to any unoccupied space inside or within 5 feet of that lightning effect."
         }
     ],
     "legendary_actions": ""
