@@ -84,12 +84,12 @@
 	    },
 	    {
 		    "name": "Tentacle (Material Form Only)",
-		    "desc": "Melee Weapon Attack: reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. Aft.er 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by healing or comparable magic. Unless the creature s fully submerged or frequently doused with water, it takes 6(1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth.",
+		    "desc": "Melee Weapon Attack. reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. If the target creature is hit, it must make a successful DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute; during that time, it can be removed by lesser restoration or comparable magic. Aft.er 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is entirely underwater, and the disease can only be removed by healing or comparable magic. Unless the creature s fully submerged or frequently doused with water, it takes 6(1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 1d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth.",
 		    "attack_bonus": "9"
 	    },
 	    {
 		    "name": "Withering Touch (Ethereal Form Only)",
-		    "desc": "Melee Weapon Attack: reach 10 ft., one creature. Hit: 14 (3d6+4) necrotic damage.",
+		    "desc": "Melee Weapon Attack. reach 10 ft., one creature. Hit: 14 (3d6+4) necrotic damage.",
 		    "attack_bonus": "8"
 	    },
 	    {
@@ -192,12 +192,12 @@
     "actions": [
         {
             "name": "Slam (Material Form Only)",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage and the target must make a successful DC 13 Constitution saving throw or become diseased. The disease has little effect for 1 minute; during that tie, it can be removed by bless, lesser restoration, or comparable magic. After 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unlembiss it is at least partially underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 2d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth that commands the attacking zombie.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage and the target must make a successful DC 13 Constitution saving throw or become diseased. The disease has little effect for 1 minute; during that tie, it can be removed by bless, lesser restoration, or comparable magic. After 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unlembiss it is at least partially underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 2d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth that commands the attacking zombie.",
             "attack_bonus": "3"
         },
         {
             "name": "Withering Touch (Ethereal Form)",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 4 (1d6 + 1) necrotic damage.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 4 (1d6 + 1) necrotic damage.",
             "attack_bonus": "3"
         },
         {
@@ -263,13 +263,7 @@
     "senses": "passive Perception 17",
     "languages": "Common, Draconic, Sylvan",
     "challenge_rating": "11",
-    "special_abilities": [
-    	{
-		"name": "",
-		"desc" : "",
-		"attack_bonus": ""
-	}
-    ],
+    "special_abilities": "",
     "actions": [
     	{
 		"name": "Multiattack",
@@ -284,18 +278,15 @@
 	},
 	{
 		"name": "Blinding Gaze (Recharge 5-6)",
-		"desc": "A creature within 30 ft. of the abominable beauty who is targeted by this attack and who meets the abominable beauty's gaze must succeed on a DC 17 Charisma sacing throw or be blinded. If the saving throw succeeds, the target creature is permanently immune to this abominable beauty's Blinding Gaze.",
-		"attack_bonus": ""
+		"desc": "A creature within 30 ft. of the abominable beauty who is targeted by this attack and who meets the abominable beauty's gaze must succeed on a DC 17 Charisma sacing throw or be blinded. If the saving throw succeeds, the target creature is permanently immune to this abominable beauty's Blinding Gaze."
 	},
 	{
 		"name": "Burning Touch",
-		"desc": "The abominable beauty's slam attacks do 28 (8d6) fire damage.",
-		"attack_bonus": ""
+		"desc": "The abominable beauty's slam attacks do 28 (8d6) fire damage."
 	},
 	{
 		"name": "Deafening Voice (Recharge 5-6)",
-		"desc": "An abominable beauty's voice is lovely, but any creature within 90 feet and able to hear her when she makes her Deafening Voice attack must succeed on a DC 16 Constitution saving throw or be permanently deafened.",
-		"attack_bonus": ""
+		"desc": "An abominable beauty's voice is lovely, but any creature within 90 feet and able to hear her when she makes her Deafening Voice attack must succeed on a DC 16 Constitution saving throw or be permanently deafened."
 	}
 
     ],
@@ -351,13 +342,11 @@
     "special_abilities": [
     	{
 		"name": "Cursed Existence",
-		"desc": "When it drops to 0 hit points in desert terrain, the accursed defiler's body disintegrates into sand and a sudden parched breeze. However, unless it was killed in a hallowed location, with radiant damage, or by a blessed creature, the accursed defiler reforms at the next sundown 1d100 miles away in a random direction",
-		"attack_bonus": ""
+		"desc": "When it drops to 0 hit points in desert terrain, the accursed defiler's body disintegrates into sand and a sudden parched breeze. However, unless it was killed in a hallowed location, with radiant damage, or by a blessed creature, the accursed defiler reforms at the next sundown 1d100 miles away in a random direction"
 	},
 	{
 		"name": "Sand Shroud",
-		"desc": "A miniature sandstorm constantly whilrs around the accursed defiler in a 10-foot radius. This area is lightly obscured to creatures other than an accursed defiler. Wisdom (Survival) checks made to follow tracks left. by an accursed defiler or other creatures that were traveling in its sand shroud are made with disadvantage.",
-		"attack_bonus": ""
+		"desc": "A miniature sandstorm constantly whilrs around the accursed defiler in a 10-foot radius. This area is lightly obscured to creatures other than an accursed defiler. Wisdom (Survival) checks made to follow tracks left. by an accursed defiler or other creatures that were traveling in its sand shroud are made with disadvantage."
 	}
     ],
     "actions": [
@@ -368,14 +357,13 @@
 	},
 	{
 		"name": "Slam",
-		"desc": "Melee Weapon Attack: reach 5 ft., one creature. Hit: 11 (2d6 + 4) bluedgeoning damage. If a creature is hit by this attack twice in the same round (from the same or different accursed defilers), the target must make a DC 13 Constitution saving throw or gain one level of exhaustion.",
+		"desc": "Melee Weapon Attack. reach 5 ft., one creature. Hit: 11 (2d6 + 4) bluedgeoning damage. If a creature is hit by this attack twice in the same round (from the same or different accursed defilers), the target must make a DC 13 Constitution saving throw or gain one level of exhaustion.",
 		"attack_bonus": "6"
 
 	},
 	{
 		"name": "Sandslash (Recharge 5-6)",
-		"desc": "As an action, the accursed defiler intensifies the vortex of sand that surrounds it. All creatures within a 10-foot radius of the accursed defiler take 21 (6d6) slashing damage, or half damage with a successful DC 14 Dexterity saving throw.",
-		"attack_bonus": ""
+		"desc": "As an action, the accursed defiler intensifies the vortex of sand that surrounds it. All creatures within a 10-foot radius of the accursed defiler take 21 (6d6) slashing damage, or half damage with a successful DC 14 Dexterity saving throw."
 	}
 
     ],
@@ -431,18 +419,15 @@
     "special_abilities": [
     	{
 		"name": "Flyby",
-		"desc": "The ala's poison infuses its flesh. A creature that makes a successful bite attack against an ala must make a DC 16 Constitution saving throw; if it fails, the creature takes 10 (3d6) poison damage.",
-		"attack_bonus": ""
+		"desc": "The ala's poison infuses its flesh. A creature that makes a successful bite attack against an ala must make a DC 16 Constitution saving throw; if it fails, the creature takes 10 (3d6) poison damage."
 	},
 	{
 		"name": "Poison Flesh",
-		"desc": "The ala's poison infuses its flesh. A creature that makes a successful bite attack against an ala must make a DC 16 Constitution saving throw; if it fails, the creature takes 10 (3d6) poison damage.",
-		"attack_bonus": ""
+		"desc": "The ala's poison infuses its flesh. A creature that makes a successful bite attack against an ala must make a DC 16 Constitution saving throw; if it fails, the creature takes 10 (3d6) poison damage."
 	},
 	{
 		"name": "Storm's Strength",
-		"desc": "If an electrical storm is raging around an ala and its target, the saving throw against Lightning Kiss is made wiith disadvantage.",
-		"attack_bonus": ""
+		"desc": "If an electrical storm is raging around an ala and its target, the saving throw against Lightning Kiss is made wiith disadvantage."
 	}
     ],
     "actions": [
@@ -453,18 +438,18 @@
 	},
 	{
 		"name": "Bite",
-		"desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage, and the target must succeed on a DC 16 saving throw or take 10 (3d6) poison damage",
+		"desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage, and the target must succeed on a DC 16 saving throw or take 10 (3d6) poison damage",
 		"attack_bonus": "8"
 
 	},
 	{
 		"name": "Claw",
-		"desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
+		"desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
 		"attack_bonus": "8"
 	},
 	{
 		"name": "Lightning's Kiss (Recharge 5-6)",
-		"desc": "Ranged Weapon Attack: range 50 ft., one target. Hit: 28 (8d6) lightning damage, or half damage with a successful DC 16 Dexterity saving throw. Jagged bolts of lightning flash through and around the ala's whilrwind. It can hurl this lightning with a sudden whipping motion of its tail.",
+		"desc": "Ranged Weapon Attack. range 50 ft., one target. Hit: 28 (8d6) lightning damage, or half damage with a successful DC 16 Dexterity saving throw. Jagged bolts of lightning flash through and around the ala's whilrwind. It can hurl this lightning with a sudden whipping motion of its tail.",
 		"attack_bonus": "6"
 	}
 
@@ -521,13 +506,11 @@
     "special_abilities": [
     	{
 		"name": "Immutable Form",
-		"desc": "The algorith is immune to any spell or effect that would alter its form.",
-		"attack_bonus": ""
+		"desc": "The algorith is immune to any spell or effect that would alter its form."
 	},
 	{
 		"name": "Innate Spellcasting",
-		"desc": "The algorith's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components: <br /> At Will: aid, blur, detect magic, dimension door <br /> 5/day: dispel magic <br /> 1/day: commune (5 questions), wall of force",
-		"attack_bonus": ""
+		"desc": "The algorith's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components: <br /> At Will: aid, blur, detect magic, dimension door <br /> 5/day: dispel magic <br /> 1/day: commune (5 questions), wall of force"
 	}
     ],
     "actions": [
@@ -538,19 +521,17 @@
 	},
 	{
 		"name": "Logic Razor",
-		"desc": "Melee Weapon Attack: reach 5 ft., one target.. Hit: 31 (4d12 + 5) force damage.",
+		"desc": "Melee Weapon Attack. reach 5 ft., one target.. Hit: 31 (4d12 + 5) force damage.",
 		"attack_bonus": "9"
 
 	},
 	{
 		"name": "Cone of Negation (Recharge 5-6)",
-		"desc": "Melee Weapon Attack: An algorith can project a cone of null energy. Targets inside the 30 foot cone take 42 (12d6) damage force damage and suffer the effect of a dispel magic spelll. A successful DC 16 Dexterity saving throw reduces the damage to half and negates the dispel magic effect on that target.",
-		"attack_bonus": ""
+		"desc": "Melee Weapon Attack. An algorith can project a cone of null energy. Targets inside the 30 foot cone take 42 (12d6) damage force damage and suffer the effect of a dispel magic spelll. A successful DC 16 Dexterity saving throw reduces the damage to half and negates the dispel magic effect on that target."
 	},
 	{
 		"name": "Reality Bomb (5/Day)",
-		"desc": "The algorith can summon forth a tiny rune of law and throw it as a weapon. Any creature within 30 feet of the square where the reality bomb lands takes 21 (6d6) force damage and is stunned until the start of the algorith's next turn. A target that makes a successfl DC 16 Dexterity saving throw takes half damage and isn't stunned.",
-		"attack_bonus": ""
+		"desc": "The algorith can summon forth a tiny rune of law and throw it as a weapon. Any creature within 30 feet of the square where the reality bomb lands takes 21 (6d6) force damage and is stunned until the start of the algorith's next turn. A target that makes a successfl DC 16 Dexterity saving throw takes half damage and isn't stunned."
 	}
 
     ],
@@ -606,19 +587,18 @@
     "special_abilities": [
         {
             "name": "Woodfriend",
-            "desc": "When in a forest, alseid leave no tracks and automatically discern true north.",
-            "attack_bonus": ""
+            "desc": "When in a forest, alseid leave no tracks and automatically discern true north."
         }
     ],
     "actions": [
         {
             "name": "Spear",
-            "desc": "Melee or Ranged Weapon Attack: reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+            "desc": "Melee or Ranged Weapon Attack. reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
             "attack_bonus": "3"
         },
         {
             "name": "Shortbow",
-            "desc": "Ranged Weapon Attack: range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+            "desc": "Ranged Weapon Attack. range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
             "attack_bonus": "5"
         }
     ],
@@ -674,13 +654,11 @@
     "special_abilities": [
         {
             "name": "Flyby",
-            "desc": "The amphiptere doesn't provoke an opportunity attack when it flies out of an enemies reach.",
-            "attack_bonus": ""
+            "desc": "The amphiptere doesn't provoke an opportunity attack when it flies out of an enemies reach."
         },
         {
             "name": "Swarming",
-            "desc": "Up to two amphipteres can share the same space at the same time. The amphiptere has an advantage on melee attack rolls if it is sharing its space with another amphiptere that isn't incapacitated.",
-            "attack_bonus": ""
+            "desc": "Up to two amphipteres can share the same space at the same time. The amphiptere has an advantage on melee attack rolls if it is sharing its space with another amphiptere that isn't incapacitated."
         }
     ],
     "actions": [
@@ -691,12 +669,12 @@
         },
         {
             "name": "Bite",
-            "desc": "Melee Weapon Attack: reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage.",
             "attack_bonus": "6"
         },
         {
             "name": "Stinger",
-            "desc": "Melee Weapon Attack: reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage, and the target must make a successful DC 13 Constitution saving throw or be poisoned for 1 hour.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage, and the target must make a successful DC 13 Constitution saving throw or be poisoned for 1 hour.",
             "attack_bonus": "6"
         }
     ],
@@ -767,13 +745,12 @@
         },
         {
             "name": "Bite",
-            "desc": "Melee Weapon Attack: reach 20 ft., one target. Hit: 36 (4d12 + 10) piercing damage.",
+            "desc": "Melee Weapon Attack. reach 20 ft., one target. Hit: 36 (4d12 + 10) piercing damage.",
             "attack_bonus": "15"
         },
         {
             "name": "Constrict",
-            "desc": "Melee Weapon Attack: reach 5 ft, one target. Hit: 36 (4d12 + 10) bludgeoning damage, and the target is grappled (escape DC 20). Until this grapple ends the target is restrained, and the andrenjinyi can't constrict another target.",
-            "attack_bonus": ""
+            "desc": "Melee Weapon Attack. reach 5 ft, one target. Hit: 36 (4d12 + 10) bludgeoning damage, and the target is grappled (escape DC 20). Until this grapple ends the target is restrained, and the andrenjinyi can't constrict another target."
         },
         {
             "name": "Rainbow Arch",
@@ -853,7 +830,7 @@
         },
         {
             "name": "Claw",
-            "desc": "Melee Weapon Attack: reach 5 ft., one creature. Hit: 10 (2d4 + 5) piercing damage, and the creature must succeed on a DC 15 Constitution saving throw or be paralyzed by pain until the end of its turn.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one creature. Hit: 10 (2d4 + 5) piercing damage, and the creature must succeed on a DC 15 Constitution saving throw or be paralyzed by pain until the end of its turn.",
             "attack_bonus": "8"
         }
 
@@ -925,12 +902,12 @@
         },
         {
             "name": "Fiery Greatsword",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 16 (3d10) fire damage.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 16 (3d10) fire damage.",
             "attack_bonus": "7"
         },
         {
             "name": "Fallen Glory (Recharge 5-6)",
-            "desc": "Ranged Spell Attack: All creatures within 50 feet of the chained angel and in its line of sight take 19 (3d12) radiant damage and are knocked prone, or take half damage and aren't knocked prone with a successful DC 15 Strength saving throw."
+            "desc": "Ranged Spell Attack. All creatures within 50 feet of the chained angel and in its line of sight take 19 (3d12) radiant damage and are knocked prone, or take half damage and aren't knocked prone with a successful DC 15 Strength saving throw."
         },
         {
             "name": "Fiendish Cunning",
@@ -1025,22 +1002,22 @@
         },
         {
             "name": "+1 Longsword",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage, or 11 (1d10 + 6) slashing damage if used with two hands.",
             "attack_bonus": "10"
         },
         {
             "name": "+1 Longbow",
-            "desc": "Ranged Weapon Attack: range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+            "desc": "Ranged Weapon Attack. range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
             "attack_bonus": "8"
         },
         {
             "name": "Beak (Eagle Form)",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
             "attack_bonus": "8"
         },
         {
             "name": "Talons (Eagle Form)",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
             "attack_bonus": "8"
         }
     ],
@@ -1115,12 +1092,12 @@
         },
         {
             "name": "Bite",
-            "desc": "Melee Weapon Attack: reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.",
             "attack_bonus": "4"
         },
         {
             "name": "Coils",
-            "desc": "Melee Weapon Attack: reach 10 ft., one creatre. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe and takes 22 (5d8) acid damage at the start of each of the angler worms turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.",
+            "desc": "Melee Weapon Attack. reach 10 ft., one creatre. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe and takes 22 (5d8) acid damage at the start of each of the angler worms turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.",
             "attack_bonus": "4"
         },
         {
@@ -1191,12 +1168,12 @@
         },
         {
             "name": "Bite",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the giant ant can't bite a different target.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the giant ant can't bite a different target.",
             "attack_bonus": "4"
         },
         {
             "name": "Sting",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.",
             "attack_bonus": "4"
         }
     ],
@@ -1267,12 +1244,12 @@
         },
         {
             "name": "Bite",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the giant ant can't bite a different target.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the giant ant can't bite a different target.",
             "attack_bonus": "4"
         },
         {
             "name": "Sting",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.",
             "attack_bonus": "4"
         }
     ],
@@ -1343,7 +1320,7 @@
         },
         {
             "name": "Claw",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
             "attack_bonus": "5"
         },
         {
@@ -1418,12 +1395,12 @@
         },
         {
             "name": "Bite",
-            "desc": "Meleee Weapon Attack: reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage.",
+            "desc": "Meleee Weapon Attack. reach 5 ft., one creature. Hit: 6 (1d6 + 3) piercing damage.",
             "attack_bonus": "5"
         },
         {
             "name": "Tentacle",
-            "desc": "Melee Weapon Attack: reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained and te tentacle can't be used to attack a different target. The arboreal grappler has two tentacles, each of which can grapple on target. The arboreal grappler has two tentacles, each of which can grapple on target. When the arboreal grappler moves it can drag a Medium or smaller target it is grappling at full speed.",
+            "desc": "Melee Weapon Attack. reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained and te tentacle can't be used to attack a different target. The arboreal grappler has two tentacles, each of which can grapple on target. The arboreal grappler has two tentacles, each of which can grapple on target. When the arboreal grappler moves it can drag a Medium or smaller target it is grappling at full speed.",
             "attack_bonus": "5"
         }
     ],
@@ -1489,7 +1466,7 @@
     "actions": [
         {
             "name": "Short Sword",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage."
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage."
         },
         {
             "name": "Slaver Arrows",
@@ -1553,12 +1530,12 @@
         },
         {
             "name": "Bite",
-            "desc": "Melee Weapon Attack: reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage. If the target is a creature it must succeed on a DC 14 Constitution saving throw against disease. If the saving throw fails, the target takes 11 (2d10) poison damage immediately and becomes poisoned until the disease is cred. Every 24 hours that elapse, the creatures must repeat the saving throw and reduce its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage. If the target is a creature it must succeed on a DC 14 Constitution saving throw against disease. If the saving throw fails, the target takes 11 (2d10) poison damage immediately and becomes poisoned until the disease is cred. Every 24 hours that elapse, the creatures must repeat the saving throw and reduce its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.",
             "attack_bonus": "7"
         },
         {
             "name": "Claws",
-            "desc": "Melee Weapon Attack: reach 10 ft., one target. Hit: 20 (3d10 + 4) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained and the asanbosam can't claw a different target. If the target is a creature, it must succeed on a DC 14 Constitution saving throw against disease or contract the disease described in the bite attack.",
+            "desc": "Melee Weapon Attack. reach 10 ft., one target. Hit: 20 (3d10 + 4) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained and the asanbosam can't claw a different target. If the target is a creature, it must succeed on a DC 14 Constitution saving throw against disease or contract the disease described in the bite attack.",
             "attack_bonus": "7"
         }
     ],
@@ -1621,12 +1598,1534 @@
     "actions": [
         {
             "name": "Lightning Jolt",
-            "desc": "Melee or Ranged Spell Attack: reach 5 ft., or range 30 ft., one creature. Hit: 3 (1d6) lightning damage, and the target is affected by Contagious Lightning.",
+            "desc": "Melee or Ranged Spell Attack. reach 5 ft., or range 30 ft., one creature. Hit: 3 (1d6) lightning damage, and the target is affected by Contagious Lightning.",
             "attack_bonus": "6"
         },
         {
             "name": "Ride the Bolt",
             "desc": "As a reaction, the azza gremlin can travel instantly along any bolt of lightning. When it is within 5 feet of a lightning effect, the azza can teleport to any unoccupied space inside or within 5 feet of that lightning effect."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Baba Yaga's Horsemen",
+    "size": "Medium",
+    "type": "Fey",
+    "subtype": "",
+    "alignment": "Lawful Neutral",
+    "armor_class": "20 (plate and shield)",
+    "hit_points": "171",
+    "hit_dice": "18d8 + 90",
+    "speed": "30 ft.",
+    "strength": "22",
+    "dexterity": "11",
+    "constitution": "21",
+    "intelligence": "16",
+    "wisdom": "18",
+    "charisma": "18",
+    "strength_save": "",
+    "dexterity_save": "4",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "8",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "7",
+    "athletics": "10",
+    "deception": "",
+    "history": "7",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "8",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons",
+    "damage_immunities": "lightning, poison",
+    "condition_immunities": "exhaustion, paralyzed, poisoned",
+    "senses": "passive Perception 18",
+    "languages": "Celestial, Common, Infernal, telepathy 100 ft.",
+    "challenge_rating": "11",
+    "special_abilities": [
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The horseman is a 12th level spellcaster. Its spellcasting ability is Charisma (save DC 16). It can innately cast the following spells, requiring no material components: <br /> At Will: sacred flame (Bright Day only), ray of frost (Black Night only) <br /> 1/day each: dimension door, fire shield, haste, slow <br /> 2/day: sacred flame (Bright Day only), darkness (Black Night only) <br /> 2/day each: continual flame, scorching ray (Red Sun only) <br /> 3/day each: ethereal jaunt, phantom steed (appears as a horse collored appropriately to the horseman), plane shift (self and steed only)",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Magic Resistance",
+            "desc": "The horseman has advantage on saving throws against spells and other magical effects."
+        },
+        {
+            "name": "Peerless Rider",
+            "desc": "Any attacks directed at the horseman's mount targets the horseman instead. Its mount gains the benefit of the rider's damage and condition immunities, and if the horseman passes a saving throw against an area effect, the mount takes no damage."
+        },
+        {
+            "name": "Quick Draw",
+            "desc": "The horseman can switch between wielding its lance and longsword as a bonus action."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The horseman makes three attacks with its lance or longsword. It can use Temporal Strike with one of these attacks when it is available.",
+            "attack_bonus": "10 (lance), 10 (longsword)"
+        },
+        {
+            "name": "Lance",
+            "desc": "Melee Weapon Attack. reach 10 ft. (disadvantage within 5 ft.), one target. Hit: 12 (1d12 + 6) piercing damage.",
+            "attack_bonus": "10"
+        },
+        {
+            "name": "Longsword",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage.",
+            "attack_bonus": "10"
+        },
+        {
+            "name": "Temporal Strike (recharge 5-6)",
+            "desc": "When the horseman strikes a target with a melee attack, in addition to taking normal damage, the target must succeed on a DC 17 Constitution saving throw or instantly age 3d10 years. A creature that ages this way has disadvantage on attack rolls, ability checks, and saving throws based on Strength, Dexterity, and Constitution until the aging is reversed. A creature that ages beyond its lifespan dies immediately. The aging reverses automatically after 24 hours, or it can be reversed magically by greater restoration or comparable magic. A creature that succeeds on the save is immune to the temporal strike effect for 24 hours."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bagiennik",
+    "size": "Medium",
+    "type": "Aberration",
+    "subtype": "",
+    "alignment": "Chaotic Neutral",
+    "armor_class": "15 (natural armor)",
+    "hit_points": "75",
+    "hit_dice": "10d8 + 30",
+    "speed": "30 ft., swim 40 ft.",
+    "strength": "16",
+    "dexterity": "18",
+    "constitution": "16",
+    "intelligence": "9",
+    "wisdom": "16",
+    "charisma": "11",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "5",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 15",
+    "languages": "Common",
+    "challenge_rating": "3",
+    "special_abilities": [
+        {
+            "name": "Healing Oil",
+            "desc": "A bagiennik can automatically stabilize a dying creature by using an action to smear some of its oily secretion on the dying creature's flesh. A similar application on an already-stable creature or one with 1 or more hit points acts as a potion of healing, restoring 2d4 + 2 hit points. Alternatively, the bagiennik's secretion can have the effect of a lesser restoration spell. However, any creature receiving a bagiennik's Healing Oil must make a successful DC 13 Constitution saving throw or be slowed for 1 minute."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bagiennik makes two claw attacks.",
+            "attack_bonus": "6"
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon attack: reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.",
+            "attack_bonus": "6"
+        },
+            "name": "Acid Spray",
+            "desc": "Ranged Weapon Attack. range 15 ft., one target. Hit: 14 (2d10 + 3) acid damage. The target must make a successful DC 13 Dexterity saving throw or fall prone in the slick oil, which covers an area 5 feet square. A creature that enters the oily area or ends its turn there must also make the Dexterity saving throw to avoid falling prone. A creature needs to make only one saving throw per 5-foot-square per turn, even if it enters and ends its turn in the area. The slippery effect lasts for 3 rounds.",
+            "attack_bonus": "6"
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bastet Temple Cat",
+    "size": "Small",
+    "type": "Beast",
+    "subtype": "",
+    "alignment": "Chaotic Neutral",
+    "armor_class": "14",
+    "hit_points": "40",
+    "hit_dice": "9d6 + 9",
+    "speed": "40 ft., climb 30 ft.",
+    "strength": "8",
+    "dexterity": "19",
+    "constitution": "12",
+    "intelligence": "12",
+    "wisdom": "16",
+    "charisma": "18",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "5",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "6",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 15",
+    "languages": "Common, Nurian, and Sylvan",
+    "challenge_rating": "1",
+    "special_abilities": [
+        {
+            "name": "Keen Smell",
+            "desc": "The temple cat has advantage on Wisdom (Perception) checks that rely on smell."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The temple cat’s innate spellcasting ability is Charisma (spell save DC 14). The temple cat can innately cast the following spells, requiring no material components: <br /> At will: guidance <br /> 3/day each: charm person, cure wounds <br /> 1/day: enhance ability (only Cat’s Grace)",
+            "attack_bonus": "6"
+        },
+        {
+            "name": "Priestly Purr",
+            "desc": "When a cleric or paladin who worships Bastet spends an hour preparing spells while a Bastet temple cat is within 5 feet, that spellcaster can choose two 1st-level spells and one 2nd-level spell that they are able to cast and imbue them into the temple cat. The temple cat can cast these spells 1/day each without a verbal component. These spells are cast as if they were included in the temple cat’s Innate Spellcasting trait."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The temple cat makes one bite attack and one claws attack.",
+            "attack_bonus": "6 (bite), 6 (claws)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one creature. Hit: 6 (1d4 + 4) piercing damage.",
+            "attack_bonus": "6"
+        },
+        {
+            "name": "Claws",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.",
+            "attack_bonus": "6"
+        },
+        {
+            "name": "Fascinating Lure",
+            "desc": "The temple cat purrs loudly, targeting a humanoid it can see within 30 feet that can hear the temple cat. The target must succeed on a DC 14 Wisdom saving throw or be charmed. While charmed by the temple cat, the target must move toward the cat at normal speed and try to pet it or pick it up. A charmed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful, the creature is immune to the temple cat’s Fascinating Lure for the next 24 hours. The temple cat has advantage on attack rolls against any creature petting or holding it."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bearfolk",
+    "size": "Medium",
+    "type": "Humanoid",
+    "subtype": "Bearfolk",
+    "alignment": "Chaotic Good",
+    "armor_class": "14 (hide armor)",
+    "hit_points": "45",
+    "hit_dice": "6d8 + 18",
+    "speed": "40 ft.",
+    "strength": "19",
+    "dexterity": "14",
+    "constitution": "16",
+    "intelligence": "8",
+    "wisdom": "12",
+    "charisma": "9",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "Common, Giant",
+    "challenge_rating": "3",
+    "special_abilities": [
+        {
+            "name": "Frenzy (1/rest)",
+            "desc": "As a bonus action, the bearfolk can trigger a berserk frenzy that lasts 1 minute. While in frenzy, it gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons and has advantage on attack rolls. Attack rolls made against a frenzied bearfolk have advantage."
+        },
+        {
+            "name": "Keen Smell",
+            "desc": "The bearfolk has advantage on Wisdom (Perception) checks that rely on smell."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bearfolk makes attacks once with its battleaxe, once with its warhammer, and once with its bite.",
+            "attack_bonus": "6 (battleaxe), 6 (bite)"
+        },
+        {
+            "name": "Battleaxe",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used two-handed.",
+            "attack_bonus": "6"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+            "attack_bonus": "6"
+        },
+        {
+            "name": "Warhammer",
+            "desc": "Melee Weapon Attack. +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage, or 9 (1d10 + 4) bludgeoning damage if used two-handed.",
+            "attack_bonus": "6"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Behtu",
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "",
+    "alignment": "Chaotic Evil",
+    "armor_class": "14",
+    "hit_points": "52",
+    "hit_dice": "8d6 + 24",
+    "speed": "20 ft., climb 20 ft.",
+    "strength": "17",
+    "dexterity": "16",
+    "constitution": "16",
+    "intelligence": "12",
+    "wisdom": "11",
+    "charisma": "7",
+    "strength_save": "",
+    "dexterity_save": "5",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "5",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "5",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "cold, fire, lightning",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Behtu, Common, Infernal",
+    "challenge_rating": "2",
+    "special_abilities": "",
+    "actions": [
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target.  Hit: 6 (1d6 + 3) piercing damage.",
+            "attack_bonus": "5"
+        },
+        {
+            "name": "Shortspear",
+            "desc": "Melee or Ranged Weapon Attack. reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+            "attack_bonus": "5"
+        },
+        {
+            "name": "Fire Breath (Recharge 6)",
+            "desc": "The behtu exhales fire in a 15-foot cone. Each creature in that area takes 21 (5d8) fire damage, or half damage with a successful DC 13 Dexterity saving throw."
+        },
+        {
+            "name": "Ichorous Infusions",
+            "desc": "Behtu war parties carry 1d6 vials of ichorous infusions. They often ingest an infusion before an ambush. For the next 2d6 rounds, the behtus gain a +4 bonus to their Strength and Constitution scores and quadruple their base speed (including their climb speed). Behtus also take a –4 penalty to their Intelligence and Wisdom scores for the duration of the infusion. A non-behtu character who ingests a behtu infusion becomes poisoned and takes 10 (3d6) poison damage; a successful DC 14 Constitution saving throw against poison reduces damage to half and negates the poisoned condition."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Beli",
+    "size": "Small",
+    "type": "Fey",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "15 (natural armor)",
+    "hit_points": "45",
+    "hit_dice": "10d6 + 10",
+    "speed": "30 ft., fly 30 ft.",
+    "strength": "11",
+    "dexterity": "16",
+    "constitution": "12",
+    "intelligence": "8",
+    "wisdom": "11",
+    "charisma": "14",
+    "strength_save": "",
+    "dexterity_save": "5",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "4",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "5",
+    "survival": "",
+    "damage_vulnerabilities": "fire",
+    "damage_resistances": "",
+    "damage_immunities": "cold",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "Common, Dwarvish, Giant",
+    "challenge_rating": "2",
+    "special_abilities": [
+        {
+            "name": "Arctic Hunter",
+            "desc": ". Beli have advantage on Dexterity (Stealth) checks and Wisdom (Perception) checks made in icy, natural surroundings."
+        },
+        {
+            "name": "Cold Regeneration",
+            "desc": " As long as the temperature is below freezing, the beli regains 3 hit points at the start of its turn. If the beli takes fire damage, this trait doesn’t function at the start of the beli’s next turn. The beli dies only if it starts its turn with 0 hit points and it doesn’t regenerate."
+        },
+        {
+            "name": "Flyby",
+            "desc": "The beli doesn’t provoke an opportunity attack when it flies out of an enemy’s reach."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The beli’s innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components: <br /> At will: invisibility <br /> 3/day: chill touch"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Ice Dagger",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 2 (1d4) cold damage.",
+            "attack_bonus": "5"
+        },
+        {
+            "name": "Icy Shortbow",
+            "desc": "Ranged Weapon Attack. range 80/320 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 2 (1d4) cold damage, and the target must make a successful DC 13 Constitution saving throw or gain 2 levels of exhaustion from the arrow’s icy chill. If the save succeeds, the target also becomes immune to further exhaustion from beli arrows for 24 hours (but any levels of exhaustion already gained remain in effect). A character who gains a sixth level of exhaustion doesn’t die automatically but drops to 0 hit points and must make death saving throws as normal. The exhaustion lasts until the target recovers fully from the cold damage.",
+            "attack_bonus": "5"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bereginyas",
+    "size": "Tiny",
+    "type": "Fey",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "15",
+    "hit_points": "70",
+    "hit_dice": "20d4 + 20",
+    "speed": "20 ft., fly 60 ft.",
+    "strength": "14",
+    "dexterity": "20",
+    "constitution": "12",
+    "intelligence": "13",
+    "wisdom": "12",
+    "charisma": "11",
+    "strength_save": "",
+    "dexterity_save": "7",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "5",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "9",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "bludgeoning",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 15",
+    "languages": "Common, Elvish, Sylvan",
+    "challenge_rating": "4",
+    "special_abilities": "",
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bereginyas makes two claw attacks. If both attacks hit the same target, the target is grappled (escape DC 12) and the bereginyas immediately uses Smother against it as a bonus action.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Smother",
+            "desc": "If the bereginyas grapples an opponent, it extends a semi-solid gaseous tendril down the target’s throat as a bonus action. The target must make a successful DC 14 Strength saving or it is immediately out of breath and begins suffocating. Suffocation ends if the grapple is broken or if the bereginyas is killed."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Blemmyes",
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": "",
+    "alignment": "Chaotic Evil",
+    "armor_class": "15 (natural armor)",
+    "hit_points": "168",
+    "hit_dice": "16d10 + 80",
+    "speed": "40 ft.",
+    "strength": "20",
+    "dexterity": "13",
+    "constitution": "20",
+    "intelligence": "7",
+    "wisdom": "12",
+    "charisma": "5",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "3",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "Giant",
+    "challenge_rating": "8",
+    "special_abilities": [
+        {
+            "name": "Carnivorous Compulsion",
+            "desc": "If it can see an incapacitated creature, the blemmyes must succeed on a DC 11 Wisdom save or be compelled to move toward that creature and attack it."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The blemmyes makes two slam attacks and one bite attack.",
+            "attack_bonus": "8 (slam), 8 (bite)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 19 (4d6 + 5) piercing damage. If the target is a Medium or smaller incapacitated creature, that creature is swallowed. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects from outside the blemmyes, and it takes 14 (4d6 )acid damage at the start of each of the blemmyes’ turns. If the blemmyes takes 20 damage or more during a single turn from a creature inside it, the blemmyes must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 5 feet of the blemmyes. The blemmyes can have only one target swallowed at a time. If the blemmyes dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Slam",
+            "desc": "Melee Weapon Attack. +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Wisdom saving throw or be stunned until the end of its next turn.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Rock",
+            "desc": "Ranged Weapon Attack. range 30/120 ft., one target. Hit: 27 (4d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Wisdom saving throw or be frightened until the end of its next turn.",
+            "attack_bonus": "8"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Boloti",
+    "size": "Tiny",
+    "type": "Fey",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "15",
+    "hit_points": "63",
+    "hit_dice": "14d4 + 28",
+    "speed": "20 ft., swim 60 ft.",
+    "strength": "12",
+    "dexterity": "20",
+    "constitution": "14",
+    "intelligence": "13",
+    "wisdom": "12",
+    "charisma": "11",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "3",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "7",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common, Primordial, Sylvan",
+    "challenge_rating": "1",
+    "special_abilities": [
+        {
+            "name": "Amphibious",
+            "desc": "The boloti can breathe air and water."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The boloti’s innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components: <br /> At will: detect magic, water walk <br /> 3/day: control water, create or destroy water, fog cloud, invisibility, see invisibility, water breathing <br /> 1/day: wall of ice"
+        },
+        {
+            "name": "Water Mastery",
+            "desc": "A boloti has advantage on attack rolls if both  it and its opponent are in water. If the opponent and the  boloti are both on dry ground, the boloti has disadvantage  on attack rolls."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Dagger",
+            "desc": "Melee Weapon Attack. reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Vortex (1/Day)",
+            "desc": "A boloti can transform into a vortex of swirling, churning water for up to 4 minutes. This ability can be used only while the boloti is underwater, and the boloti can’t leave the water while in vortex form. While in vortex form, the boloti can enter another creature’s space and stop there in vortex form. In this liquid form, the boloti still takes normal damage from weapons and magic.  A creature in the same space as the boloti at the start of the creature’s turn takes 9 (2d8) bludgeoning damage unless it makes a successful DC 15 Dexterity saving throw. If the creature is Medium or smaller, a failed saving throw also means it is grappled (escape DC 11). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw succeeds, the target is pushed 5 feet so it is out of the boloti’s space."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bone Collective",
+    "size": "Small",
+    "type": "Undead",
+    "subtype": "",
+    "alignment": "Chaotic Evil",
+    "armor_class": "17 (natural armor)",
+    "hit_points": "120",
+    "hit_dice": "16d6 + 64",
+    "speed": "30 ft.",
+    "strength": "10",
+    "dexterity": "20",
+    "constitution": "18",
+    "intelligence": "14",
+    "wisdom": "10",
+    "charisma": "16",
+    "strength_save": "",
+    "dexterity_save": "8",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "5",
+    "athletics": "",
+    "deception": "6",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "3",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "11",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
+    "damage_immunities": "necrotic, poison",
+    "condition_immunities": "exhaustion, poisoned",
+    "senses": "darkvision 120 ft., passive Perception 13",
+    "languages": "Common, Darakhul",
+    "challenge_rating": "8",
+    "special_abilities": [
+        {
+            "name": "Hive Mind",
+            "desc": " All elements of a bone collective within 50 miles of their main body constantly communicate with each other. If one is aware of a particular danger, they all are. Any bone collective with at least 30 hit points forms a hive mind, giving it an Intelligence of 14. Below this hp threshold, it becomes mindless (Intelligence 0) and loses its innate spellcasting ability. At 0 hp, a few surviving sets of bones scatter, and must spend months to create a new collective."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The bone collective’s innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: chill touch 3/day: animate dead (up to 5 skeletons or zombies)"
+        },
+        {
+            "name": "Swarm",
+            "desc": "A bone collective can act as a swarm (composed of smaller elements), or it can grant a single member (called an exarch) control, acting as a singular creature. Changing between forms takes one action. In its singular form, the collective can’t occupy the same space as another creature, but it can perform sneak attacks and cast spells. In swarm form, the bone collective can occupy another creature’s space and vice versa, and it can move through openings at least 1 foot square. It can’t change to singular form while it occupies the same space as another creature. It uses its skills normally in either form."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bone collective makes two claw attacks, or one claw and one bite attack, or one swarm attack.",
+            "attack_bonus": "8 (claw), 8 (bite)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 31 (4d12 + 5) piercing damage, and the target must make a DC 16 Constitution save or suffer the effects of Wyrmblood Venom.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 25 (3d12 + 5) slashing damage.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Swarm",
+            "desc": "Melee Weapon Attack. reach 0 ft., one creature in the swarm’s space. Hit: 57 (8d12 + 5) piercing damage, or 31 (4d12 + 5) piercing damage if the bone collective has half its hit points or fewer. If the attack hits, the target must make a successful DC 15 Constitution save or suffer the effects of Wyrmblood Venom.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Wyrmblood Venom (Injury)",
+            "desc": "Bone collectives create a reddish liquid, which they smear on their fangs. The freakish red mouths on the tiny skeletons are disturbing, and the toxin is deadly. A bitten creature must succeed on a DC15 Constitution saving throw or become poisoned and take 1d6 Charisma damage. A poisoned creature repeats the saving throw every four hours, taking another 1d6 Charisma damage for each failure, until it has made two consecutive successful saves or survived for 24 hours. If the creature survives, the effect ends and the creature can heal normally. Lost Charisma can be regained with a lesser restoration spell or comparable magic."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bone Crab",
+    "size": "Small",
+    "type": "Beast",
+    "subtype": "",
+    "alignment": "Neutral",
+    "armor_class": "13 (natural armor)",
+    "hit_points": "33",
+    "hit_dice": "6d6 + 12",
+    "speed": "20 ft., swim 10 ft.",
+    "strength": "10",
+    "dexterity": "14",
+    "constitution": "14",
+    "intelligence": "1",
+    "wisdom": "12",
+    "charisma": "4",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "3",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "4",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "bludgeoning",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "",
+    "challenge_rating": "1/2",
+    "special_abilities": [
+        {
+            "name": "Amphibious",
+            "desc": "The bone crab can breathe air and water."
+        },
+        {
+            "name": "Bone Camoflauge",
+            "desc": "A bone crab has advantage on Dexterity (Stealth) checks while it’s among bones."
+        },
+        {
+            "name": "Hive Mind",
+            "desc": "A bone crab can communicate perfectly with all other bone crabs within 100 feet of it. If one is aware of danger, they all are."
+        },
+        {
+            "name": "Leap",
+            "desc": "Bone crabs have incredibly powerful legs and can leap up to 10 feet straight ahead or backward as part of its movement; this counts as withdraw action when moving away from a foe."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bone crab makes two claw attacks.",
+            "attack_bonus": "4"
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
+            "attack_bonus": "4"
+        },
+        {
+            "name": "White Ghost Shivers",
+            "desc": "A living creature that is injured by or makes physical contact with a creature carrying the white ghost shivers must succeed on a DC 11 Constitution saving throw at the end of the encounter to avoid becoming infected. This disease manifests after 24 hours, beginning as a mild chill, but increasingly severe after a day, accompanied by a fever. Hallucinations are common, and the fright they induce lends the disease its name. At onset, the infected creature gains two levels of exhaustion that cannot be removed until the disease is cured by lesser restoration, comparable magic, or rest. The infected creature makes another DC 11 Constitution saving throw at the end of each long rest; a successful save removes one level of exhaustion. If the saving throw fails, the disease persists. If both levels of exhaustion are removed by successful saving throws, the victim has recovered naturally."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bone Swarm",
+    "size": "Large",
+    "type": "Swarm",
+    "subtype": "Tiny Undead",
+    "alignment": "Chaotic Evil",
+    "armor_class": "17 (natural armor)",
+    "hit_points": "198",
+    "hit_dice": "36d10",
+    "speed": "20 ft., fly 60 ft.",
+    "strength": "22",
+    "dexterity": "18",
+    "constitution": "10",
+    "intelligence": "9",
+    "wisdom": "15",
+    "charisma": "20",
+    "strength_save": "",
+    "dexterity_save": "8",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "6",
+    "charisma_save": "9",
+    "acrobatics": "8",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "6",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "8",
+    "survival": "",
+    "damage_vulnerabilities": "bludgeoning",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "charmed, exhastion, frightened, paralyzed, poisoned, prone, restrained, stunned",
+    "senses": "darkvision 60 ft., passive Perception 16",
+    "languages": "Common, Void Speech",
+    "challenge_rating": "10",
+    "special_abilities": [
+        {
+            "name": "Strength of Bone",
+            "desc": "A bone swarm can choose to deal bludgeoning, piercing, or slashing damage, and adds 1.5× its Strength bonus on swarm damage rolls as bits and pieces of broken skeletons claw, bite, stab, and slam at the victim."
+        },
+        {
+            "name": "Swarm",
+            "desc": "The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a human skull. The swarm can’t regain hit points or gain temporary hit points."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bone swarm can attack every hostile creature in its space with swirling bones.",
+            "attack_bonus": "10"
+        },
+        {
+            "name": "Swirling Bones",
+            "desc": "Melee Weapon Attack. reach 0 ft., one creature in the swarm’s space. Hit: 31 (5d8 + 9) bludgeoning, piercing, or slashing damage (includes Strength of Bone special ability).",
+            "attack_bonus": "10"
+        },
+        {
+            "name": "Death's Embrace (Recharge 5-6)",
+            "desc": "Melee Weapon Attack. reach 0 ft., one creature in the swarm’s space. Hit: the target is grappled (escape DC 16) and enveloped within the swarm’s bones. The swarm can force the creature to move at its normal speed wherever the bone swarm wishes. Any non-area attack against the bone swarm has a 50% chance of hitting a creature grappled in Death’s Embrace instead."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Avatar of Boreas",
+    "size": "Medium",
+    "type": "Elemental",
+    "subtype": "",
+    "alignment": "Chaotic Evil",
+    "armor_class": "20 (natural armor)",
+    "hit_points": "168",
+    "hit_dice": "16d8 + 96",
+    "speed": "50 ft., fly 120 ft.",
+    "strength": "25",
+    "dexterity": "22",
+    "constitution": "22",
+    "intelligence": "18",
+    "wisdom": "19",
+    "charisma": "21",
+    "strength_save": "",
+    "dexterity_save": "12",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "10",
+    "charisma_save": "11",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "11",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "10",
+    "perception": "10",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "12",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "acid",
+    "damage_immunities": "cold, lightning, poison, thunder, petrification",
+    "condition_immunities": "poison",
+    "senses": "darkvision 60 ft., truesight, passive Perception 20",
+    "languages": "Common, Dwarvish, Giant, Infernal",
+    "challenge_rating": "17",
+    "special_abilities": [
+        {
+            "name": "Chilling Presence",
+            "desc": "Boreas freezes everything within 150 feet of him. After 5 rounds, nonmagical fires up to the size of a campfire are quenched. Water freezes within 1 minute. Spells that protect against cold are subjected to an immediate dispel magic (at +10 spellcasting ability) when within 150 feet of Boreas."
+        },
+        {
+            "name": "Wind Form",
+            "desc": "Boreas can shift between his humanoid body and a body made of wind and mist as an action; he can never be forced to shift forms. In wind form, he can use a whirlwind blast attack and use his spells, but no weapon attack. Truesight reveals both forms at once."
+        },
+        {
+            "name": "Freedom of the Wind",
+            "desc": "Locks, shackles, ropes, and other bindings cannot hold Boreas."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "Boreas’s innate spellcasting ability is Charisma (spell save DC 19). He can innately cast the following spells, requiring no material components: <br /> At will: create water, detect magic, guidance, invisibility, polymorph, speak with animals, true seeing, wind wall <br /> 3/day each: call lightning, control weather, cure wounds, dispel magic, ice storm, lesser restoration <br /> 1/day each: chain lightning, earthquake, finger of death, heal, shapechange, wall of ice, word of recall"
+        },
+        {
+            "name": "Regeneration",
+            "desc": "The avatar of Boreas regains 10 hit points at the start of its turn. If the avatar of Boreas takes fire damage, this trait does not function at the start of its next turn. The avatar of Boreas dies only if it starts its turn with 0 hit points and does not regenerate."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "Boreas makes 4 spear attacks, or 4 longbow attacks, or 2 whirlwind blasts.",
+            "attack_bonus": "13 (spear), 12 (longbow), 11 (whirlwind blast)"
+        },
+        {
+            "name": "Ice Spear (Humanoid Form)",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 11 (1d8 + 7) piercing damage plus 17 (5d6) cold damage.",
+            "attack_bonus": "13"
+        },
+        {
+            "name": "North Wind Longbow",
+            "desc": "Ranged Weapon Attack. range 150/600 ft., one target. Hit: 10 (1d8+6) piercing damage plus 9 (2d8) cold damage.",
+            "attack_bonus": "12"
+        },
+        {
+            "name": "Whirlwind Blast (Wind Form Only)",
+            "desc": "Ranged Spell Attack. range 50 ft., one target. Hit: 37 (5d12 + 5) slashing damage.",
+            "attack_bonus": "11"
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Ice Spear",
+            "desc": "Boreas makes an ice spear attack."
+        },
+        {
+            "name": "North Wind's Glare",
+            "desc": "Boreas freezes a foe with a look. One creature within 60 feet that the avatar of Boreas can see must make a successful DC 19 Constitution saving throw or be petrified until the start of the avatar’s next turn."
+        },
+        {
+            "name": "Whirlwind Movement (Costs 2 Actions)",
+            "desc": "Boreas erupts into an icy whirlwind. Mundane and magical light sources alike within 20 feet are automatically extinguished. Each creature within 20 feet of the avatar must succeed on a DC 21 Dexterity saving throw or take 14 (4d6) cold damage. The avatar can then fly up to half its flying speed."
+        }
+    ]
+  },
+  {
+    "name": "Bouda",
+    "size": "Medium",
+    "type": "Fiend",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "15 (natural armor)",
+    "hit_points": "93",
+    "hit_dice": "11d8 + 44",
+    "speed": "30 ft.",
+    "strength": "19",
+    "dexterity": "14",
+    "constitution": "18",
+    "intelligence": "10",
+    "wisdom": "12",
+    "charisma": "15",
+    "strength_save": "",
+    "dexterity_save": "5",
+    "constitution_save": "7",
+    "intelligence_save": "",
+    "wisdom_save": "4",
+    "charisma_save": "5",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "7",
+    "deception": "5",
+    "history": "",
+    "insight": "",
+    "intimidation": "5",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "4",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "5",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "acid, lightning; bludgeoning, piercing, and slashing from nonmagical weapons that aren’t silvered",
+    "damage_immunities": "fire, poison",
+    "condition_immunities": "charmed, exhaustion, poisoned",
+    "senses": "darkvision 120 ft., passive Perception 14",
+    "languages": "Common, Celestial, Infernal, Nurian; telepathy 100 ft.",
+    "challenge_rating": "5",
+    "special_abilities": [
+        {
+            "name": "Shapechanger",
+            "desc": "The bouda can use its action to polymorph into a human, a hyena, or its true form, which is a hyena-humanoid hybrid. Its statistics, other than its Mephitic Claw attack, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if destroyed, before turning to dust."
+        },
+        {
+            "name": "Defiling Smear (1/Day)",
+            "desc": "The bouda can secrete a disgusting whitish-yellow substance with the viscosity of tar to mark food and territory. As a bonus action, the bouda marks a single adjacent 5-foot space, object, or helpless creature. Any living creature within 30 feet of the smear at the start of its turn must succeed on a DC 15 Constitution saving throw against poison or be poisoned for 1d6 rounds. A creature that makes a successful saving throw is immune to that particular bouda’s defiling smear for 24 hours. The stench of a smear remains potent for one week."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The bouda’s innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can cast the following spells, requiring no material components: <br /> Constant: detect evil and good, detect magic <br /> At will: thaumaturgy <br /> 3/day: darkness, expeditious retreat <br /> 1/day: contagion"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bouda makes one bite attack and one mephitic claw attack.",
+            "attack_bonus": "7 (bite), 7 (mephitic claw)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 10 (3d6) poison damage.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Mephitic Claw",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage, and the target must make a successful DC 15 Constitution saving throw or become poisoned for 1 round by the visible cloud of vermin swarming around the bouda’s forearms.",
+            "attack_bonus": "7"
+        },
+        {
+            "name": "Ravenous Gorge",
+            "desc": "The bouda consumes the organs of a corpse in a space it occupies. It gains temporary hit points equal to the dead creature’s HD that last 1 hour. Organs consumed by this ability are gone, and the creature can’t be restored to life through spells and magical effects that require a mostly intact corpse."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Broodiken",
+    "size": "Tiny",
+    "type": "Construct",
+    "subtype": "",
+    "alignment": "Neutral",
+    "armor_class": "13 (natural armor)",
+    "hit_points": "55",
+    "hit_dice": "10d4 + 30",
+    "speed": "20 ft., climb 20 ft.",
+    "strength": "8",
+    "dexterity": "14",
+    "constitution": "16",
+    "intelligence": "2",
+    "wisdom": "10",
+    "charisma": "6",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "4",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "6",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons",
+    "damage_immunities": "",
+    "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "",
+    "challenge_rating": "1",
+    "special_abilities": [
+        {
+            "name": "Immutable Form",
+            "desc": "The broodiken is immune to any spell or effect that would alter its form."
+        },
+        {
+            "name": "Magic Resistance",
+            "desc": "The broodiken has advantage on saving throws against spells and other magical effects."
+        },
+        {
+            "name": "Shared Rage",
+            "desc": "A broodiken cannot speak with its creator telepathically, but it feels strong emotions and recognizes the objects of those emotions. A creator can telepathically order broodiken to hunt for and attack individuals by sending the broodiken an image of the creature and the appropriate emotion. As long as the broodiken is on such a hunt, it can be more than 100 feet away from its master without wailing."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.",
+            "attack_bonus": "4"
+        },
+        {
+            "name": "Attach",
+            "desc": "When a broodiken succeeds on a bite attack, its teeth latch on, grappling the target (escape DC 9). On each of its turns, its bite attack hits automatically as long as it can maintain its grapple."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bucca",
+    "size": "Tiny",
+    "type": "Fey",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "14 (natural armor)",
+    "hit_points": "27",
+    "hit_dice": "5d4 + 15",
+    "speed": "20 ft., fly 30 ft.",
+    "strength": "10",
+    "dexterity": "16",
+    "constitution": "17",
+    "intelligence": "13",
+    "wisdom": "9",
+    "charisma": "16",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "1",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "7",
+    "stealth": "7",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "Darakhul, Dwarvish",
+    "challenge_rating": "1/2",
+    "special_abilities": [
+        {
+            "name": "Flyby",
+            "desc": "The bucca doesn’t provoke an opportunity attack when it flies out of an enemy’s reach."
+        },
+        {
+            "name": "Vulnerability to Sunlight",
+            "desc": "A bucca takes 1 point of radiant damage for every minute it is exposed to sunlight."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The bucca’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components: <br /> At will: invisibility <br /> 3/day: darkness, ensnaring strike, locate object"
+        }
+    ],
+    "actions": [
+        {
+            "name": "Dagger",
+            "desc": "Melee Weapon Damage. reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw against poison or take 1d2 Strength damage. The target must repeat the saving throw at the end of each of its turns, and it loses another 1d2 Strength for each failed saving throw. The effect ends when one of the saving throws succeeds or automatically after 4 rounds. All lost Strength returns after a long rest.",
+            "attack_bonus": "5"
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Bukavac",
+    "size": "Large",
+    "type": "Monstrosity",
+    "subtype": "",
+    "alignment": "Neutral Evil",
+    "armor_class": "16 (natural armor)",
+    "hit_points": "199",
+    "hit_dice": "21d10 + 84",
+    "speed": "40 ft., swim 20 ft.",
+    "strength": "20",
+    "dexterity": "17",
+    "constitution": "18",
+    "intelligence": "7",
+    "wisdom": "15",
+    "charisma": "12",
+    "strength_save": "",
+    "dexterity_save": "7",
+    "constitution_save": "8",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "10",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "11",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "thunder",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 20",
+    "languages": "Sylvan",
+    "challenge_rating": "9",
+    "special_abilities": [
+        {
+            "name": "Hold Breaeth",
+            "desc": "The bukavac can hold its breath for up to 20 minutes."
+        },
+        {
+            "name": "Hop",
+            "desc": "A bukavac can move its enormous bulk with remarkably quick hop of up to 20 feet, leaping over obstacles and foes. It may also use the hop as part of a withdraw action."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The bukavac makes four claw attacks, or two claw attacks and one bite attack, or two claw attacks and one gore attack, or one bite and one gore attack.",
+            "attack_bonus": "9 (bite), 9 (claw)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage.",
+            "attack_bonus": "9"
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 11 (1d12 + 5) slashing damage and grapples (escape DC 15). A bukavac can grapple up to 2 Medium size foes.",
+            "attack_bonus": "9"
+        },
+        {
+            "name": "Gore",
+            "desc": "Melee Weapon Attack. reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage.",
+            "attack_bonus": "9"
+        },
+        {
+            "name": "Croaking Blast (Recharge 5-6)",
+            "desc": "A bukavac can emit a howling thunderclap that deafens and damages those nearby. Creatures within 15 feet who fail a DC 17 Constitution saving throw take 36 (8d8) thunder damage and are permanently deafened. Those succeeding on the saving throw take half damage and are not deafened. The deafness can be cured with lesser restoration."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Buraq",
+    "size": "Medium",
+    "type": "Celestial",
+    "subtype": "",
+    "alignment": "Lawful Good",
+    "armor_class": "17",
+    "hit_points": "152",
+    "hit_dice": "16d8 + 80",
+    "speed": "60 ft., fly 90 ft.",
+    "strength": "15",
+    "dexterity": "18",
+    "constitution": "20",
+    "intelligence": "18",
+    "wisdom": "18",
+    "charisma": "20",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "9",
+    "intelligence_save": "",
+    "wisdom_save": "8",
+    "charisma_save": "9",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "8",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "",
+    "performance": "",
+    "persuasion": "",
+    "religion": "8",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical weapons",
+    "damage_immunities": "",
+    "condition_immunities": "charmed, exhaustion, frightened",
+    "senses": "truesight 120 ft., passive Perception 14",
+    "languages": "Celestial, Common, Primordial, telepathy 120 ft.",
+    "challenge_rating": "11",
+    "special_abilities": [
+        {
+            "name": "Angelic Weapons",
+            "desc": "The buraq’s attacks are magical. When the buraq hits with its hooves, it deals an extra 4d8 radiant damage (included in the attack)."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The buraq’s innate spellcasting ability is Charisma (spell save DC 17). The buraq can innately cast the following spells, requiring no components: <br /> At will: comprehend languages, detect evil and good, holy aura, pass without trace <br /> 3/day each: haste, longstrider <br /> 1/day each: plane shift, wind walk"
+        },
+        {
+            "name": "Magic Resistance",
+            "desc": "The buraq has advantage on saving throws against spells and other magical effects."
+        },
+        {
+            "name": "Night Journey",
+            "desc": "When outdoors at night, a buraq’s vision is not limited by nonmagical darkness. Once per month, the buraq can declare it is on a night journey; for the next 24 hours, it can use its Teleport once per round. Its destination must always be in an area of nonmagical darkness within its line of sight. At any point during the night journey, as a bonus action, the buraq can return itself and its rider to the location where it began the night journey."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The buraq makes two attacks with its hooves.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Hooves",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.",
+            "attack_bonus": "8"
+        },
+        {
+            "name": "Teleport (1/Day)",
+            "desc": "The buraq magically teleports itself and its rider, along with any equipment it is wearing or carrying, to a location the buraq is familiar with, up to 1 mile away."
+        }
+    ],
+    "legendary_actions": ""
+  },
+  {
+    "name": "Burrowling",
+    "size": "Small",
+    "type": "Humanoid",
+    "subtype": "",
+    "alignment": "Lawful Neutral",
+    "armor_class": "13",
+    "hit_points": "27",
+    "hit_dice": "6d6 + 6",
+    "speed": "30 ft., burrow 10 ft.",
+    "strength": "10",
+    "dexterity": "16",
+    "constitution": "12",
+    "intelligence": "9",
+    "wisdom": "12",
+    "charisma": "13",
+    "strength_save": "",
+    "dexterity_save": "",
+    "constitution_save": "",
+    "intelligence_save": "",
+    "wisdom_save": "",
+    "charisma_save": "",
+    "acrobatics": "",
+    "animal_handling": "",
+    "arcana": "",
+    "athletics": "",
+    "deception": "",
+    "history": "",
+    "insight": "",
+    "intimidation": "",
+    "investigation": "",
+    "medicine": "",
+    "nature": "",
+    "perception": "3",
+    "performance": "",
+    "persuasion": "",
+    "religion": "",
+    "sleight_of_hand": "",
+    "stealth": "",
+    "survival": "",
+    "damage_vulnerabilities": "",
+    "damage_resistances": "",
+    "damage_immunities": "",
+    "condition_immunities": "",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common",
+    "challenge_rating": "1/2",
+    "special_abilities": [
+        {
+            "name": "Burrow Awareness",
+            "desc": "A burrowling gets advantage on Perception checks if at least one other burrowling is awake within 10 feet."
+        },
+        {
+            "name": "Burrow Awareness",
+            "desc": "The burrowling has advantage on attack rolls when its target is adjacent to at least one other burrowling that’s capable of attacking."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The burrowling makes one bite attack and one claw attack.",
+            "attack_bonus": "5 (bite), 5 (claw)"
+        },
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+            "attack_bonus": "5"
+        },
+        {
+
+            "name": "Claw",
+            "desc": "Melee Weapon Attack. reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+            "attack_bonus": "5"
+        },
+        {
+            "name": "Sling",
+            "desc": "Ranged Weapon Attack. range 30/120 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.",
+            "attack_bonus": "5"
         }
     ],
     "legendary_actions": ""
