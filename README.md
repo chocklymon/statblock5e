@@ -3,11 +3,6 @@ A Fork of Valloric's Web Component statblock for D&D 5E
 
 This code is meant to provide a Javascript function capable of generating monster statblocks on the fly.
 
-<iframe src="http://arnatious.com/statblock5e/index.html"></iframe>
-
-Check the TODO file until the 1.0 release for roadmap.
-
-
 
 License
 -------

@@ -1,2 +1,12 @@
+# Dependency Manager Generated Files
 bower_components/
 node_modules/
+
+# IDE/Editor Files
+.idea/
+
+# Misc
+.DS_Store
+*.log
+*.zip
+*.tar.gz
