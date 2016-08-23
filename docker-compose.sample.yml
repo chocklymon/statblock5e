@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+    mongo:
+        image: "mongo:3"
+        hostname: "mongo"
+        volumes:
+            # Mount a local volume to persist data into
+            - "./data/mongodb:/data/db"
+    statblock5e:
+        build: ./
+        ports:
+            - "3000:3000"
+        links:
+            - "mongo:mongo"

@@ -1,6 +1,12 @@
+# Configuration/System Specific
+docker-compose.yml
+
 # Dependency Manager Generated Files
 bower_components/
 node_modules/
+
+# Data Store Volumes
+data/
 
 # IDE/Editor Files
 .idea/
